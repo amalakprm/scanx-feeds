@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>ScanX – Stock News</title>
-<link>https://scanx.trade/stock-market-news/news-feeds/stock-news</link>
-<description>Auto-generated feed for ScanX Stock News</description>
-<lastBuildDate>Tue, 09 Dec 2025 16:40:03 +0000</lastBuildDate>
+<title>ScanX – Stocks</title>
+<link>https://scanx.trade/stock-market-news/stocks</link>
+<description>Auto-generated feed for ScanX Stocks news</description>
+<lastBuildDate>Tue, 09 Dec 2025 17:17:41 +0000</lastBuildDate>
+<item>
+<title>Feed error</title>
+<description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/stocks&apos;)]]></description>
+<guid isPermaLink="false">error</guid>
+<pubDate>Tue, 09 Dec 2025 17:17:41 +0000</pubDate>
+</item>
 </channel>
 </rss>
