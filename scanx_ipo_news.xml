@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>ScanX – IPO News</title>
+<link>https://scanx.trade/stock-market-news/ipo-news</link>
+<description>Auto-generated feed for ScanX IPO News</description>
+<lastBuildDate>Tue, 09 Dec 2025 16:40:13 +0000</lastBuildDate>
+<item>
+<title>Feed error</title>
+<description><![CDATA[Error while fetching/parsing: HTTPError(&apos;404 Client Error: Not Found for url: https://scanx.trade/stock-market-news/ipo-news&apos;)]]></description>
+<guid isPermaLink="false">error</guid>
+<pubDate>Tue, 09 Dec 2025 16:40:13 +0000</pubDate>
+</item>
+</channel>
+</rss>
