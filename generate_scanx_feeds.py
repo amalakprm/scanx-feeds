@@ -60,9 +60,7 @@ def fetch_html(url: str) -> str:
 
 
 def make_soup(html: str):
-    # Try lxml, fall back to html.parser
     try:
-        from bs4 import BeautifulSoup
         return BeautifulSoup(html, "lxml")
     except Exception:
         return BeautifulSoup(html, "html.parser")
@@ -80,17 +78,20 @@ def extract_items(html: str, base_url: str):
 
         link = urljoin(base_url, href)
 
-        # Title
-        title_el = card.select_one("span.primaryText.truncate-text.title-hover")                        or card.select_one("span.primaryText")                        or card.select_one("span.title-hover")
-        if title_el is None:
-            title_el = card
+        title_el = (
+            card.select_one("span.primaryText.truncate-text.title-hover")
+            or card.select_one("span.primaryText")
+            or card.select_one("span.title-hover")
+            or card
+        )
         title = title_el.get_text(" ", strip=True)
 
-        # Relative time like "15 minutes ago"
-        time_el = card.select_one("span.mat-caption-time.forthText.timestamp")                       or card.select_one("span.mat-caption-time")
+        time_el = (
+            card.select_one("span.mat-caption-time.forthText.timestamp")
+            or card.select_one("span.mat-caption-time")
+        )
         rel_time = time_el.get_text(" ", strip=True) if time_el else None
 
-        # Description: everything inside the content block if present
         content = card.select_one("div.content") or card
         description = content.get_text(" ", strip=True)
 
@@ -106,48 +107,6 @@ def extract_items(html: str, base_url: str):
     return items
 
 
-def build_rss_xml(feed_id: str, title: str, source_url: str, description: str, items):
-    now = datetime.now(timezone.utc)
-    last_build = format_datetime(now)
-
-    # Build RSS 2.0 XML
-    lines = []
-    lines.append('<?xml version="1.0" encoding="UTF-8"?>')
-    lines.append('<rss version="2.0">')
-    lines.append("<channel>")
-    lines.append(f"<title>{escape_xml(title)}</title>")
-    lines.append(f"<link>{escape_xml(source_url)}</link>")
-    lines.append(f"<description>{escape_xml(description)}</description>")
-    lines.append(f"<lastBuildDate>{escape_xml(last_build)}</lastBuildDate>")
-
-    for item in items:
-        it_title = item.get("title") or item.get("link") or "Untitled"
-        it_link = item.get("link") or ""
-        it_desc = item.get("description") or ""
-
-        # For pubDate we use 'now' (when feed was built).
-        pub_date = last_build
-
-        guid = it_link  # good enough for this site
-
-        lines.append("<item>")
-        lines.append(f"<title>{escape_xml(it_title)}</title>")
-        if it_link:
-            lines.append(f"<link>{escape_xml(it_link)}</link>")
-        # CDATA for description
-        safe_desc = it_desc.replace("]]>", "]]]]><![CDATA[>")
-        lines.append("<description><![CDATA[")
-        lines.append(safe_desc)
-        lines.append("]]></description>")
-        lines.append(f'<guid isPermaLink="true">{escape_xml(guid)}</guid>')
-        lines.append(f"<pubDate>{escape_xml(pub_date)}</pubDate>")
-        lines.append("</item>")
-
-    lines.append("</channel>")
-    lines.append("</rss>")
-    return "\n".join(lines)
-
-
 def escape_xml(text: str) -> str:
     return (
         text.replace("&", "&amp;")
@@ -158,13 +117,61 @@ def escape_xml(text: str) -> str:
     )
 
 
+def build_rss_xml(feed_id: str, title: str, source_url: str, description: str, items, error: str | None = None):
+    now = datetime.now(timezone.utc)
+    last_build = format_datetime(now)
+
+    lines = []
+    lines.append('<?xml version="1.0" encoding="UTF-8"?>')
+    lines.append('<rss version="2.0">')
+    lines.append("<channel>")
+    lines.append(f"<title>{escape_xml(title)}</title>")
+    lines.append(f"<link>{escape_xml(source_url)}</link>")
+    lines.append(f"<description>{escape_xml(description)}</description>")
+    lines.append(f"<lastBuildDate>{escape_xml(last_build)}</lastBuildDate>")
+
+    if error:
+        # Put error info in a single item so you notice if something breaks.
+        lines.append("<item>")
+        lines.append("<title>Feed error</title>")
+        lines.append(f"<description><![CDATA[{escape_xml(error)}]]></description>")
+        lines.append("<guid isPermaLink=\"false\">error</guid>")
+        lines.append(f"<pubDate>{escape_xml(last_build)}</pubDate>")
+        lines.append("</item>")
+    else:
+        for item in items:
+            it_title = item.get("title") or item.get("link") or "Untitled"
+            it_link = item.get("link") or ""
+            it_desc = item.get("description") or ""
+            pub_date = last_build  # simple: build time
+            guid = it_link
+
+            lines.append("<item>")
+            lines.append(f"<title>{escape_xml(it_title)}</title>")
+            if it_link:
+                lines.append(f"<link>{escape_xml(it_link)}</link>")
+            safe_desc = it_desc.replace("]]>", "]]]]><![CDATA[>")
+            lines.append("<description><![CDATA[")
+            lines.append(safe_desc)
+            lines.append("]]></description>")
+            lines.append(f'<guid isPermaLink="true">{escape_xml(guid)}</guid>')
+            lines.append(f"<pubDate>{escape_xml(pub_date)}</pubDate>")
+            lines.append("</item>")
+
+    lines.append("</channel>")
+    lines.append("</rss>")
+    return "\n".join(lines)
+
+
 def main():
     for feed_id, cfg in CATEGORIES.items():
         url = cfg["url"]
         print(f"Fetching {feed_id} from {url}...")
+        out_name = f"{feed_id}.xml"
         try:
             html = fetch_html(url)
             items = extract_items(html, url)
+            print(f"  -> Extracted {len(items)} items.")
             xml = build_rss_xml(
                 feed_id=feed_id,
                 title=cfg["title"],
@@ -172,12 +179,22 @@ def main():
                 description=cfg["description"],
                 items=items,
             )
-            out_name = f"{feed_id}.xml"
-            with open(out_name, "w", encoding="utf-8") as f:
-                f.write(xml)
-            print(f"  -> Wrote {out_name} with {len(items)} items.")
         except Exception as e:
-            print(f"  !! ERROR for {feed_id}: {e}")
+            msg = f"Error while fetching/parsing: {e!r}"
+            print("  !!", msg)
+            # Still produce a valid RSS file with error message but no real items
+            xml = build_rss_xml(
+                feed_id=feed_id,
+                title=cfg["title"],
+                source_url=url,
+                description=cfg["description"],
+                items=[],
+                error=msg,
+            )
+
+        with open(out_name, "w", encoding="utf-8") as f:
+            f.write(xml)
+        print(f"  -> Wrote {out_name}.")
 
 
 if __name__ == "__main__":
