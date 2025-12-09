@@ -1,1 +1,2 @@
-
+    mkdir my_new_directory
+    touch my_new_directory/my_file.txt
