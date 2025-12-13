@@ -4,12 +4,12 @@
 <title>ScanX – IPO News</title>
 <link>https://scanx.trade/stock-market-news/ipo</link>
 <description>Auto-generated feed for ScanX IPO News</description>
-<lastBuildDate>Sat, 13 Dec 2025 06:23:18 +0000</lastBuildDate>
+<lastBuildDate>Sat, 13 Dec 2025 09:15:09 +0000</lastBuildDate>
 <item>
 <title>Feed error</title>
 <description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/ipo&apos;)]]></description>
 <guid isPermaLink="false">error</guid>
-<pubDate>Sat, 13 Dec 2025 06:23:18 +0000</pubDate>
+<pubDate>Sat, 13 Dec 2025 09:15:09 +0000</pubDate>
 </item>
 </channel>
 </rss>
