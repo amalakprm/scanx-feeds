@@ -4,12 +4,12 @@
 <title>ScanX – Earnings</title>
 <link>https://scanx.trade/stock-market-news/earnings</link>
 <description>Auto-generated feed for ScanX Earnings</description>
-<lastBuildDate>Sat, 13 Dec 2025 09:15:05 +0000</lastBuildDate>
+<lastBuildDate>Sat, 13 Dec 2025 12:29:57 +0000</lastBuildDate>
 <item>
 <title>Feed error</title>
 <description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/earnings&apos;)]]></description>
 <guid isPermaLink="false">error</guid>
-<pubDate>Sat, 13 Dec 2025 09:15:05 +0000</pubDate>
+<pubDate>Sat, 13 Dec 2025 12:29:57 +0000</pubDate>
 </item>
 </channel>
 </rss>
