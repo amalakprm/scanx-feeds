@@ -4,12 +4,12 @@
 <title>ScanX – Global</title>
 <link>https://scanx.trade/stock-market-news/global</link>
 <description>Auto-generated feed for ScanX Global news</description>
-<lastBuildDate>Sat, 13 Dec 2025 12:29:59 +0000</lastBuildDate>
+<lastBuildDate>Sat, 13 Dec 2025 15:14:54 +0000</lastBuildDate>
 <item>
 <title>Feed error</title>
 <description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/global&apos;)]]></description>
 <guid isPermaLink="false">error</guid>
-<pubDate>Sat, 13 Dec 2025 12:29:59 +0000</pubDate>
+<pubDate>Sat, 13 Dec 2025 15:14:54 +0000</pubDate>
 </item>
 </channel>
 </rss>
