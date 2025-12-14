@@ -7,7 +7,7 @@
 <lastBuildDate>Sun, 14 Dec 2025 12:30:11 +0000</lastBuildDate>
 <item>
 <title>Feed error</title>
-<description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/ipo&apos;)]]></description>
+<description><![CDATA[Error while fetching/parsing listing: HTTPError(&apos;403 Client Error: Forbidden for url: https://scanx.trade/stock-market-news/ipo &apos;)]]></description>
 <guid isPermaLink="false">error</guid>
 <pubDate>Sun, 14 Dec 2025 12:30:11 +0000</pubDate>
 </item>
