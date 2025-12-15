@@ -33,11 +33,11 @@ jobs:
       - name: Generate Moneycontrol Buzzing Stocks feed (non-fatal)
         continue-on-error: true
         run: |
-          python buzzing_stocks.py
+          python buzzing_stocks_rss.py
 
       - name: Generate MarketsMojo feed
         run: |
-          python marketsmojo_news.py
+          python marketsmojo_rss.py
 
       - name: Commit and push updated feeds
         run: |
