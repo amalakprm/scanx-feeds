@@ -2,7 +2,7 @@ name: Update RSS feeds
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours (cron is UTC)
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,19 +26,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate feeds
+      - name: Generate Dhan/ScanX API feed
         run: |
           python dhan_scanx_news.py
-          python buzzing_stocks_rss.py
-          python marketsmojo_rss.py
+
+      - name: Generate Moneycontrol Buzzing Stocks feed (non-fatal)
+        continue-on-error: true
+        run: |
+          python buzzing_stocks.py
+
+      - name: Generate MarketsMojo feed
+        run: |
+          python marketsmojo_news.py
 
       - name: Commit and push updated feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Stage only XML files in repo root (and ignore "no matches" errors)
           git add -A -- '*.xml' || echo "No XML files to add"
-
           git commit -m "Auto-update feeds" || echo "No changes to commit"
           git push
