@@ -1,4 +1,4 @@
-name: Update RSS feeds
+name: Auto-update feeds
 
 on:
   schedule:
@@ -26,10 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate Dhan/ScanX API feed
+      # Dhan feed: run the working PowerShell script (keep your proven logic)
+      - name: Generate Dhan/ScanX feed (PowerShell)
         run: |
-          python dhan_scanx_news.py
+          pwsh -File "Dhan-Scanx-News.ps1"
 
+      # Moneycontrol blocks bots sometimes -> non-fatal
       - name: Generate Moneycontrol Buzzing Stocks feed (non-fatal)
         continue-on-error: true
         run: |
