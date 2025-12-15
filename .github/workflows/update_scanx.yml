@@ -30,13 +30,7 @@ jobs:
       - name: Generate Dhan/ScanX feed (PowerShell)
         run: |
           pwsh -File "Dhan-Scanx-News.ps1"
-
-      # Moneycontrol blocks bots sometimes -> non-fatal
-      - name: Generate Moneycontrol Buzzing Stocks feed (non-fatal)
-        continue-on-error: true
-        run: |
-          python buzzing_stocks_rss.py
-
+      
       - name: Generate MarketsMojo feed
         run: |
           python marketsmojo_rss.py
