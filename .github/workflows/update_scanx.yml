@@ -29,8 +29,8 @@ jobs:
       - name: Generate feeds
         run: |
           python dhan_scanx_news.py
-          python buzzing_stocks.py
-          python marketsmojo_news.py
+          python buzzing_stocks_rss.py
+          python marketsmojo_rss.py
 
       - name: Commit and push updated feeds
         run: |
