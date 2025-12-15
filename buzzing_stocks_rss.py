@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import xml.etree.ElementTree as ET
 import hashlib
+import sys
 
 URL = "https://www.moneycontrol.com/news/tags/buzzing-stocks.html"
 OUT_FILE = "buzzing_stocks.xml"
@@ -12,16 +13,26 @@ HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/120.0.0.0 Safari/537.36"
-    )
+    ),
+    # added (helps a bit vs bot blocking)
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.moneycontrol.com/",
 }
 
 def fetch_articles():
     r = requests.get(URL, headers=HEADERS, timeout=20)
+
+    # changed: do NOT crash on 403 (Moneycontrol blocks GitHub runner sometimes) [web:84]
+    if r.status_code == 403:
+        return []
+
+    # keep strict for other errors
     r.raise_for_status()
+
     soup = BeautifulSoup(r.text, "html.parser")
 
     articles = []
-
     for a in soup.select("a[href*='/news/']"):
         title = a.get_text(strip=True)
         link = a.get("href")
@@ -64,7 +75,6 @@ def build_rss(items):
 
     for title, link in items:
         item = ET.SubElement(channel, "item")
-
         ET.SubElement(item, "title").text = title
         ET.SubElement(item, "link").text = link
         ET.SubElement(item, "guid").text = hashlib.md5(link.encode()).hexdigest()
@@ -79,6 +89,11 @@ def main():
     print("Fetching Buzzing Stocks…")
     items = fetch_articles()
     print(f"Found {len(items)} articles")
+
+    # added: if blocked, don't overwrite old XML
+    if not items:
+        print("Blocked/empty (likely 403). Keeping previous XML.", file=sys.stderr)
+        return
 
     build_rss(items)
     print(f"RSS written to: {OUT_FILE}")
