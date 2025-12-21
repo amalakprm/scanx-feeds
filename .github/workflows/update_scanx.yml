@@ -34,6 +34,11 @@ jobs:
       - name: Generate MarketsMojo feed
         run: |
           python marketsmojo_rss.py
+          
+      - name: Generate Trendlyne feed
+        run: |
+          python trendlyne_to_rss.py
+
 
       - name: Commit and push updated feeds
         run: |
