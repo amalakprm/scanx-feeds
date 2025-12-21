@@ -39,7 +39,10 @@ jobs:
         run: |
           python trendlyne_to_rss.py
 
-
+      - name: Generate Bulk Deals feed
+        run: |
+          python mc_bulk_deals.py
+          
       - name: Commit and push updated feeds
         run: |
           git config user.name "github-actions[bot]"
