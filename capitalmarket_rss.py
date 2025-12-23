@@ -1,52 +1,74 @@
 import requests
 import os
 import json
+import re
 from datetime import datetime
 
 # ================= CONFIG =================
 API_URL = "https://api.capitalmarket.com/api/CmLiveNewsHome/A/20"
 OUTPUT_FILE = "capital-market-news.xml"
+BASE_WEB_URL = "https://www.capitalmarket.com/markets/news/live-news"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "application/json",
     "Referer": "https://www.capitalmarket.com/"
 }
 
+def create_slug(text):
+    """Creates a URL-friendly slug from the headline."""
+    if not text: return "news"
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'\s+', '-', text).strip('-')
+    return text
+
 def fetch_cm_news():
-    print(f"Fetching Live News from Capital Market...")
+    print(f"Connecting to Capital Market API...")
     try:
         response = requests.get(API_URL, headers=HEADERS, timeout=15)
         response.raise_for_status()
         
-        # Load data
-        data = response.json()
+        # Check if response is raw string or JSON object
+        try:
+            data = response.json()
+        except:
+            data = json.loads(response.text)
 
-        # FIX: Some APIs return a string that needs to be parsed again
-        if isinstance(data, str):
-            articles = json.loads(data)
-        else:
+        articles = []
+        # DRILL DOWN LOGIC: Handle cases where data is a dict or a list
+        if isinstance(data, list):
             articles = data
+        elif isinstance(data, dict):
+            # Capital Market API often nests under these keys
+            for key in ['data', 'Result', 'Table', 'CmLiveNewsHome']:
+                if isinstance(data.get(key), list):
+                    articles = data[key]
+                    break
+            # Fallback: if no key works, find the first list in the dict
+            if not articles:
+                for val in data.values():
+                    if isinstance(val, list):
+                        articles = val
+                        break
 
-        # Ensure we have a list of dictionaries
-        if not isinstance(articles, list):
-            print(f"Unexpected format: Received {type(articles)}. Expected a list.")
+        if not articles:
+            print("No articles found in JSON structure.")
             return
 
         items_xml = ""
         for art in articles:
-            # Another safety check: ensure the item is a dictionary
-            if not isinstance(art, dict):
-                continue
+            if not isinstance(art, dict): continue
 
-            # Field Mapping
-            title = art.get('Headline', 'Market Update')
-            news_id = art.get('NewsId', '0')
-            summary = art.get('ShortNews', '')
-            category = art.get('CategoryName', 'Market News')
+            # Map fields (Handles both PascalCase and camelCase)
+            title = art.get('Headline') or art.get('headline') or 'Market Update'
+            news_id = art.get('NewsId') or art.get('news_id') or '0'
+            summary = art.get('ShortNews') or art.get('short_news') or ''
+            category = art.get('CategoryName') or 'Market News'
             
-            # Web link pattern
-            link = f"https://www.capitalmarket.com/News/Live-News/{news_id}"
+            # Create URL: /markets/news/live-news/slug/newsId
+            slug = create_slug(title)
+            link = f"{BASE_WEB_URL}/{slug}/{news_id}"
             
             description = f"""
             <strong>Category:</strong> {category}<br/>
@@ -66,8 +88,8 @@ def fetch_cm_news():
 <rss version="2.0">
   <channel>
     <title>Capital Market - Live News</title>
-    <link>https://www.capitalmarket.com/news/live-news</link>
-    <description>Live corporate and market updates from Capital Market India.</description>
+    <link>https://www.capitalmarket.com/markets/news/live-news</link>
+    <description>Official Live market updates aggregator.</description>
     <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
     {items_xml}
   </channel>
@@ -78,7 +100,7 @@ def fetch_cm_news():
         print(f"Successfully saved {len(articles)} articles to {OUTPUT_FILE}")
 
     except Exception as e:
-        print(f"Error fetching CM news: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     fetch_cm_news()
