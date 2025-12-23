@@ -1,13 +1,14 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
+import re
 
 API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
 SITE_ROOT = "https://www.whalesbook.com"
 
 def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
     if date is None:
-        date = datetime.now().strftime("%Y-%m-%d")
+        date = datetime.utcnow().strftime("%Y-%m-%d")
 
     payload = {
         "date": date,
@@ -30,33 +31,48 @@ def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
 
     resp = requests.post(API_URL, json=payload, headers=headers, timeout=20)
     resp.raise_for_status()
-    data = resp.json()
-    return data.get("data", [])
+    return resp.json().get("data", [])
+
+
+def slugify(text: str) -> str:
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"\s+", "-", text)
+    text = re.sub(r"-+", "-", text)
+    return text.strip("-")
+
 
 def build_article_link(item):
     """
-    Whalesbook article URLs look like:
-    https://www.whalesbook.com/news/English/<newsType>/<slugified-headline>/<id>
-    If newsType is missing, fall back to 'All'.
+    Expected:
+    https://www.whalesbook.com/news/English/<Category>/<slug>/<mongo_id>
     """
-    headline = item.get("headline", "").strip()
-    news_type = item.get("newsType", "All") or "All"
-    article_id = item.get("id")
 
-    if not headline or not article_id:
-        return SITE_ROOT
+    headline = (item.get("headline") or "").strip()
+    article_id = item.get("_id") or item.get("id")
 
-    # crude slug; good enough for feed linking
-    slug = (
-        headline.replace(" ", "-")
-        .replace("/", "-")
-        .replace("?", "")
-        .replace("!", "")
-        .replace("’", "")
-        .replace("'", "")
+    category = (
+        item.get("newsType")
+        or item.get("category")
+        or item.get("sector")
+        or "All"
     )
 
-    return f"{SITE_ROOT}/news/English/{news_type}/{slug}/{article_id}"
+    if not headline or not article_id:
+        return None
+
+    slug = slugify(headline)
+
+    return f"{SITE_ROOT}/news/English/{category}/{slug}/{article_id}"
+
+
+def format_pubdate(iso_ts: str) -> str | None:
+    try:
+        dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
+        return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+    except Exception:
+        return None
+
 
 def generate_rss_xml(items):
     rss = ET.Element("rss", version="2.0")
@@ -65,28 +81,31 @@ def generate_rss_xml(items):
     ET.SubElement(channel, "title").text = "Whalesbook Financial News"
     ET.SubElement(channel, "link").text = f"{SITE_ROOT}/news/English/All"
     ET.SubElement(channel, "description").text = (
-        "Latest Indian financial market news from Whalesbook"
+        "Latest Indian and global financial market news from Whalesbook"
     )
     ET.SubElement(channel, "pubDate").text = datetime.utcnow().strftime(
         "%a, %d %b %Y %H:%M:%S +0000"
     )
 
     for item in items:
-        title = item.get("headline", "").strip() or "Untitled"
-        description = (item.get("shortDescription") or "").strip()
         link = build_article_link(item)
-        pub_raw = item.get("scrappedAt") or ""
-        image_url = item.get("imageUrl")
+        if not link:
+            continue  # skip broken entries
 
         entry = ET.SubElement(channel, "item")
-        ET.SubElement(entry, "title").text = title
+
+        ET.SubElement(entry, "title").text = item.get("headline", "Untitled").strip()
         ET.SubElement(entry, "link").text = link
-        ET.SubElement(entry, "description").text = description
+        ET.SubElement(entry, "guid").text = link
 
-        if pub_raw:
-            # keep original ISO timestamp; most readers handle it
-            ET.SubElement(entry, "pubDate").text = pub_raw
+        desc = (item.get("shortDescription") or "").strip()
+        ET.SubElement(entry, "description").text = desc
 
+        pub = format_pubdate(item.get("scrappedAt", ""))
+        if pub:
+            ET.SubElement(entry, "pubDate").text = pub
+
+        image_url = item.get("imageUrl")
         if image_url:
             ET.SubElement(
                 entry,
@@ -97,18 +116,20 @@ def generate_rss_xml(items):
                 },
             )
 
-    return ET.tostring(rss, encoding="utf-8", xml_declaration=True).decode("utf-8")
+    return ET.tostring(
+        rss, encoding="utf-8", xml_declaration=True
+    ).decode("utf-8")
+
 
 def main():
-    # fetch latest batch; adjust limit if needed
-    news_items = fetch_news(limit=40)
-    rss_xml = generate_rss_xml(news_items)
+    items = fetch_news(limit=40)
+    rss_xml = generate_rss_xml(items)
 
-    out_file = "whalesbook-news.xml"
-    with open(out_file, "w", encoding="utf-8") as f:
+    with open("whalesbook-news.xml", "w", encoding="utf-8") as f:
         f.write(rss_xml)
 
-    print(f"RSS saved to {out_file}")
+    print("✅ RSS saved as whalesbook-news.xml")
+
 
 if __name__ == "__main__":
     main()
