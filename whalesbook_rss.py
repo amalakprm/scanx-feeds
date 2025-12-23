@@ -1,25 +1,50 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
+import re  # Added for regex operations
 
 API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
 SITE_ROOT = "https://www.whalesbook.com"
 
+def create_slug(text):
+    """
+    Converts headline to URL-friendly slug while preserving case.
+    Replaces % with percent, & with and, removes special chars, 
+    and replaces spaces with hyphens.
+    """
+    if not text:
+        return ""
+    
+    # Specific replacements
+    text = text.replace('%', 'percent')
+    text = text.replace('&', 'and')
+    
+    # Remove emojis and special chars (keep letters, numbers, spaces, and hyphens)
+    # We do NOT use .lower() because Whalesbook URLs appear to be case-sensitive
+    text = re.sub(r'[^\w\s-]', '', text)
+    
+    # Split by whitespace and join with hyphen
+    slug = "-".join(text.split())
+    
+    # Remove duplicate hyphens
+    slug = re.sub(r'-+', '-', slug)
+    
+    return slug
 
-def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
-    if date is None:
-        date = datetime.utcnow().strftime("%Y-%m-%d")
+def create_category_slug(text):
+    """
+    Converts category types like "Banking/Finance" into "Banking-Finance"
+    """
+    if not text:
+        return "General"
+    return text.replace('/', '-').replace(' ', '-')
 
-    payload = {
-        "date": date,
-        "page": page,
-        "limit": limit,
-        "sector": sector,
-        "language": language,
-    }
-
+def fetch_news():
+    """
+    Fetches the free news collection. 
+    Switched to GET as the URL ends in /free and usually requires no payload.
+    """
     headers = {
-        "Content-Type": "application/json",
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -29,38 +54,46 @@ def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
         "Referer": f"{SITE_ROOT}/news/English/All",
     }
 
-    resp = requests.post(API_URL, json=payload, headers=headers, timeout=20)
+    print(f"Fetching data from {API_URL}...")
+    # Changed to GET request based on the specific URL provided
+    resp = requests.get(API_URL, headers=headers, timeout=20)
     resp.raise_for_status()
+    
     return resp.json().get("data", [])
-
 
 def build_article_link(item):
     """
-    CRITICAL:
-    Whalesbook URLs are case-sensitive and non-derivable.
-    ALWAYS use canonical URL if provided by API.
+    Constructs the correct Whalesbook URL using the pattern:
+    /news/English/{Category}/{Headline-Slug}/{ID}
     """
+    # 1. Get required fields
+    _id = item.get("_id") or item.get("id")
+    headline = item.get("headline")
+    news_type = item.get("newsType", "General")
 
-    # ✅ Always prefer canonical URL from API
-    for key in ("newsUrl", "url", "slugUrl"):
-        if item.get(key):
-            return item[key].strip()
-
-    # ❌ Absolute last-resort fallback (rare)
-    article_id = item.get("_id") or item.get("id")
-    if not article_id:
+    # 2. Validate
+    if not _id or not headline:
         return None
 
-    return f"{SITE_ROOT}/news/{article_id}"
+    # 3. Create slugs using the helper functions
+    # Note: Language is hardcoded to "English" based on your previous data
+    category_slug = create_category_slug(news_type)
+    headline_slug = create_slug(headline)
 
+    # 4. Return formatted URL
+    return f"{SITE_ROOT}/news/English/{category_slug}/{headline_slug}/{_id}"
 
 def format_pubdate(iso_ts):
+    if not iso_ts:
+        return datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
     try:
-        dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
+        # Handle formats with or without fractional seconds
+        if "." in iso_ts:
+            iso_ts = iso_ts.split(".")[0] # Strip milliseconds for safety if format varies
+        dt = datetime.strptime(iso_ts.replace("Z", ""), "%Y-%m-%dT%H:%M:%S")
         return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
     except Exception:
-        return None
-
+        return datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 def generate_rss_xml(items):
     rss = ET.Element("rss", version="2.0")
@@ -75,6 +108,7 @@ def generate_rss_xml(items):
         "%a, %d %b %Y %H:%M:%S +0000"
     )
 
+    count = 0
     for item in items:
         link = build_article_link(item)
         if not link:
@@ -105,21 +139,27 @@ def generate_rss_xml(items):
                     "type": "image/jpeg",
                 },
             )
+        count += 1
 
     return ET.tostring(
         rss, encoding="utf-8", xml_declaration=True
     ).decode("utf-8")
 
-
 def main():
-    items = fetch_news(limit=40)
-    rss_xml = generate_rss_xml(items)
+    try:
+        # No arguments needed for the /free endpoint
+        items = fetch_news()
+        print(f"Found {len(items)} articles.")
+        
+        rss_xml = generate_rss_xml(items)
 
-    with open("whalesbook-news.xml", "w", encoding="utf-8") as f:
-        f.write(rss_xml)
+        with open("whalesbook-news.xml", "w", encoding="utf-8") as f:
+            f.write(rss_xml)
 
-    print("✅ whalesbook-news.xml generated successfully")
-
+        print("✅ whalesbook-news.xml generated successfully")
+        
+    except Exception as e:
+        print(f"❌ Error: {e}")
 
 if __name__ == "__main__":
     main()
