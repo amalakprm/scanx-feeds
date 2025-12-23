@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 from html import unescape
 
-# ================ CONFIG ================
+# ================== CONFIG ==================
 API_URL = "https://api.capitalmarket.com/api/CmLiveNewsHome/A/20"
 BASE_ITEM_URL = "https://www.capitalmarket.com/markets/news/live-news"
 OUTPUT_FILE = "capital-market-news.xml"
@@ -19,22 +19,20 @@ HEADERS_PAGE = {
     "Referer": "https://www.capitalmarket.com/"
 }
 
-# ============== HELPERS ================
+# ================= HELPERS ==================
 def create_slug(text: str) -> str:
     if not text:
         return "news"
     text = text.lower().strip()
-    text = re.sub(r'[^a-z0-9\\s-]', '', text)
-    text = re.sub(r'\\s+', '-', text)
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'\s+', '-', text)
     text = text.strip('-')
     return text or "news"
 
 def extract_divtxt(html: str) -> str:
-    """
-    Extract inner HTML of <div id=\"divtxt\" class=\"memo-content\">...</div>
-    """
+    """Inner HTML of <div id='divtxt' class='memo-content'>...</div>."""
     m = re.search(
-        r'<div\\s+id=[\"\\\']divtxt[\"\\\'][^>]*class=[\"\\\']memo-content[\"\\\'][^>]*>(.*?)</div>',
+        r'<div[^>]+id=["\']divtxt["\'][^>]*class=["\']memo-content["\'][^>]*>(.*?)</div>',
         html,
         flags=re.I | re.S,
     )
@@ -45,21 +43,19 @@ def extract_divtxt(html: str) -> str:
 def html_to_text(html: str) -> str:
     if not html:
         return ""
-    # Replace <br> with space / newline
-    html = re.sub(r'<br\\s*/?>', ' ', html, flags=re.I)
-    # Remove all other tags
+    html = re.sub(r'<br\s*/?>', ' ', html, flags=re.I)
     text = re.sub(r'<[^>]+>', ' ', html)
     text = unescape(text)
-    text = re.sub(r'\\s+', ' ', text).strip()
+    text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 def first_sentence(text: str) -> str:
     if not text:
         return ""
-    parts = re.split(r'(?<=[\\.\\!\\?])\\s+', text, maxsplit=1)
+    parts = re.split(r'(?<=[\.\!\?])\s+', text, maxsplit=1)
     return parts[0].strip()
 
-# ============== MAIN ================
+# ================= MAIN ==================
 def fetch_cm_news():
     print("Connecting to Capital Market API...")
     r = requests.get(API_URL, headers=HEADERS_API, timeout=15)
@@ -81,7 +77,7 @@ def fetch_cm_news():
             continue
 
         title = art.get("Heading") or "Market Update"
-        sno = art.get("SNO") or "0"
+        sno = str(art.get("SNO") or "0")
         section = art.get("sectionname") or "Market News"
         subsection = art.get("subsectionname") or ""
         img_url = art.get("IllustrationImage") or ""
@@ -90,19 +86,17 @@ def fetch_cm_news():
         slug = create_slug(title)
         link = f"{BASE_ITEM_URL}/{slug}/{sno}"
 
-        # ---------- fetch article page & extract body ----------
-        body_html = ""
+        # -------- fetch article page body --------
         body_text = ""
         try:
             pr = requests.get(link, headers=HEADERS_PAGE, timeout=15)
             if pr.ok:
-                inner = extract_divtxt(pr.text)
-                body_html = inner
-                body_text = html_to_text(inner)
+                inner_html = extract_divtxt(pr.text)
+                body_text = html_to_text(inner_html)
         except Exception as e:
-            print(f"Page fetch failed for {sno}: {e}")
+            print(f"Body fetch failed for {sno}: {e}")
 
-        # summary = first sentence of body, fallback to caption/title
+        # summary: first sentence of body, else caption/title
         if body_text:
             summary = first_sentence(body_text)
         else:
@@ -112,21 +106,18 @@ def fetch_cm_news():
         if subsection:
             cat_info += f" - {subsection}"
 
-        # DESCRIPTION: first line summary (plain), then optional full text + meta
-        description_parts = [summary]
-
+        # description: summary + optional full body + meta
+        description = summary
         if body_text and body_text != summary:
-            description_parts.append("\\n\\n" + body_text)
-
-        description_parts.append(f"\\n\\n<strong>Category:</strong> {cat_info}<br/>")
+            description += "\n\n" + body_text
+        description += f"\n\n<strong>Category:</strong> {cat_info}<br/>"
         if img_url:
-            description_parts.append(
-                f'<img src=\"{img_url}\" alt=\"News Image\" style=\"max-width:100%; height:auto;\" />'
+            description += (
+                f'<img src="{img_url}" alt="News Image" '
+                f'style="max-width:100%; height:auto;" />'
             )
 
-        description = "".join(description_parts)
-
-        # pubDate from API date+time
+        # pubDate from Date + Time
         date_str = art.get("Date", "")
         time_str = art.get("Time", "00:00")
         try:
