@@ -1,9 +1,7 @@
 import requests
-import os
 import json
 import re
 from datetime import datetime
-from urllib.parse import quote
 
 # ================= CONFIG =================
 API_URL = "https://api.capitalmarket.com/api/CmLiveNewsHome/A/20"
@@ -16,94 +14,101 @@ HEADERS = {
     "Referer": "https://www.capitalmarket.com/"
 }
 
-def create_slug(text):
+def create_slug(text: str) -> str:
     """Creates a URL-friendly slug from the headline."""
-    if not text: 
+    if not text:
         return "news"
     text = text.lower().strip()
-    # Remove special characters but keep spaces for now
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    # Replace multiple spaces with single hyphen
-    text = re.sub(r'\s+', '-', text)
-    # Strip leading/trailing hyphens
+    text = re.sub(r'[^a-z0-9\s-]', '', text)     # keep alnum + spaces + hyphen
+    text = re.sub(r'\s+', '-', text)             # spaces -> single hyphen
     text = text.strip('-')
-    return text if text else "news"
+    return text or "news"
+
+def clean_summary(text: str) -> str:
+    """Collapse whitespace and trim; safe for RSS description first line."""
+    if not text:
+        return ""
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
 
 def fetch_cm_news():
-    print(f"Connecting to Capital Market API...")
+    print("Connecting to Capital Market API...")
     try:
-        response = requests.get(API_URL, headers=HEADERS, timeout=15)
-        response.raise_for_status()
-        
-        data = response.json()
+        resp = requests.get(API_URL, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+
         if not data.get("success"):
-            print("API returned unsuccessful response")
+            print("API not successful.")
             return
-            
+
         articles = data.get("data", [])
         if not articles:
-            print("No articles found in API response")
+            print("No articles found in API response.")
             return
 
-        print(f"Found {len(articles)} articles")
-
         items_xml = ""
+
         for art in articles:
-            if not isinstance(art, dict): 
+            if not isinstance(art, dict):
                 continue
 
-            # Correct field mappings based on actual API response
-            title = art.get('Heading', 'Market Update')
-            news_id = art.get('SNO', '0')
-            caption = art.get('Caption', '') or ''
-            section = art.get('sectionname', 'Market News')
-            subsection = art.get('subsectionname', '')
-            img_url = art.get('IllustrationImage', '')
-            
-            # Create proper URL slug + ID format
+            # --- field mapping from API ---
+            title   = art.get("Heading") or "Market Update"
+            news_id = art.get("SNO") or "0"
+            caption = art.get("Caption") or ""
+            section = art.get("sectionname") or "Market News"
+            subsection = art.get("subsectionname") or ""
+            img_url = art.get("IllustrationImage") or ""
+
+            # --- URL ---
             slug = create_slug(title)
             link = f"{BASE_WEB_URL}/{slug}/{news_id}"
-            
-            # Build description with available data
-            category_info = f"{section}"
-            if subsection:
-                category_info += f" - {subsection}"
-                
-            description_parts = []
-            if category_info != "Market News":
-                description_parts.append(f"<strong>Category:</strong> {category_info}")
-            if caption:
-                description_parts.append(f"<p>{caption}</p>")
-            if img_url:
-                description_parts.append(f'<img src="{img_url}" alt="News Image" style="max-width:100%; height:auto;" />')
 
-            description = "<br/>".join(description_parts)
-
-            pub_date_str = f"{art.get('Date', '23 Dec 2025')} {art.get('Time', '18:00')}"
+            # --- pubDate from API Date + Time ---
+            date_str = art.get("Date", "")
+            time_str = art.get("Time", "00:00")
+            pub_rss = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
             try:
-                # Parse the date properly for RSS
-                pub_date = datetime.strptime(pub_date_str, "%d %b %Y %H:%M")
-                pub_date_rss = pub_date.strftime("%a, %d %b %Y %H:%M:%S +0000")
-            except:
-                pub_date_rss = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
+                # Example: "23 Dec 2025" + "17:33"
+                dt = datetime.strptime(f"{date_str} {time_str}", "%d %b %Y %H:%M")
+                pub_rss = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+            except Exception:
+                pass
+
+            # --- plain-text summary for readers/podcast apps ---
+            # if you later scrape full article text, plug first paragraph here
+            summary_text = clean_summary(caption or title)
+
+            cat_info = section
+            if subsection:
+                cat_info += f" - {subsection}"
+
+            description_html = summary_text
+            description_html += f"\n\n<strong>Category:</strong> {cat_info}<br/>"
+            if img_url:
+                description_html += (
+                    f'<img src="{img_url}" alt="News Image" '
+                    f'style="max-width:100%; height:auto;" />'
+                )
 
             items_xml += f"""
     <item>
       <title><![CDATA[{title}]]></title>
       <link>{link}</link>
       <guid isPermaLink="false">cm-{news_id}</guid>
-      <pubDate>{pub_date_rss}</pubDate>
+      <pubDate>{pub_rss}</pubDate>
       <category>{section}</category>
-      <description><![CDATA[{description}]]></description>
+      <description><![CDATA[{description_html}]]></description>
     </item>"""
 
         rss_full = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Capital Market - Live News</title>
     <link>{BASE_WEB_URL}</link>
     <description>Latest market news and updates from Capital Market</description>
-    <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
+    <lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
     <language>en-us</language>
     <atom:link href="{BASE_WEB_URL}" rel="self" type="application/rss+xml" />
     {items_xml}
@@ -112,15 +117,11 @@ def fetch_cm_news():
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(rss_full)
-        print(f"Successfully generated RSS with {len(articles)} articles -> {OUTPUT_FILE}")
 
-    except requests.exceptions.RequestException as e:
-        print(f"Network error: {e}")
-    except json.JSONDecodeError as e:
-        print(f"JSON parsing error: {e}")
-        print(f"Response text: {response.text[:500]}")
+        print(f"Successfully generated RSS with {len(articles)} items -> {OUTPUT_FILE}")
+
     except Exception as e:
-        print(f"Unexpected error: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     fetch_cm_news()
