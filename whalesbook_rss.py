@@ -1,30 +1,17 @@
-import requests
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+from selenium.webdriver.firefox.service import Service
+import json
 import re
 from datetime import datetime
 from html import escape
-import json
+import time
 
-# ============= CONFIG =============
 API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
 OUTPUT_FILE = "whalesbook-news.xml"
-
-HEADERS = {
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/122.0.0.0 Safari/537.36",
-    "Referer": "https://app1.whalesbook1.shop/",  # <<< CRITICAL
-    "Origin": "https://app1.whalesbook1.shop",     # <<< CRITICAL
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-origin",
-}
-
 BASE_WEB_URL = "https://app1.whalesbook1.shop"
 
-
-# ============= HELPERS =============
 def create_slug(text: str) -> str:
     if not text:
         return "news"
@@ -33,85 +20,98 @@ def create_slug(text: str) -> str:
     text = re.sub(r"\s+", "-", text)
     return text.strip("-") or "news"
 
-
-# ============= MAIN =============
 def fetch_whalesbook_news():
-    print("Fetching whalesbook news JSON...")
-    try:
-        r = requests.get(API_URL, headers=HEADERS, timeout=20)
-        r.raise_for_status()
-    except requests.exceptions.RequestException as e:
-        print(f"Request failed: {e}")
-        return
-
-    # Check content type
-    ctype = r.headers.get("Content-Type", "")
-    text = r.text.strip()
+    print("Starting Firefox browser...")
     
-    if "application/json" not in ctype and not text.startswith("{") and not text.startswith("["):
-        print(f"ERROR: Non-JSON response. Content-Type: {ctype}")
-        print(f"First 300 chars: {text[:300]}")
-        return
-
+    firefox_options = Options()
+    firefox_options.add_argument("--headless")
+    
+    driver = webdriver.Firefox(
+        service=Service(GeckoDriverManager().install()),
+        options=firefox_options
+    )
+    
     try:
-        payload = r.json()
-    except json.JSONDecodeError as e:
-        print(f"JSON parse failed: {e}")
-        return
-
-    articles = payload.get("data", [])
-    if not isinstance(articles, list) or not articles:
-        print("No articles found in JSON")
-        return
-
-    print(f"Found {len(articles)} articles")
-    items_xml = ""
-
-    for art in articles:
-        if not isinstance(art, dict):
-            continue
-
-        _id = str(art.get("_id", "0"))
-        title = art.get("headline") or "News item"
-        short_desc = art.get("shortDescription") or ""
-        news_type = art.get("newsType") or "News"
-        lang = art.get("languageDisplayed") or "English"
-        image_url = art.get("imageUrl")
-
-        slug = create_slug(title)
-        link = f"{BASE_WEB_URL}/article/{slug}/{_id}"
-
-        scrapped_at = art.get("scrappedAt") or ""
-        try:
-            dt = datetime.fromisoformat(scrapped_at.replace("Z", "+00:00"))
-            pub_rss = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
-        except Exception:
-            pub_rss = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-
-        desc_parts = []
-        if short_desc:
-            desc_parts.append(escape(short_desc))
-        desc_parts.append(f"\n\n<strong>Type:</strong> {escape(news_type)}")
-        desc_parts.append(f"<br/><strong>Language:</strong> {escape(lang)}")
-        if image_url:
-            desc_parts.append(
-                f'<br/><img src="{image_url}" alt="News Image" '
-                f'style="max-width:100%; height:auto;" />'
-            )
-
-        description = "".join(desc_parts)
-
-        items_xml += f"""
+        print(f"Loading {API_URL}...")
+        driver.get(API_URL)
+        time.sleep(3)
+        
+        page_source = driver.page_source
+        print(f"Page loaded, searching for JSON...")
+        
+        # Look for JSON in page source
+        json_match = re.search(r'"data":\s*\[', page_source)
+        if json_match:
+            # Extract full JSON
+            start = page_source.rfind('{', 0, json_match.start())
+            depth = 0
+            in_string = False
+            escape_next = False
+            
+            for i in range(start, len(page_source)):
+                char = page_source[i]
+                if escape_next:
+                    escape_next = False
+                    continue
+                if char == '\\':
+                    escape_next = True
+                    continue
+                if char == '"' and not escape_next:
+                    in_string = not in_string
+                    continue
+                if not in_string:
+                    if char == '{':
+                        depth += 1
+                    elif char == '}':
+                        depth -= 1
+                        if depth == 0:
+                            json_str = page_source[start:i+1]
+                            payload = json.loads(json_str)
+                            break
+        
+        articles = payload.get("data", [])
+        if not articles:
+            print("✗ No articles found")
+            return
+        
+        print(f"✓ Found {len(articles)} articles")
+        items_xml = ""
+        
+        for art in articles:
+            _id = str(art.get("_id", "0"))
+            title = art.get("headline") or "News item"
+            short_desc = art.get("shortDescription") or ""
+            news_type = art.get("newsType") or "News"
+            lang = art.get("languageDisplayed") or "English"
+            image_url = art.get("imageUrl")
+            
+            slug = create_slug(title)
+            link = f"{BASE_WEB_URL}/article/{slug}/{_id}"
+            
+            scrapped_at = art.get("scrappedAt") or ""
+            try:
+                dt = datetime.fromisoformat(scrapped_at.replace("Z", "+00:00"))
+                pub_rss = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+            except:
+                pub_rss = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+            
+            desc_parts = [escape(short_desc)] if short_desc else []
+            desc_parts.append(f"\n\n<strong>Type:</strong> {escape(news_type)}")
+            desc_parts.append(f"<br/><strong>Language:</strong> {escape(lang)}")
+            if image_url:
+                desc_parts.append(f'<br/><img src="{image_url}" alt="News Image" style="max-width:100%; height:auto;" />')
+            
+            items_xml += f"""
   <item>
     <title><![CDATA[{title}]]></title>
     <link>{link}</link>
     <guid isPermaLink="false">whalesbook-{_id}</guid>
     <pubDate>{pub_rss}</pubDate>
     ategory>{escape(news_type)}</category>
-    <description><![CDATA[{description}]]></description>
+    <description><![CDATA[{"".join(desc_parts)}]]></description>
   </item>"""
-
-    rss_full = f"""<?xml version="1.0" encoding="UTF-8"?>
+        
+        rss_full = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   hannel>
     <title>Whalesbook - Free Published News</title>
@@ -121,12 +121,19 @@ def fetch_whalesbook_news():
     <language>en-us</language>{items_xml}
   </channel>
 </rss>"""
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(rss_full)
-
-    print(f"✓ Saved RSS with {len(articles)} items -> {OUTPUT_FILE}")
-
+        
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(rss_full)
+        
+        print(f"✓ Saved RSS with {len(articles)} items -> {OUTPUT_FILE}")
+    
+    except Exception as e:
+        print(f"✗ Error: {e}")
+        import traceback
+        traceback.print_exc()
+    
+    finally:
+        driver.quit()
 
 if __name__ == "__main__":
     fetch_whalesbook_news()
