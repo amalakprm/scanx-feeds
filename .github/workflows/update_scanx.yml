@@ -42,6 +42,8 @@ jobs:
       - name: Generate Bulk Deals feed
         run: |
           python mc_bulk_deals.py
+      - name: Generate Capital Market feed
+        run: python capitalmarket_rss.py
           
       - name: Commit and push updated feeds
         run: |
