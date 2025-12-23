@@ -1,10 +1,10 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
-import re
 
 API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
 SITE_ROOT = "https://www.whalesbook.com"
+
 
 def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
     if date is None:
@@ -34,39 +34,27 @@ def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
     return resp.json().get("data", [])
 
 
-def slugify(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
-    text = re.sub(r"-+", "-", text)
-    return text.strip("-")
-
-
 def build_article_link(item):
     """
-    Expected:
-    https://www.whalesbook.com/news/English/<Category>/<slug>/<mongo_id>
+    CRITICAL:
+    Whalesbook URLs are case-sensitive and non-derivable.
+    ALWAYS use canonical URL if provided by API.
     """
 
-    headline = (item.get("headline") or "").strip()
+    # ✅ Always prefer canonical URL from API
+    for key in ("newsUrl", "url", "slugUrl"):
+        if item.get(key):
+            return item[key].strip()
+
+    # ❌ Absolute last-resort fallback (rare)
     article_id = item.get("_id") or item.get("id")
-
-    category = (
-        item.get("newsType")
-        or item.get("category")
-        or item.get("sector")
-        or "All"
-    )
-
-    if not headline or not article_id:
+    if not article_id:
         return None
 
-    slug = slugify(headline)
-
-    return f"{SITE_ROOT}/news/English/{category}/{slug}/{article_id}"
+    return f"{SITE_ROOT}/news/{article_id}"
 
 
-def format_pubdate(iso_ts: str) -> str | None:
+def format_pubdate(iso_ts):
     try:
         dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
         return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -90,11 +78,13 @@ def generate_rss_xml(items):
     for item in items:
         link = build_article_link(item)
         if not link:
-            continue  # skip broken entries
+            continue
 
         entry = ET.SubElement(channel, "item")
 
-        ET.SubElement(entry, "title").text = item.get("headline", "Untitled").strip()
+        ET.SubElement(entry, "title").text = (
+            item.get("headline", "Untitled").strip()
+        )
         ET.SubElement(entry, "link").text = link
         ET.SubElement(entry, "guid").text = link
 
@@ -128,7 +118,7 @@ def main():
     with open("whalesbook-news.xml", "w", encoding="utf-8") as f:
         f.write(rss_xml)
 
-    print("✅ RSS saved as whalesbook-news.xml")
+    print("✅ whalesbook-news.xml generated successfully")
 
 
 if __name__ == "__main__":
