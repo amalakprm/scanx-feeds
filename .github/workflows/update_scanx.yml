@@ -42,9 +42,13 @@ jobs:
       - name: Generate Bulk Deals feed
         run: |
           python mc_bulk_deals.py
+          
       - name: Generate Capital Market feed
         run: python capitalmarket_rss.py
-          
+        
+      - name: Generate Whalesbook feed
+        run: python whalesbook_rss.py
+        
       - name: Commit and push updated feeds
         run: |
           git config user.name "github-actions[bot]"
