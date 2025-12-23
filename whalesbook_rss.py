@@ -8,7 +8,7 @@ SITE_ROOT = "https://www.whalesbook.com"
 
 def fetch_news(date=None, page=1, limit=40, sector="All", language="English"):
     if date is None:
-        date = datetime.utcnow().strftime("%Y-%m-%d")
+        date = datetime.now().strftime("%Y-%m-%d")
 
     payload = {
         "date": date,
