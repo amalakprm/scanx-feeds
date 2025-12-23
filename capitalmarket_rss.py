@@ -1,9 +1,9 @@
 import requests
 import os
+import json
 from datetime import datetime
 
 # ================= CONFIG =================
-# A = All news, 20 = Last 20 items
 API_URL = "https://api.capitalmarket.com/api/CmLiveNewsHome/A/20"
 OUTPUT_FILE = "capital-market-news.xml"
 
@@ -18,28 +18,39 @@ def fetch_cm_news():
     try:
         response = requests.get(API_URL, headers=HEADERS, timeout=15)
         response.raise_for_status()
-        articles = response.json() # Usually returns a list directly
+        
+        # Load data
+        data = response.json()
+
+        # FIX: Some APIs return a string that needs to be parsed again
+        if isinstance(data, str):
+            articles = json.loads(data)
+        else:
+            articles = data
+
+        # Ensure we have a list of dictionaries
+        if not isinstance(articles, list):
+            print(f"Unexpected format: Received {type(articles)}. Expected a list.")
+            return
 
         items_xml = ""
         for art in articles:
-            # Field Mapping (Based on Capital Market JSON schema)
+            # Another safety check: ensure the item is a dictionary
+            if not isinstance(art, dict):
+                continue
+
+            # Field Mapping
             title = art.get('Headline', 'Market Update')
-            news_id = art.get('NewsId')
+            news_id = art.get('NewsId', '0')
             summary = art.get('ShortNews', '')
-            # Try to get the category (e.g., Result, Dividend, Board Meet)
             category = art.get('CategoryName', 'Market News')
-            # Capital Market uses a standard date string or timestamp
-            raw_date = art.get('NewsDate', '') 
             
-            # Construct the web link for the article
-            # Capital Market usually follows this pattern:
-            link = f"https://www.capitalmarket.com/news/live-news/{news_id}"
+            # Web link pattern
+            link = f"https://www.capitalmarket.com/News/Live-News/{news_id}"
             
             description = f"""
             <strong>Category:</strong> {category}<br/>
             <p>{summary}</p>
-            <br/>
-            <small>News ID: {news_id}</small>
             """
 
             items_xml += f"""
