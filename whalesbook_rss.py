@@ -1,139 +1,58 @@
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.firefox.service import Service
+import requests
 import json
-import re
 from datetime import datetime
-from html import escape
-import time
+import xml.etree.ElementTree as ET
+from io import StringIO
 
-API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
-OUTPUT_FILE = "whalesbook-news.xml"
-BASE_WEB_URL = "https://app1.whalesbook1.shop"
+url = "https://app1.whalesbook1.shop/published-news-collection/free"
 
-def create_slug(text: str) -> str:
-    if not text:
-        return "news"
-    text = text.lower().strip()
-    text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
-    return text.strip("-") or "news"
+def fetch_news(page=1, limit=20, sector="All", language="English"):
+    payload = {
+        "date": datetime.now().strftime("%Y-%m-%d"),
+        "page": page,
+        "limit": limit,
+        "sector": sector,
+        "language": language
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+    resp = requests.post(url, json=payload, headers=headers)
+    return resp.json().get('data', [])
 
-def fetch_whalesbook_news():
-    print("Starting Firefox browser...")
+def generate_rss(news_items):
+    rss = ET.Element("rss", version="2.0")
+    channel = ET.SubElement(rss, "channel")
+    ET.SubElement(channel, "title").text = "Whalesbook Financial News"
+    ET.SubElement(channel, "link").text = "https://www.whalesbook.com/news/English/All"
+    ET.SubElement(channel, "description").text = "Latest Indian financial market news"
+    ET.SubElement(channel, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")
     
-    firefox_options = Options()
-    firefox_options.add_argument("--headless")
+    for item in news_items[-20:]:  # Last 20 items
+        title = item.get('headline', 'No title')
+        desc = item.get('shortDescription', '')[:500] + "..."
+        link = f"https://www.whalesbook.com/news/English/{item.get('newsType', 'All')}/{title.replace(' ', '-')}/{item.get('id')}"
+        pubdate = item.get('scrappedAt', '')
+        
+        entry = ET.SubElement(channel, "item")
+        ET.SubElement(entry, "title").text = title
+        ET.SubElement(entry, "link").text = link
+        ET.SubElement(entry, "description").text = desc
+        ET.SubElement(entry, "pubDate").text = pubdate
+        if img := item.get('imageUrl'):
+            ET.SubElement(entry, "enclosure", url=img, type="image/jpeg")
     
-    driver = webdriver.Firefox(
-        service=Service(GeckoDriverManager().install()),
-        options=firefox_options
-    )
-    
-    try:
-        print(f"Loading {API_URL}...")
-        driver.get(API_URL)
-        time.sleep(3)
-        
-        page_source = driver.page_source
-        print(f"Page loaded, searching for JSON...")
-        
-        # Look for JSON in page source
-        json_match = re.search(r'"data":\s*\[', page_source)
-        if json_match:
-            # Extract full JSON
-            start = page_source.rfind('{', 0, json_match.start())
-            depth = 0
-            in_string = False
-            escape_next = False
-            
-            for i in range(start, len(page_source)):
-                char = page_source[i]
-                if escape_next:
-                    escape_next = False
-                    continue
-                if char == '\\':
-                    escape_next = True
-                    continue
-                if char == '"' and not escape_next:
-                    in_string = not in_string
-                    continue
-                if not in_string:
-                    if char == '{':
-                        depth += 1
-                    elif char == '}':
-                        depth -= 1
-                        if depth == 0:
-                            json_str = page_source[start:i+1]
-                            payload = json.loads(json_str)
-                            break
-        
-        articles = payload.get("data", [])
-        if not articles:
-            print("✗ No articles found")
-            return
-        
-        print(f"✓ Found {len(articles)} articles")
-        items_xml = ""
-        
-        for art in articles:
-            _id = str(art.get("_id", "0"))
-            title = art.get("headline") or "News item"
-            short_desc = art.get("shortDescription") or ""
-            news_type = art.get("newsType") or "News"
-            lang = art.get("languageDisplayed") or "English"
-            image_url = art.get("imageUrl")
-            
-            slug = create_slug(title)
-            link = f"{BASE_WEB_URL}/article/{slug}/{_id}"
-            
-            scrapped_at = art.get("scrappedAt") or ""
-            try:
-                dt = datetime.fromisoformat(scrapped_at.replace("Z", "+00:00"))
-                pub_rss = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
-            except:
-                pub_rss = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-            
-            desc_parts = [escape(short_desc)] if short_desc else []
-            desc_parts.append(f"\n\n<strong>Type:</strong> {escape(news_type)}")
-            desc_parts.append(f"<br/><strong>Language:</strong> {escape(lang)}")
-            if image_url:
-                desc_parts.append(f'<br/><img src="{image_url}" alt="News Image" style="max-width:100%; height:auto;" />')
-            
-            items_xml += f"""
-  <item>
-    <title><![CDATA[{title}]]></title>
-    <link>{link}</link>
-    <guid isPermaLink="false">whalesbook-{_id}</guid>
-    <pubDate>{pub_rss}</pubDate>
-    ategory>{escape(news_type)}</category>
-    <description><![CDATA[{"".join(desc_parts)}]]></description>
-  </item>"""
-        
-        rss_full = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  hannel>
-    <title>Whalesbook - Free Published News</title>
-    <link>{BASE_WEB_URL}</link>
-    <description>India's high-quality investment and market news coverage.</description>
-    <lastBuildDate>{datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")}</lastBuildDate>
-    <language>en-us</language>{items_xml}
-  </channel>
-</rss>"""
-        
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(rss_full)
-        
-        print(f"✓ Saved RSS with {len(articles)} items -> {OUTPUT_FILE}")
-    
-    except Exception as e:
-        print(f"✗ Error: {e}")
-        import traceback
-        traceback.print_exc()
-    
-    finally:
-        driver.quit()
+    return ET.tostring(rss, encoding='unicode', method='xml')
 
-if __name__ == "__main__":
-    fetch_whalesbook_news()
+# Fetch latest news and generate RSS
+news = fetch_news()
+rss_xml = generate_rss(news)
+
+print("RSS Feed Generated Successfully:")
+print(rss_xml)
+
+# Save to file
+with open('whalesbook_news.rss', 'w') as f:
+    f.write(rss_xml)
+print("\nRSS saved to whalesbook_news.rss")
