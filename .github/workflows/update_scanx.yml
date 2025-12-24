@@ -50,7 +50,7 @@ jobs:
         run: python whalesbook_rss.py
         
       - name: Run SKI Capital RSS
-        run: python skicapital_rss.py
+        run: python skicapital_scraper.py
 
         
       - name: Commit and push updated feeds
