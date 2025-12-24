@@ -49,8 +49,9 @@ jobs:
       - name: Generate Whalesbook feed
         run: python whalesbook_rss.py
         
-      - name: Generate skicapital feed
-        run: skicapital_rss.py
+      - name: Run SKI Capital RSS
+        run: python skicapital_rss.py
+
         
       - name: Commit and push updated feeds
         run: |
