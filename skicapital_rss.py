@@ -1,5 +1,20 @@
 import requests
 import xml.etree.ElementTree as ET
+# TEMP DEBUG – REMOVE AFTER TEST
+def debug_fetch_detailed_news():
+    url = "https://www.skicapital.net/news/detailed-news.aspx"
+
+    r = requests.get(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"},
+        timeout=20
+    )
+
+    print("STATUS:", r.status_code)
+    print("LENGTH:", len(r.text))
+    print("FIRST 1000 CHARS:")
+    print(r.text[:1000])
+
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
