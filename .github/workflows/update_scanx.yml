@@ -52,7 +52,9 @@ jobs:
       - name: Run SKI Capital RSS
         run: python skicapital_scraper.py
 
-        
+      - name: Run Stockwatch RSS
+        run: python stockwatch_rss.py
+
       - name: Commit and push updated feeds
         run: |
           git config user.name "github-actions[bot]"
