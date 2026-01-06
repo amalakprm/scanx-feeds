@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Tue, 06 Jan 2026 18:26:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 21:17:51 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[PDSL] PDS Ltd Subsidiary Poetic Brands Divests 20% Stake in Mambo Leisure</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=PDS+Ltd&title=PDS+Ltd+Subsidiary+Poetic+Brands+Divests+20%25+Stake+in+Mambo+Leisure&newsId=aec5a8df-4440-4663-b719-0ed828a4dd14&token=YWVjNWE4ZGYtNDQ0</link>
+      <guid isPermaLink="false">aec5a8df-4440-4663-b719-0ed828a4dd14</guid>
+      <pubDate>Tue, 06 Jan 2026 20:31:16 +0000</pubDate>
+      <category>Investment</category>
+      <description><![CDATA[<p>PDS Limited has announced the disinvestment of its subsidiary, Poetic Brands Limited, UK&apos;s entire 20% equity stake in Mambo Leisure Masters Limited, United Kingdom. This decision is part of the ongoing rationalisation of the corporate structure within the PDS Group. The transaction, which has been undertaken in line with the Company’s strategic and economic objectives, became effective on January 6, 2026. Mambo Leisure has ceased to be a step-down associate of the Company consequent to the completion of this transaction.</p><ul><li>PDS Limited&apos;s subsidiary, Poetic Brands Limited, UK divests its entire 20% equity stake in Mambo Leisure Masters Limited, UK</li><li>Transaction is part of the ongoing rationalisation of the corporate structure within the PDS Group</li><li>The transaction became effective on January 6, 2026</li><li>Mambo Leisure has ceased to be a step-down associate of the Company</li><li>The disclosure is as per Schedule III of the SEBI Listing Regulations and SEBI Circular No. SEBI/HO/CFD/PoD2/CIR/P/0155 dated November 11, 2024</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/6affa67f-2b5e-45c0-b006-67bb311e9151.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: PDS Ltd | Category: Investment</small>]]></description>
+    </item>
     <item>
       <title>[JUSTDIAL] Just Dial Ltd Schedules Board Meeting to Approve Q3 and Q9 Results for 2025</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=JUST+DIAL+LTD.&title=Just+Dial+Ltd+Schedules+Board+Meeting+to+Approve+Q3+and+Q9+Results+for+2025&newsId=f58a1d53-5b88-4023-b2dd-cc3f026208f2&token=ZjU4YTFkNTMtNWI4</link>
@@ -79,14 +87,6 @@
       <pubDate>Tue, 06 Jan 2026 16:31:54 +0000</pubDate>
       <category>Legal</category>
       <description><![CDATA[<p>Velan Hotels Ltd has received an Order for Adjudication of penalty under Section 454 of the Companies Act 2013 from the Registrar of Companies (ROC) — Tamilnadu, Coimbatore. The penalty is due to a 30-day delay in filing e-Form MGT-15 for the Annual General Meeting held on 29th September 2022 for the financial year 2021-22. The Company, Managing Director, Executive Director, and CFO have been imposed a penalty of Rs.1,15,000/- and Rs.40,000/- each respectively. There is no material impact other than the penalty on the Company&apos;s financial, operational, or other activities.</p><ul><li>Velan Hotels Ltd has received an Order for Adjudication of penalty under Section 454 of the Companies Act 2013.</li><li>The penalty is due to a 30-day delay in filing e-Form MGT-15 for the Annual General Meeting held on 29th September 2022 for the financial year 2021-22.</li><li>The Company, Managing Director, Executive Director, and CFO have been imposed a penalty of Rs.1,15,000/- and Rs.40,000/- each respectively.</li><li>There is no material impact other than the penalty on the Company&apos;s financial, operational, or other activities.</li><li>The Company and its Officers-in-default will evaluate the order and determine the appropriate course of action in future.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/42c03db0-40ee-4e69-bb00-73d0739d6c07.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: VELAN HOTELS LTD. | Category: Legal</small>]]></description>
-    </item>
-    <item>
-      <title>[QRIL] Statutory Auditor of Quality RO Industries Ltd Resigns</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Quality+RO+Industries+Ltd&title=Statutory+Auditor+of+Quality+RO+Industries+Ltd+Resigns&newsId=b20bc222-2e94-4e65-9eb0-8ebf37ff9531&token=YjIwYmMyMjItMmU5</link>
-      <guid isPermaLink="false">b20bc222-2e94-4e65-9eb0-8ebf37ff9531</guid>
-      <pubDate>Tue, 06 Jan 2026 16:31:32 +0000</pubDate>
-      <category>Auditor</category>
-      <description><![CDATA[<p>Quality RO Industries Ltd has disclosed the resignation of its statutory auditor, M/s. Doshi Doshi &amp; Co, Chartered Accountants, due to preoccupation with other assignments. The auditor has confirmed that there are no concerns raised with respect to the management of the Company and no material reason for the resignation. The Company will consider the appointment of new statutory auditors in due course.</p><ul><li>M/s. Doshi Doshi &amp; Co, Chartered Accountants, resigns as statutory auditor of Quality RO Industries Ltd</li><li>The resignation is due to preoccupation with other assignments</li><li>No concerns were raised by the resigning auditor with respect to the management of the Company</li><li>No material reason for the resignation</li><li>The Company will consider the appointment of new statutory auditors in due course</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/dbe498a2-40cc-4193-a165-968ccb095b1e.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Quality RO Industries Ltd | Category: Auditor</small>]]></description>
     </item>
   </channel>
 </rss>
