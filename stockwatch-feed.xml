@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Mon, 12 Jan 2026 18:27:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 21:17:19 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[HCLTECH] HCL Technologies Ltd Changes Record Date for Interim Dividend Payment to January 17, 2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=HCL+TECHNOLOGIES+LTD.&title=HCL+Technologies+Ltd+Changes+Record+Date+for+Interim+Dividend+Payment+to+January+17%2C+2026&newsId=f8e25ce6-3436-4b4d-bfb5-e6fb7278b2f4&token=ZjhlMjVjZTYtMzQz</link>
+      <guid isPermaLink="false">f8e25ce6-3436-4b4d-bfb5-e6fb7278b2f4</guid>
+      <pubDate>Mon, 12 Jan 2026 20:31:06 +0000</pubDate>
+      <category>Dividend</category>
+      <description><![CDATA[<p>HCL Technologies Ltd has announced a change in the Record Date for the payment of Interim Dividend that was declared on January 12, 2026. The Record Date, which was initially fixed for January 16, 2026, has been shifted to January 17, 2026 due to a trading holiday announced on account of Municipal Corporation Elections in Maharashtra. The payment date remains unchanged at January 27, 2026.</p><ul><li>HCL Technologies Ltd changes Record Date for Interim Dividend payment</li><li>Record Date shifted from January 16, 2026 to January 17, 2026</li><li>Change due to a trading holiday on account of Municipal Corporation Elections in Maharashtra</li><li>Payment date remains unchanged at January 27, 2026</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/63740c0f-dca8-44b8-aeef-970f42d7fd35.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: HCL TECHNOLOGIES LTD. | Category: Dividend</small>]]></description>
+    </item>
     <item>
       <title>[ICICIGI] ICICI Lombard General Insurance Company&apos;s Tax Litigation Appeals Allowed by CESTAT</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=ICICI+Lombard+General+Insurance+Company+Ltd&title=ICICI+Lombard+General+Insurance+Company%27s+Tax+Litigation+Appeals+Allowed+by+CESTAT&newsId=e281883b-1dc5-4c4c-b384-e34527b72b08&token=ZTI4MTg4M2ItMWRj</link>
@@ -79,14 +87,6 @@
       <pubDate>Mon, 12 Jan 2026 16:27:14 +0000</pubDate>
       <category>Business Update</category>
       <description><![CDATA[<p>Kirloskar Oil Engines Ltd (KOEL) has announced that the Registrar of Companies, Central Processing Centre (ROC, CPC) has approved the change of name of its wholly owned subsidiary, La-Gajjar Machineries Private Limited, to KOEL Fluid Dynamics Private Limited. The new name was approved as per the Certificate of Incorporation pursuant to change of name dated 8th January 2026, issued by the ROC, CPC on 12th January 2026.</p><ul><li>Kirloskar Oil Engines Ltd (KOEL) announces name change of its wholly owned subsidiary.</li><li>The new name, KOEL Fluid Dynamics Private Limited, was approved by the ROC, CPC.</li><li>The approval was given as per the Certificate of Incorporation pursuant to change of name dated 8th January 2026.</li><li>The new name was issued by the ROC, CPC on 12th January 2026.</li><li>This update signifies a significant change in KOEL&apos;s business operations.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/ccafa379-bf61-48ba-b450-47e1d17e70d9.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: KIRLOSKAR OIL ENGINES LTD. | Category: Business Update</small>]]></description>
-    </item>
-    <item>
-      <title>[ICICIBANK] ICICI Bank Acquires 100% Shareholding in ICICI Prudential Pension Funds Management Company</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=ICICI+BANK+LTD.&title=ICICI+Bank+Acquires+100%25+Shareholding+in+ICICI+Prudential+Pension+Funds+Management+Company&newsId=cca453b2-aabd-4888-87d9-bcd163d651df&token=Y2NhNDUzYjItYWFi</link>
-      <guid isPermaLink="false">cca453b2-aabd-4888-87d9-bcd163d651df</guid>
-      <pubDate>Mon, 12 Jan 2026 16:21:18 +0000</pubDate>
-      <category>Acquisitions</category>
-      <description><![CDATA[<p>ICICI Bank Ltd has executed a share purchase agreement with ICICI Prudential Life Insurance Company Limited and ICICI Prudential Pension Funds Management Company Limited. This move is in line with the bank&apos;s previous disclosures on July 19, 2025, November 28, 2025, and January 6, 2026, regarding the proposed acquisition of 100% shareholding in ICICI Prudential Pension Funds Management Company Limited from ICICI Prudential Life Insurance Company Limited to make it a wholly owned subsidiary of the Bank. All formalities have been completed and the Bank now holds 100% shareholding in ICICI Prudential Pension Funds Management Company Limited.</p><ul><li>ICICI Bank Ltd acquires 100% shareholding in ICICI Prudential Pension Funds Management Company Limited</li><li>Acquisition makes ICICI Prudential Pension Funds Management Company a wholly owned subsidiary of ICICI Bank</li><li>Share purchase agreement executed between ICICI Bank, ICICI Prudential Life Insurance, and ICICI Prudential Pension Funds Management Company</li><li>Acquisition in line with previous disclosures made by ICICI Bank</li><li>ICICI Bank now holds 100% shareholding in ICICI Prudential Pension Funds Management Company</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8a91beeb-b6a7-4a7f-8605-6be71f80fa27.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: ICICI BANK LTD. | Category: Acquisitions</small>]]></description>
     </item>
   </channel>
 </rss>
