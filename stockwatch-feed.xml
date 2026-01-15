@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Thu, 15 Jan 2026 18:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 21:18:02 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[KDDL] KDDL Ltd Subsidiary&apos;s Name Changed to Kamla Business Services Limited</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=KDDL+LTD.-%24&title=KDDL+Ltd+Subsidiary%27s+Name+Changed+to+Kamla+Business+Services+Limited&newsId=85c2bfc5-83b6-4dba-9293-4e26a4a7efa8&token=ODVjMmJmYzUtODNi</link>
+      <guid isPermaLink="false">85c2bfc5-83b6-4dba-9293-4e26a4a7efa8</guid>
+      <pubDate>Thu, 15 Jan 2026 20:31:06 +0000</pubDate>
+      <category>Business Update</category>
+      <description><![CDATA[<p>KDDL Ltd has announced that the name of its subsidiary company, previously known as &apos;Kamla Tesio Dials Limited&apos;, has been changed to &apos;Kamla Business Services Limited&apos; with effect from 14th January, 2026. This change has been approved by the Ministry of Corporate Affairs (MCA).</p><ul><li>KDDL Ltd&apos;s subsidiary company name changed to Kamla Business Services Limited</li><li>Change effective from 14th January, 2026</li><li>Approval received from the Ministry of Corporate Affairs (MCA)</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/1988450a-8ab5-4098-9055-ed9f97570a2e.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: KDDL LTD.-$ | Category: Business Update</small>]]></description>
+    </item>
     <item>
       <title>[MAJESAUT] Majestic Auto Ltd Receives Order Modifying GST Demand from ₹ 9,56,04,387 to ₹ 3,39,238</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=MAJESTIC+AUTO+LTD.-%24&title=Majestic+Auto+Ltd+Receives+Order+Modifying+GST+Demand+from+%E2%82%B9+9%2C56%2C04%2C387+to+%E2%82%B9+3%2C39%2C238&newsId=81d7ad19-d132-4561-a8e2-b2dbbddf9222&token=ODFkN2FkMTktZDEz</link>
@@ -79,14 +87,6 @@
       <pubDate>Thu, 15 Jan 2026 15:11:19 +0000</pubDate>
       <category>Investment</category>
       <description><![CDATA[<p>Restaurant Brands Asia Ltd has announced that its Board of Directors will meet on January 20, 2026, to consider and approve a proposal for fund raising. The company may consider various methods for fund raising, including a preferential issue on a private placement basis, rights issue, qualified institutional placement, or any other methods as appropriate. The company will also consider convening an extraordinary general meeting to seek approval from members for the fund raising proposal. The trading window for dealing in the securities of the company by designated persons and their immediate relatives will remain closed from January 1, 2026, till 48 hours after the conclusion of the Board Meeting.</p><ul><li>Restaurant Brands Asia Ltd to consider fund raising proposal on January 20, 2026</li><li>Company may consider various methods for fund raising</li><li>Extraordinary general meeting to be considered for member approval</li><li>Trading window for dealing in securities to remain closed</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/911dfc62-cfbe-41a1-ba54-c4b2dc049712.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Restaurant Brands Asia Ltd | Category: Investment</small>]]></description>
-    </item>
-    <item>
-      <title>[HSCL] Himadri Speciality Chemical Ltd. Reports on Re-lodgement of Transfer Requests of Physical Shares for December 2025</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Himadri+Speciality+Chemical+Ltd&title=Himadri+Speciality+Chemical+Ltd.+Reports+on+Re-lodgement+of+Transfer+Requests+of+Physical+Shares+for+December+2025&newsId=5f80f623-6f02-466d-8846-1388c8527f75&token=NWY4MGY2MjMtNmYw</link>
-      <guid isPermaLink="false">5f80f623-6f02-466d-8846-1388c8527f75</guid>
-      <pubDate>Thu, 15 Jan 2026 14:47:17 +0000</pubDate>
-      <category>Monthly Update</category>
-      <description><![CDATA[<p>Himadri Speciality Chemical Ltd. has released a report on the re-lodgement of transfer requests of physical shares for the month of December 2025. The report, provided by the Registrar and Share Transfer Agent (RTA) M/s. S. K. Infosolutions Private Limited, confirms the status of requests received from shareholders for the re-lodgment of transfer requests for physical shares under the special window provided by the SEBI Circular dated 2nd July 2025. The report includes the number of requests received, processed, approved, and rejected during the month, with an average processing time.</p><ul><li>Himadri Speciality Chemical Ltd. releases report on re-lodgement of transfer requests of physical shares for December 2025.</li><li>Report provided by Registrar and Share Transfer Agent (RTA) M/s. S. K. Infosolutions Private Limited.</li><li>Includes number of requests received, processed, approved, and rejected during the month.</li><li>Includes average processing time for requests.</li><li>Confirms compliance with SEBI circular no. SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/97dated 2nd July, 2025.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/ecaf4917-e66c-49a3-bcb8-a7eabc3408e3.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Himadri Speciality Chemical Ltd | Category: Monthly Update</small>]]></description>
     </item>
   </channel>
 </rss>
