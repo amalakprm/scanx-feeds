@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Thu, 15 Jan 2026 21:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 01:19:46 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[INDUSTOWER] Indus Towers Ltd Establishes Subsidiaries in Nigeria and Zambia</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Indus+Towers+Ltd&title=Indus+Towers+Ltd+Establishes+Subsidiaries+in+Nigeria+and+Zambia&newsId=de032edd-10ab-42bd-ad66-2c02ff95835a&token=ZGUwMzJlZGQtMTBh</link>
+      <guid isPermaLink="false">de032edd-10ab-42bd-ad66-2c02ff95835a</guid>
+      <pubDate>Fri, 16 Jan 2026 00:01:10 +0000</pubDate>
+      <category>New Launch</category>
+      <description><![CDATA[<p>Indus Towers Limited has announced the incorporation of step-down subsidiaries in Nigeria and Zambia. Indus Towers Management FZE and Indus Towers Investment FZE, wholly owned subsidiaries of Indus Towers Limited, have incorporated Indus Towers Nigeria Limited and Indus Towers Infra Zambia Limited, respectively. The new entities will carry on the business of establishing, erecting, installing, operating, managing, and maintaining telecommunication towers, masts, poles, antennas, and other related infrastructure for telecommunication, broadcasting, or wireless communication purposes.</p><ul><li>Indus Towers Limited has incorporated step-down subsidiaries in Nigeria and Zambia.</li><li>The new entities will be involved in the business of establishing, erecting, installing, operating, managing, and maintaining telecommunication towers.</li><li>The contribution to initial share capital will be made in cash at face value.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8174fda2-4ed3-46f1-b811-a487f6008ba3.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Indus Towers Ltd | Category: New Launch</small>]]></description>
+    </item>
     <item>
       <title>[KDDL] KDDL Ltd Subsidiary&apos;s Name Changed to Kamla Business Services Limited</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=KDDL+LTD.-%24&title=KDDL+Ltd+Subsidiary%27s+Name+Changed+to+Kamla+Business+Services+Limited&newsId=85c2bfc5-83b6-4dba-9293-4e26a4a7efa8&token=ODVjMmJmYzUtODNi</link>
@@ -79,14 +87,6 @@
       <pubDate>Thu, 15 Jan 2026 15:11:22 +0000</pubDate>
       <category>Joint Ventures</category>
       <description><![CDATA[<p>Lumax Auto Technologies Ltd has announced that the Hon&apos;ble National Company Law Tribunal, Chandigarh Bench has pronounced an order sanctioning the Scheme of Arrangement for Amalgamation between Greenfuel Energy Solutions Private Limited and Lumax Resources Private Limited, both subsidiaries of the company. The order, however, contains certain factual errors which the company is taking necessary steps to rectify. Upon receipt of the rectified order, the company will intimate and file the requisite disclosure with the Stock Exchanges.</p><ul><li>National Company Law Tribunal sanctions Scheme of Arrangement for Amalgamation between Lumax Auto Technologies subsidiaries</li><li>Scheme involves Greenfuel Energy Solutions Private Limited and Lumax Resources Private Limited</li><li>Company to rectify certain factual errors in the order</li><li>Rectified order to be intimated and filed with Stock Exchanges upon receipt</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/10945b06-2555-415b-a25d-c671362b11a6.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: LUMAX AUTO TECHNOLOGIES LTD. | Category: Joint Ventures</small>]]></description>
-    </item>
-    <item>
-      <title>[RBA] Restaurant Brands Asia Ltd Schedules Board Meeting to Discuss Fund Raising</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Restaurant+Brands+Asia+Ltd&title=Restaurant+Brands+Asia+Ltd+Schedules+Board+Meeting+to+Discuss+Fund+Raising&newsId=88e7b900-cbaf-45f9-b102-60c0f53e19fc&token=ODhlN2I5MDAtY2Jh</link>
-      <guid isPermaLink="false">88e7b900-cbaf-45f9-b102-60c0f53e19fc</guid>
-      <pubDate>Thu, 15 Jan 2026 15:11:19 +0000</pubDate>
-      <category>Investment</category>
-      <description><![CDATA[<p>Restaurant Brands Asia Ltd has announced that its Board of Directors will meet on January 20, 2026, to consider and approve a proposal for fund raising. The company may consider various methods for fund raising, including a preferential issue on a private placement basis, rights issue, qualified institutional placement, or any other methods as appropriate. The company will also consider convening an extraordinary general meeting to seek approval from members for the fund raising proposal. The trading window for dealing in the securities of the company by designated persons and their immediate relatives will remain closed from January 1, 2026, till 48 hours after the conclusion of the Board Meeting.</p><ul><li>Restaurant Brands Asia Ltd to consider fund raising proposal on January 20, 2026</li><li>Company may consider various methods for fund raising</li><li>Extraordinary general meeting to be considered for member approval</li><li>Trading window for dealing in securities to remain closed</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/911dfc62-cfbe-41a1-ba54-c4b2dc049712.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Restaurant Brands Asia Ltd | Category: Investment</small>]]></description>
     </item>
   </channel>
 </rss>
