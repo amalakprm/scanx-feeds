@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sat, 24 Jan 2026 21:15:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 01:27:21 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[BERYLSE] Beryl Securities Ltd to Approve Q4 Results on Feb 03, 2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=BERYL+SECURITIES+LTD.&title=Beryl+Securities+Ltd+to+Approve+Q4+Results+on+Feb+03%2C+2026&newsId=f429649d-2f65-4166-97cc-5468df691800&token=ZjQyOTY0OWQtMmY2</link>
+      <guid isPermaLink="false">f429649d-2f65-4166-97cc-5468df691800</guid>
+      <pubDate>Sat, 24 Jan 2026 22:30:53 +0000</pubDate>
+      <category>Quarterly Result</category>
+      <description><![CDATA[<p>Beryl Securities Ltd has scheduled a Board of Directors meeting on February 03, 2026, to consider and approve the unaudited quarterly financial results for the quarter ended on December 31, 2025. The meeting will also discuss updates in RBI policies and consider resolutions passed at finance committee meetings.</p><ul><li>Beryl Securities Ltd to consider and approve unaudited Q4 financial results for the period ending December 31, 2025.</li><li>The company will discuss updates in RBI policies during the meeting.</li><li>Resolutions passed at finance committee meetings will be taken on record.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/b91b31cc-5b4f-4e28-a4ff-ee3469132c8e.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BERYL SECURITIES LTD. | Category: Quarterly Result</small>]]></description>
+    </item>
     <item>
       <title>[OROSMITHS] Orosil Smiths India Ltd. to Approve Un-audited Financial Results for Q3 2025 on Feb 06, 2026</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=OROSIL+SMITHS+INDIA+LTD.-%24&title=Orosil+Smiths+India+Ltd.+to+Approve+Un-audited+Financial+Results+for+Q3+2025+on+Feb+06%2C+2026&newsId=1bef2c9b-2857-47ae-9f90-c5667329c84e&token=MWJlZjJjOWItMjg1</link>
@@ -79,14 +87,6 @@
       <pubDate>Sat, 24 Jan 2026 17:45:53 +0000</pubDate>
       <category>Quarterly Result</category>
       <description><![CDATA[<p>Mangalam Cement Ltd. has informed the BSE that a meeting of the Board of Directors is scheduled on 6th February 2026. The meeting will consider and approve the Un-audited Standalone Financial Results of the Company for the 3rd Quarter and 9th Months ended on 31st December 2025. The trading window for dealing securities of the Company will be closed for 48 hours after the results are made public.</p><ul><li>Mangalam Cement Ltd. to consider and approve Un-audited Standalone Financial Results for Q3 &amp; 9M 2025-2026.</li><li>Trading window for dealing securities of the Company to be closed for 48 hours after the results are made public.</li><li>Meeting of the Board of Directors scheduled on 6th February 2026.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/38f66da2-7e13-4780-bcc2-dce415792722.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: MANGALAM CEMENT LTD. | Category: Quarterly Result</small>]]></description>
-    </item>
-    <item>
-      <title>[ALFATRAN] Alfa Transformers Ltd to Consider and Approve Q4 2025 Results on 31st January 2026</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=ALFA+TRANSFORMERS+LTD.&title=Alfa+Transformers+Ltd+to+Consider+and+Approve+Q4+2025+Results+on+31st+January+2026&newsId=21eef1e2-edf8-461c-8683-5f4154a529d5&token=MjFlZWYxZTItZWRm</link>
-      <guid isPermaLink="false">21eef1e2-edf8-461c-8683-5f4154a529d5</guid>
-      <pubDate>Sat, 24 Jan 2026 17:45:48 +0000</pubDate>
-      <category>Quarterly Result</category>
-      <description><![CDATA[<p>Alfa Transformers Ltd has announced that its Board of Directors will meet on 31st January 2026 to consider and approve the Unaudited Financial Results for the quarter ended 31st December 2025. The meeting will also discuss potential fund raising through right issue and/or preferential allotment.</p><ul><li>Alfa Transformers Ltd to consider and approve Q4 2025 results on 31st January 2026</li><li>The meeting will also discuss potential fund raising through right issue and/or preferential allotment</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/6da5c51f-db10-42e1-88d9-1a40ef2a6ee3.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: ALFA TRANSFORMERS LTD. | Category: Quarterly Result</small>]]></description>
     </item>
   </channel>
 </rss>
