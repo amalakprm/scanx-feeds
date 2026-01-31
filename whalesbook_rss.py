@@ -5,7 +5,7 @@ import re
 import json
 
 # --- CONFIGURATION ---
-API_URL = "https://app1.whalesbook1.shop/published-news-collection/free"
+API_URL = "https://app1.whalesbook1.shop/published-news-collection/v2/free"
 SITE_ROOT = "https://www.whalesbook.com"
 
 def create_slug(text):
