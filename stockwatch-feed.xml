@@ -4,10 +4,34 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 01 Feb 2026 15:21:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 18:29:11 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[DEVYANI] Devyani International Ltd. to Approve Q3 Results and Preference Shares Issuance</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Devyani+International+Ltd&title=Devyani+International+Ltd.+to+Approve+Q3+Results+and+Preference+Shares+Issuance&newsId=49415cfa-0891-4361-b8bd-572800d70cc3&token=NDk0MTVjZmEtMDg5</link>
+      <guid isPermaLink="false">49415cfa-0891-4361-b8bd-572800d70cc3</guid>
+      <pubDate>Sun, 01 Feb 2026 16:37:18 +0000</pubDate>
+      <category>Quarterly Result</category>
+      <description><![CDATA[<p>Devyani International Ltd. has announced a Board of Directors meeting on February 4, 2026, to consider and approve the unaudited financial results for the quarter and nine months ended December 31, 2025, on both standalone and consolidated bases. The company also plans to issue non-convertible preference shares on a private placement basis to discharge the consideration payable for acquiring additional equity stake in its subsidiary, Sky Gate Hospitality Private Limited. This issuance is subject to the approval of equity shareholders at an extraordinary general meeting or through a postal ballot process. The trading window will remain closed till February 6, 2026.</p><ul><li>Devyani International Ltd. to approve Q3 results for 2025</li><li>Company to consider issuing non-convertible preference shares for stake acquisition in Sky Gate Hospitality</li><li>Issuance of preference shares subject to equity shareholder approval</li><li>Trading window to remain closed till February 6, 2026</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/dcb83e4b-0168-4443-999a-8459c15fe967.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Devyani International Ltd | Category: Quarterly Result</small>]]></description>
+    </item>
+    <item>
+      <title>[BLUESTARCO] Blue Star Ltd. Discloses Unauthorized Access to Product Installation Data</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=BLUE+STAR+LTD.&title=Blue+Star+Ltd.+Discloses+Unauthorized+Access+to+Product+Installation+Data&newsId=ff4a18ad-51cd-4c71-8d4f-18f66fce3919&token=ZmY0YTE4YWQtNTFj</link>
+      <guid isPermaLink="false">ff4a18ad-51cd-4c71-8d4f-18f66fce3919</guid>
+      <pubDate>Sun, 01 Feb 2026 16:31:05 +0000</pubDate>
+      <category>Legal</category>
+      <description><![CDATA[<p>Blue Star Ltd. has informed about an incident where some unauthorized person has accessed their product installation data. The company took immediate action to restrict access and is now working with cyber security experts to assess its potential impact and conduct a thorough root cause analysis. This disclosure is made as a matter of good governance, and the Compliance Officer was made aware of the incident on January 31, 2026, at 10:30 p.m. The information is also available on the company&apos;s website.</p><ul><li>Blue Star Ltd. disclosed unauthorized access to their product installation data</li><li>Company took immediate action to restrict access</li><li>Working with cyber security experts to assess potential impact</li><li>Incident reported to the Compliance Officer on January 31, 2026</li><li>Information made available on the company&apos;s website</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/c5d88f0a-dca7-43d5-8df6-721bfb22e533.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BLUE STAR LTD. | Category: Legal</small>]]></description>
+    </item>
+    <item>
+      <title>[SHREECEM] Shree Cement Ltd: Vinod Kumar Chaturvedi Ceases to be Chief Human Resources Officer, Manmohan Rathi Takes Over</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=SHREE+CEMENT+LTD.&title=Shree+Cement+Ltd%3A+Vinod+Kumar+Chaturvedi+Ceases+to+be+Chief+Human+Resources+Officer%2C+Manmohan+Rathi+Takes+Over&newsId=a3b5542c-6260-4cc4-a67e-47b607e46b72&token=YTNiNTU0MmMtNjI2</link>
+      <guid isPermaLink="false">a3b5542c-6260-4cc4-a67e-47b607e46b72</guid>
+      <pubDate>Sun, 01 Feb 2026 15:31:07 +0000</pubDate>
+      <category>New Launch</category>
+      <description><![CDATA[<p>Shree Cement Ltd has announced a change in its senior management. Mr. Vinod Kumar Chaturvedi, the Chief Human Resources Officer, will be assuming a new role in the company and ceased to be a Senior Management Person with effect from 31st January 2026. Mr. Manmohan Rathi, Joint President — Power Management, who is already a Senior Management Person, has been assigned the additional responsibility of Chief Human Resources Officer in place of Mr. Chaturvedi.</p><ul><li>Vinod Kumar Chaturvedi ceases to be Chief Human Resources Officer</li><li>Manmohan Rathi assumes additional responsibility as Chief Human Resources Officer</li><li>Change in senior management at Shree Cement Ltd</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/9ddd3c2d-8d8d-42e0-bc89-7acfde30283f.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: SHREE CEMENT LTD. | Category: New Launch</small>]]></description>
+    </item>
     <item>
       <title>[NSLNISP] Smt. Priyadarshini Gaddam Retires as Director (Personnel) from NMDC Steel Ltd Board</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=NMDC+Steel+Ltd&title=Smt.+Priyadarshini+Gaddam+Retires+as+Director+%28Personnel%29+from+NMDC+Steel+Ltd+Board&newsId=7577f923-700d-4d04-b80d-411d5c85ff2e&token=NzU3N2Y5MjMtNzAw</link>
@@ -63,30 +87,6 @@
       <pubDate>Sun, 01 Feb 2026 10:01:13 +0000</pubDate>
       <category>Board Meeting</category>
       <description><![CDATA[<p>REC Ltd has announced a change in its Board of Directors. Shri Harsh Baweja, Director (Finance), has superannuated from the services of the company on January 31, 2026, and has ceased to be the Director (Finance) and Chief Financial Officer of REC with effect from February 1, 2026. The Ministry of Power, Government of India, has entrusted the additional charge of the post of Director (Finance) to Shri Jitendra Srivastava (IAS), Chairman &amp; Managing Director of REC, for a period of 3 months or until the appointment of a regular incumbent to the post or until further order, whichever is earlier.</p><ul><li>Shri Harsh Baweja has retired as Director (Finance) of REC Ltd.</li><li>Shri Jitendra Srivastava has been given additional charge as Director (Finance) of REC Ltd.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f3d4c45e-fc24-464f-9c7f-d4a9f8faf595.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: REC Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[GTIL] Madhusudan Sarda &amp; Urvashi Sarda Acquire Shares in Gabion Technologies India Limited</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Gabion+Technologies+India+Ltd&title=Madhusudan+Sarda+%26+Urvashi+Sarda+Acquire+Shares+in+Gabion+Technologies+India+Limited&newsId=8111c47f-3069-4a22-9f5d-3c5471f3e827&token=ODExMWM0N2YtMzA2</link>
-      <guid isPermaLink="false">8111c47f-3069-4a22-9f5d-3c5471f3e827</guid>
-      <pubDate>Sun, 01 Feb 2026 10:01:06 +0000</pubDate>
-      <category>Acquisitions</category>
-      <description><![CDATA[<p>Madhusudan Sarda and Urvashi Sarda, promoters and key management personnel of Gabion Technologies India Limited, have acquired shares in the company through open market purchases. The acquisitions were made on 30th January, 2026. Madhusudan Sarda, the Managing Director, acquired 14,400 shares, increasing his total holding to 56,25,190 shares, representing 41.436% of the company&apos;s total voting rights. Urvashi Sarda, a Whole-time Director, also acquired shares, but the specific details were not provided in the text.</p><ul><li>Madhusudan Sarda and Urvashi Sarda, promoters of Gabion Technologies India Limited, have acquired shares in the company.</li><li>The acquisitions were made through open market purchases on 30th January, 2026.</li><li>Madhusudan Sarda acquired 14,400 shares, increasing his total holding to 56,25,190 shares, representing 41.436% of the company&apos;s total voting rights.</li><li>Urvashi Sarda also acquired shares, but the specific details were not provided in the text.</li><li>The acquisitions were made in compliance with SEBI regulations 29(2) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011 and Regulation 7(2) of the SEBI (Prohibition of Insider Trading) Regulations, 2015.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/2A5BEAD1_EDFB_4DFC_92E8_AF41D6A675D5_152933.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Gabion Technologies India Ltd | Category: Acquisitions</small>]]></description>
-    </item>
-    <item>
-      <title>[VGUARD] V-Guard Industries Ltd Receives Audit Objection from Superintendent, CGST Audit Group 12, Haldwani, Kashipur Circle, Uttarakhand</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=V-GUARD+INDUSTRIES+LTD.&title=V-Guard+Industries+Ltd+Receives+Audit+Objection+from+Superintendent%2C+CGST+Audit+Group+12%2C+Haldwani%2C+Kashipur+Circle%2C+Uttarakhand&newsId=9ccb9030-67b6-427e-8c8c-1064cbeae282&token=OWNjYjkwMzAtNjdi</link>
-      <guid isPermaLink="false">9ccb9030-67b6-427e-8c8c-1064cbeae282</guid>
-      <pubDate>Sun, 01 Feb 2026 09:45:26 +0000</pubDate>
-      <category>Legal</category>
-      <description><![CDATA[<p>V-Guard Industries Ltd has received an audit objection from the Superintendent, CGST Audit Group 12, Haldwani, Kashipur Circle, Uttarakhand under section 65 of the CGST Act. The objection is regarding excess availment of ITC for the financial years 2020-21 to 2023-24. The demanded amount is 17,75,91,297 with applicable interest and penalty under section 74. The company is evaluating the intimation for taking appropriate steps to reply to the same.</p><ul><li>V-Guard Industries Ltd has received an audit objection from the Superintendent, CGST Audit Group 12, Haldwani, Kashipur Circle, Uttarakhand.</li><li>The objection is regarding excess availment of ITC for the financial years 2020-21 to 2023-24.</li><li>The demanded amount is 17,75,91,297 with applicable interest and penalty under section 74.</li><li>The company is evaluating the intimation for taking appropriate steps to reply to the same.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8ea35891-d8c8-4720-a983-33ce194080e2.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: V-GUARD INDUSTRIES LTD. | Category: Legal</small>]]></description>
-    </item>
-    <item>
-      <title>[EICHERMOT] Eicher Motors&apos; Subsidiary, VE Commercial Vehicles, Reports 24.9% Growth in Sales Volume for January 2026</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=EICHER+MOTORS+LTD.&title=Eicher+Motors%27+Subsidiary%2C+VE+Commercial+Vehicles%2C+Reports+24.9%25+Growth+in+Sales+Volume+for+January+2026&newsId=d91b6a29-13ed-4358-8f05-3804cfd04aa5&token=ZDkxYjZhMjktMTNl</link>
-      <guid isPermaLink="false">d91b6a29-13ed-4358-8f05-3804cfd04aa5</guid>
-      <pubDate>Sun, 01 Feb 2026 09:37:13 +0000</pubDate>
-      <category>Monthly Update</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Eicher Motors Ltd. has released the monthly business update for its unlisted subsidiary, VE Commercial Vehicles (VECV), for January 2026. The update reveals a 24.9% year-over-year growth in sales volume for VECV, with total sales reaching 10,601 units compared to 8,489 units in January 2025. This growth is driven by various segments, including Eicher Trucks and Buses, SCV/LMD Trucks, HD Trucks, and Buses. Total domestic sales have increased by 23.6%, with exports growing by 51.8%.</p><ul><li>VE Commercial Vehicles reports a 24.9% YoY growth in sales volume for January 2026</li><li>Total sales for the month reach 10,601 units compared to 8,489 units in January 2025</li><li>Domestic sales increase by 23.6%, with exports growing by 51.8%</li><li>Eicher Trucks and Buses segment records 7.0% growth in sales volume</li><li>SCV/LMD Trucks, HD Trucks, and Buses segments also show positive growth</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8341a8db-8add-4d0d-9e62-6722dc04a866.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: EICHER MOTORS LTD. | Category: Monthly Update</small>]]></description>
     </item>
   </channel>
 </rss>
