@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 08 Feb 2026 12:39:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 15:21:53 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[SAKUMA] Sakuma Exports Ltd to Approve Q4 Results on Feb 14, 2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=SAKUMA+EXPORTS+LTD.&title=Sakuma+Exports+Ltd+to+Approve+Q4+Results+on+Feb+14%2C+2026&newsId=06b94ae9-bacf-49b9-b9fb-22856d6603c5&token=MDZiOTRhZTktYmFj</link>
+      <guid isPermaLink="false">06b94ae9-bacf-49b9-b9fb-22856d6603c5</guid>
+      <pubDate>Sun, 08 Feb 2026 14:01:08 +0000</pubDate>
+      <category>Quarterly Result</category>
+      <description><![CDATA[<p>Sakuma Exports Ltd has announced that its Board of Directors will meet on February 14, 2026, to consider and approve the Un-Audited Financial Results (Standalone and Consolidated) for the quarter ended 31st December 2025. The meeting will also consider and approve the Limited Review Report (Standalone and Consolidated) by the statutory Auditor of the Company. The trading window for dealing in securities of the Company will remain closed from 1st January, 2026, and will open 48 hours after the declaration of the said Financial Results.</p><ul><li>Sakuma Exports Ltd to consider and approve Q4 results for the year 2025 on Feb 14, 2026</li><li>The meeting will also approve the Limited Review Report by the statutory Auditor</li><li>Trading window for dealing in securities of the Company will remain closed from 1st January, 2026</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/0fad0449-833f-4235-9b54-2770898db985.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: SAKUMA EXPORTS LTD. | Category: Quarterly Result</small>]]></description>
+    </item>
     <item>
       <title>[ASHAPURMIN] Independent Director, Mr. Pundarik Sanyal, Completes His Second Term at Ashapura Minechem Ltd</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=ASHAPURA+MINECHEM+LTD.&title=Independent+Director%2C+Mr.+Pundarik+Sanyal%2C+Completes+His+Second+Term+at+Ashapura+Minechem+Ltd&newsId=fc4d6a1a-0ce6-4a26-96ee-7c672c1f108f&token=ZmM0ZDZhMWEtMGNl</link>
@@ -79,14 +87,6 @@
       <pubDate>Sun, 08 Feb 2026 06:31:10 +0000</pubDate>
       <category>Quarterly Result</category>
       <description><![CDATA[<p>Brijlaxmi Leasing &amp; Finance Ltd has scheduled a Board Meeting on February 14, 2026, to consider and approve the Un-Audited Financial Statements for the Third Quarter ended on December 31, 2025. The trading window for dealing in securities of the Company will be closed from January 1, 2026, for all designated persons and will open 48 hours after the announcement of the results.</p><ul><li>Brijlaxmi Leasing &amp; Finance Ltd to hold a Board Meeting on February 14, 2026</li><li>The meeting will consider and approve Un-Audited Financial Statements for Q3 2025</li><li>Trading window for dealing in securities to close on January 1, 2026</li><li>Trading window to open 48 hours after the announcement of results</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8767e587-043c-4132-877b-b50096ef72bb.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BRIJLAXMI LEASING & FINANCE LTD. | Category: Quarterly Result</small>]]></description>
-    </item>
-    <item>
-      <title>[ANANTRAJ] Anant Raj Cloud Partners with Submer Technologies to Boost Al Infrastructure in India</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Anant+Raj+Limited-%24&title=Anant+Raj+Cloud+Partners+with+Submer+Technologies+to+Boost+Al+Infrastructure+in+India&newsId=a1f01ee0-837c-46d8-8e7f-4c09aeb25d8f&token=YTFmMDFlZTAtODM3</link>
-      <guid isPermaLink="false">a1f01ee0-837c-46d8-8e7f-4c09aeb25d8f</guid>
-      <pubDate>Sun, 08 Feb 2026 06:01:54 +0000</pubDate>
-      <category>Joint Ventures</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Anant Raj Cloud, a subsidiary of Anant Raj Limited, has entered into a strategic collaboration with Submer Technologies, S.L. to enhance Al infrastructure at Anant Raj Data centers. This partnership aims to deliver modular, sustainable Al datacenters and Neocloud, supporting India’s digital economy. The collaboration is a prime example of the EU-India Trade Deal in action, bringing world-class liquid-cooling technology from Spain and combining it with the robust infrastructure and operational support of India. This partnership strengthens a single, accountable source for Al datacenter design, build and scalable operation, and enables customers to access Al-ready infrastructure and compute through a unified, end-to-end model aligned with India’s sovereignty requirements.</p><ul><li>Anant Raj Cloud has partnered with Submer Technologies to enhance Al infrastructure in India.</li><li>The partnership aims to deliver modular, sustainable Al datacenters and Neocloud, supporting India’s digital economy.</li><li>The collaboration is a prime example of the EU-India Trade Deal in action, bringing world-class liquid-cooling technology from Spain.</li><li>This partnership strengthens a single, accountable source for Al datacenter design, build and scalable operation.</li><li>The collaboration enables customers to access Al-ready infrastructure and compute through a unified, end-to-end model aligned with India’s sovereignty requirements.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/a60094ab-d00d-4618-af61-f5f6d1ea086c.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Anant Raj Limited-$ | Category: Joint Ventures</small>]]></description>
     </item>
   </channel>
 </rss>
