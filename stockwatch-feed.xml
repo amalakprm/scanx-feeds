@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 08 Feb 2026 02:07:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 04:59:55 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[SMLISUZU] SML Mahindra Ltd Reports January 2026 Production, Sales, and Export Figures</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=SML+ISUZU+LIMITED&title=SML+Mahindra+Ltd+Reports+January+2026+Production%2C+Sales%2C+and+Export+Figures&newsId=de6cc6af-9ca4-4158-b396-1f01ec623a25&token=ZGU2Y2M2YWYtOWNh</link>
+      <guid isPermaLink="false">de6cc6af-9ca4-4158-b396-1f01ec623a25</guid>
+      <pubDate>Sun, 08 Feb 2026 04:00:54 +0000</pubDate>
+      <category>Monthly Update</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>SML Mahindra Ltd has released its production, sales, and export figures for January 2026. The company produced 4597 vehicles in January 2026 compared to 1681 vehicles in January 2025, marking a significant increase. In terms of sales, 925 vehicles were sold in January 2026, up from 1220 vehicles in January 2025. Export figures also saw a change, with 100 vehicles exported in January 2026 compared to 117 vehicles in January 2025. These figures are requested to be taken on record.</p><ul><li>Production increased from 1681 vehicles in Jan&apos;25 to 4597 vehicles in Jan&apos;26</li><li>Sales decreased from 1220 vehicles in Jan&apos;25 to 925 vehicles in Jan&apos;26</li><li>Export figures decreased from 117 vehicles in Jan&apos;25 to 100 vehicles in Jan&apos;26</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/0ce9ef57-1be3-4037-ab79-45eb9fa405f6.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: SML ISUZU LIMITED | Category: Monthly Update</small>]]></description>
+    </item>
     <item>
       <title>[LWSKNIT] LWS Knitwear Ltd to Consider and Approve Q4 Results on Feb 13, 2026</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=LWS+KNITWEAR+LTD.&title=LWS+Knitwear+Ltd+to+Consider+and+Approve+Q4+Results+on+Feb+13%2C+2026&newsId=d66fc72c-6b93-4ef2-8b9e-9a1625b3fc50&token=ZDY2ZmM3MmMtNmI5</link>
@@ -79,14 +87,6 @@
       <pubDate>Sat, 07 Feb 2026 17:51:27 +0000</pubDate>
       <category>New Launch</category>
       <description><![CDATA[<strong>🔥 Trending</strong><br/><p>BEML Ltd board has approved an estimated investment of approximately Rs 1500 crores for a greenfield rail manufacturing facility named BRAHMA. The facility will be set up at Umariya, near Bhopal, Madhya Pradesh. The project is expected to be completed in a phase-wise manner over five years. The investment is aimed at enhancing the Company’s manufacturing capabilities.</p><ul><li>BEML Ltd has approved an estimated investment of approximately Rs 1500 crores for a greenfield rail manufacturing facility named BRAHMA.</li><li>The facility will be located at Umariya, near Bhopal, Madhya Pradesh.</li><li>The project is expected to be completed in a phase-wise manner over five years.</li><li>The investment is aimed at enhancing the Company’s manufacturing capabilities.</li><li>The mode of financing for the project is long-term debt.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/60b99224-198e-4509-942f-db7489d0cfd4.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BEML LTD. | Category: New Launch</small>]]></description>
-    </item>
-    <item>
-      <title>[JKIPL] Jinkushal Industries Ltd. Approves Unaudited Financial Results for Q3 2025</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Jinkushal+Industries+Ltd&title=Jinkushal+Industries+Ltd.+Approves+Unaudited+Financial+Results+for+Q3+2025&newsId=63ed7c38-186c-4662-b2ee-d1e5582d8915&token=NjNlZDdjMzgtMTg2</link>
-      <guid isPermaLink="false">63ed7c38-186c-4662-b2ee-d1e5582d8915</guid>
-      <pubDate>Sat, 07 Feb 2026 17:42:45 +0000</pubDate>
-      <category>Quarterly Result</category>
-      <description><![CDATA[<p>Jinkushal Industries Ltd. has considered and approved the unaudited financial results (standalone and consolidated) for the quarter ended 31st December 2025. The board of directors approved the results in a meeting held on 7th February 2026, based on the recommendations of the audit committee. The limited review report on the un-audited financial results was also taken on record. The results will be published in newspapers and uploaded on the company&apos;s website as per Regulation 47 of the Listing Regulations.</p><ul><li>Jinkushal Industries Ltd. approved unaudited financial results for Q3 2025</li><li>Results were considered in a board meeting on 7th February 2026</li><li>Approval was based on the recommendations of the audit committee</li><li>Limited review report on the un-audited financial results was taken on record</li><li>Results to be published in newspapers and uploaded on the company&apos;s website</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/360ce7bd-29ee-4a89-8918-8c23554af6be.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Jinkushal Industries Ltd | Category: Quarterly Result</small>]]></description>
     </item>
   </channel>
 </rss>
