@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 08 Mar 2026 04:40:54 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 06:37:14 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[SMLISUZU] SML Mahindra Ltd Reports 22% YoY Growth in Commercial Vehicle Sales for February 2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=SML+ISUZU+LIMITED&title=SML+Mahindra+Ltd+Reports+22%25+YoY+Growth+in+Commercial+Vehicle+Sales+for+February+2026&newsId=4e4ecc6a-4e26-4f01-9f7d-dd955f570517&token=NGU0ZWNjNmEtNGUy</link>
+      <guid isPermaLink="false">4e4ecc6a-4e26-4f01-9f7d-dd955f570517</guid>
+      <pubDate>Sun, 08 Mar 2026 05:37:13 +0000</pubDate>
+      <category>Monthly Update</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>SML Mahindra Ltd, in its February 2026 report, has announced a significant increase in its commercial vehicle sales. The company produced 1442 vehicles in February 2026, a 19% increase from the 1229 vehicles produced in February 2025. The sales figures also showed a positive trend, with 1679 vehicles sold in February 2026, a 22% increase from the 1415 vehicles sold in February 2025. Export numbers also saw a rise, with 88 vehicles exported in February 2026 compared to 59 vehicles in February 2025.</p><ul><li>SML Mahindra Ltd reports a 19% YoY increase in commercial vehicle production for February 2026</li><li>The company sees a 22% YoY growth in commercial vehicle sales for February 2026</li><li>There is a 49% YoY increase in commercial vehicle exports for February 2026</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/552d0f2c-c773-4f95-af3f-5b1240986429.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: SML ISUZU LIMITED | Category: Monthly Update</small>]]></description>
+    </item>
     <item>
       <title>[FINOPB] RBI Approves Ketan Merchant as Interim CEO of Fino Payments Bank Ltd</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=Fino+Payments+Bank+Ltd&title=RBI+Approves+Ketan+Merchant+as+Interim+CEO+of+Fino+Payments+Bank+Ltd&newsId=8a109953-5d59-433d-a4f0-56ddbea0d3e8&token=OGExMDk5NTMtNWQ1</link>
@@ -79,14 +87,6 @@
       <pubDate>Sat, 07 Mar 2026 15:21:39 +0000</pubDate>
       <category>Board Meeting</category>
       <description><![CDATA[<p>PNGS Reva Diamond Jewellery Ltd has announced the Key Managerial Personnel who are authorized for determining materiality of an event or information and for making disclosure to the Stock Exchanges. The authorized persons include Mr. Amit Yeshwant Modak, Whole Time Director and CEO; Mr. Aditya Amit Modak, Non-Executive Director; Mr. Kisan Maruti Shendkar, Chief Financial Officer; and Ms. Kirti Vaidya, Company Secretary &amp; Compliance Officer.</p><ul><li>PNGS Reva Diamond Jewellery Ltd has announced the Key Managerial Personnel for determining materiality and disclosure.</li><li>The authorized persons include Mr. Amit Yeshwant Modak, Whole Time Director and CEO, Mr. Aditya Amit Modak, Non-Executive Director, Mr. Kisan Maruti Shendkar, Chief Financial Officer, and Ms. Kirti Vaidya, Company Secretary &amp; Compliance Officer.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/08d2ae14-0ca3-4294-9182-3bf95218437b.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: PNGS Reva Diamond Jewellery Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[BARONINF] Baron Infotech Ltd Enters Lease Agreement for Corporate Office with M/s Unilegal</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=BARON+INFOTECH+LTD.&title=Baron+Infotech+Ltd+Enters+Lease+Agreement+for+Corporate+Office+with+M%2Fs+Unilegal&newsId=d3062414-673e-4d82-8265-b85ab21b1564&token=ZDMwNjI0MTQtNjcz</link>
-      <guid isPermaLink="false">d3062414-673e-4d82-8265-b85ab21b1564</guid>
-      <pubDate>Sat, 07 Mar 2026 15:21:34 +0000</pubDate>
-      <category>Joint Ventures</category>
-      <description><![CDATA[<p>Baron Infotech Limited (CD) has entered into a Lease Agreement with M/s Unilegal for the premises situated at Flat No 401, Esteem Diamond Building, near Sai Baba temple road, Dawarakapuri, Panajgutta, Hyderabad, Telangana — 800082. This premises is currently being utilized as the Corporate Office of the Corporate Debtor. This submission is being made for information and record. The lease agreement is valid from 27/11/2025 to 31/12/2026.</p><ul><li>Baron Infotech Ltd has entered into a Lease Agreement with M/s Unilegal</li><li>The lease is for the premises situated at Flat No 401, Esteem Diamond Building, Hyderabad</li><li>The premises are currently being utilized as the Corporate Office of the Corporate Debtor</li><li>The lease agreement is valid from 27/11/2025 to 31/12/2026</li><li>The submission is being made for information and record</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/c0d273b0-a016-474f-a3e4-d67ffb413e59.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BARON INFOTECH LTD. | Category: Joint Ventures</small>]]></description>
     </item>
   </channel>
 </rss>
