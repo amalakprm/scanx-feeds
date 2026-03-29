@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 29 Mar 2026 01:59:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 05:07:20 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[RAMKY] Ramky Infrastructure Ltd Closes Trading Window for FY 2025-2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=RAMKY+INFRASTRUCTURE+LTD.&title=Ramky+Infrastructure+Ltd+Closes+Trading+Window+for+FY+2025-2026&newsId=a8edf6b5-3fc7-4e61-aa97-799c7db7ae7e&token=YThlZGY2YjUtM2Zj</link>
+      <guid isPermaLink="false">a8edf6b5-3fc7-4e61-aa97-799c7db7ae7e</guid>
+      <pubDate>Sun, 29 Mar 2026 04:01:02 +0000</pubDate>
+      <category>Quarterly Result</category>
+      <description><![CDATA[<p>Ramky Infrastructure Ltd has announced the closure of its trading window from 01.04.2026 till 48 hours after the declaration of Audited Financial Results for the Quarter and Financial Year ended 31.03.2026. This decision is in accordance with the Prohibition of Insider Trading Regulations 2015 and SEBI (Listing Obligations and Disclosures Requirements) Regulations, 2015. The closure is due to the declaration of Audited Financial Results for the Quarter and Financial Year ended 31st March, 2026. All insiders, designated persons and their immediate relatives are advised to refrain from trading in the securities of the Company during this period.</p><ul><li>Ramky Infrastructure Ltd closes trading window from 01.04.2026 till 48 hours after the declaration of Audited Financial Results for the FY ended 31.03.2026</li><li>This decision is in accordance with the Prohibition of Insider Trading Regulations 2015 and SEBI (Listing Obligations and Disclosures Requirements) Regulations, 2015</li><li>The closure is due to the declaration of Audited Financial Results for the Quarter and Financial Year ended 31st March, 2026</li><li>All insiders, designated persons and their immediate relatives are advised to refrain from trading in the securities of the Company during this period</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/7924732d-df35-409e-a5b2-852dc5649f99.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: RAMKY INFRASTRUCTURE LTD. | Category: Quarterly Result</small>]]></description>
+    </item>
     <item>
       <title>[AMITINT] Amit International Ltd to Consider Appointment of New Independent Director</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=AMIT+INTERNATIONAL+LTD.&title=Amit+International+Ltd+to+Consider+Appointment+of+New+Independent+Director&newsId=a3af0f24-644e-45ca-8705-cd890d958217&token=YTNhZjBmMjQtNjQ0</link>
@@ -79,14 +87,6 @@
       <pubDate>Sat, 28 Mar 2026 17:01:32 +0000</pubDate>
       <category>Board Meeting</category>
       <description><![CDATA[<p>AU Small Finance Bank Ltd has announced that Ms. Kavita Venugopal has ceased to be an Independent Director of the Bank with effect from the close of business hours on March 28, 2026. Ms. Venugopal&apos;s tenure was marked by valuable contributions to the Bank. The Bank expresses its gratitude for her services and wishes her success in her future endeavors.</p><ul><li>Ms. Kavita Venugopal ceases to be an Independent Director of AU Small Finance Bank Ltd.</li><li>Ms. Venugopal&apos;s tenure ended on March 28, 2026.</li><li>The Bank acknowledges Ms. Venugopal&apos;s valuable contributions during her tenure.</li><li>The Bank expresses heartfelt gratitude to Ms. Venugopal.</li><li>The Bank wishes Ms. Venugopal continued success in her future endeavors.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/a211c6a0-2c70-4a70-a56b-029d14ad660a.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: AU Small Finance Bank Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[ESCORTS] Escorts Kubota Ltd Faces Rs. 20,05,304/- Tax Demand Over Duplicate E-way Bills Due to Technical Bug</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Escorts+Kubota+Ltd&title=Escorts+Kubota+Ltd+Faces+Rs.+20%2C05%2C304%2F-+Tax+Demand+Over+Duplicate+E-way+Bills+Due+to+Technical+Bug&newsId=f12c66b9-1284-4d2f-a278-f9b0adf81eba&token=ZjEyYzY2YjktMTI4</link>
-      <guid isPermaLink="false">f12c66b9-1284-4d2f-a278-f9b0adf81eba</guid>
-      <pubDate>Sat, 28 Mar 2026 17:01:21 +0000</pubDate>
-      <category>Legal</category>
-      <description><![CDATA[<p>Escorts Kubota Ltd has been served a tax demand of Rs. 10,02,652/- along with applicable interest and a penalty of the same amount by the State Tax Officer of GST, Bhopal Division-1, Madhya Pradesh. The demand is in relation to the generation of duplicate E-way bills due to a technical bug on the portal. The company intends to file an appeal against the decision. The incident is expected to have an impact on the financial and operational activities of the listed entity, although the exact quantifiable amount is not specified in the document.</p><ul><li>Escorts Kubota Ltd faces a tax demand of Rs. 20,05,304/-</li><li>The demand is due to the generation of duplicate E-way bills caused by a technical bug</li><li>State Tax Officer of GST, Bhopal Division-1, Madhya Pradesh has confirmed the demand</li><li>The company plans to file an appeal against the decision</li><li>The incident is expected to have an impact on the company&apos;s financial and operational activities</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d0ce38c-4a00-4c2c-8ab3-162bd3d8d10a.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Escorts Kubota Ltd | Category: Legal</small>]]></description>
     </item>
   </channel>
 </rss>
