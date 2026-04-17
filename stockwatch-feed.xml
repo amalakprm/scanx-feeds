@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Thu, 16 Apr 2026 21:38:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 02:05:28 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[LUPIN] Lupin Subsidiary Settles Antitrust Lawsuit for USD 30 Mn</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=LUPIN+LTD.&title=Lupin+Subsidiary+Settles+Antitrust+Lawsuit+for+USD+30+Mn&newsId=b849f5ca-8cb7-464a-981f-eae876ae529d&token=Yjg0OWY1Y2EtOGNi</link>
+      <guid isPermaLink="false">b849f5ca-8cb7-464a-981f-eae876ae529d</guid>
+      <pubDate>Fri, 17 Apr 2026 02:01:02 +0000</pubDate>
+      <category>Legal</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Lupin&apos;s wholly-owned US subsidiary, Lupin Pharmaceuticals, Inc. (LPI), has settled a civil lawsuit related to alleged anticompetitive behavior. The lawsuit, part of the &quot;In Re Generic Pharmaceuticals Antitrust Litigation,&quot; involved multiple claims against LPI. To avoid further litigation costs and uncertainties, LPI entered a settlement agreement with Humana Inc., one of the plaintiffs. Under the agreement, LPI will pay USD 30 million for a full release of all claims. Lupin stated that this settlement amount was already provisioned in its prior consolidated financial results. LPI explicitly denies all allegations and any admission of liability or unlawful conduct.</p><ul><li>Lupin&apos;s US subsidiary settled an antitrust lawsuit.</li><li>Settlement amount is USD 30 million with Humana Inc.</li><li>Amount already provisioned in prior financial results.</li><li>LPI denies all allegations and liability.</li><li>Settlement avoids further litigation costs and uncertainties.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd93c21c-6fe8-40ae-98bc-73ead66710e4.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: LUPIN LTD. | Category: Legal</small>]]></description>
+    </item>
     <item>
       <title>[NTPCGREEN] NTPC Green Energy: 150 MW solar project in Rajasthan now operational</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=NTPC+Green+Energy+Ltd&title=NTPC+Green+Energy%3A+150+MW+solar+project+in+Rajasthan+now+operational&newsId=21a9baa4-abd7-427f-8259-2ac72516e985&token=MjFhOWJhYTQtYWJk</link>
@@ -92,14 +100,6 @@ Y2,250 crore were acquired in Bhugaon in FY26.</li></ul><p>📄 <a href="https:/
       <pubDate>Thu, 16 Apr 2026 16:31:11 +0000</pubDate>
       <category>Board Meeting</category>
       <description><![CDATA[<p>Infobeans Technologies Ltd. has scheduled a Board of Directors meeting for April 28, 2026, to be held via video conferencing. The primary agenda includes considering and approving the audited standalone and consolidated financial results for the fourth quarter and the full financial year ended March 31, 2026. Additionally, the board will discuss the allotment of equity shares resulting from the exercise of ESOPs and will consider recommending a final dividend on equity shares for the year ended March 31, 2026.</p><ul><li>Board meeting scheduled for April 28, 2026.</li><li>To approve Q4 and FY26 audited financial results.</li><li>To consider and recommend final dividend for FY26.</li><li>To approve allotment of equity shares from ESOPs.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/411c9c71-7eea-4911-a774-c6e10af9a01c.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Infobeans Technologies Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[SWELECTES] SWELECT commissions 110/33 KV PSS for 50 MW solar project</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Swelect+Energy+Systems+Limited-%24&title=SWELECT+commissions+110%2F33+KV+PSS+for+50+MW+solar+project&newsId=1c8bc341-0461-4a08-acc5-b223eb9058d0&token=MWM4YmMzNDEtMDQ2</link>
-      <guid isPermaLink="false">1c8bc341-0461-4a08-acc5-b223eb9058d0</guid>
-      <pubDate>Thu, 16 Apr 2026 16:21:17 +0000</pubDate>
-      <category>Project Update</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Swelect Energy Systems Ltd has successfully commissioned a new 110/33 KV Pooling Substation (PSS) at Sirungattur, Tiruvanamalai District, Tamil Nadu, on April 16, 2026. This PSS, equipped with a 1 X 50 MVA, 110/33 KV Power Transformer, provides crucial 110 KV connectivity. Its primary function is to facilitate the evacuation of power from the company&apos;s 50 MW Solar Power project located in the Villupuram Operation Circle, enhancing the company&apos;s renewable energy infrastructure.</p><ul><li>New 110/33 KV Pooling Substation commissioned by SWELECT.</li><li>PSS includes a 1 X 50 MVA, 110/33 KV Power Transformer.</li><li>Facilitates power evacuation from a 50 MW solar project.</li><li>Enhances company&apos;s renewable energy infrastructure in Tamil Nadu.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/7cacac5f-18b1-4a5d-8b3d-75c3391ebfe4.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Swelect Energy Systems Limited-$ | Category: Project Update</small>]]></description>
     </item>
   </channel>
 </rss>
