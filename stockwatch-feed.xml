@@ -4,89 +4,565 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Thu, 23 Apr 2026 10:19:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 13:16:49 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>[REGAL] Regal Entertainment: Blue Ocean &amp; PACs raise stake to 20.24% via Rights Issue</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Regal+Entertainment+%26+Consultants+Ltd&title=Regal+Entertainment%3A+Blue+Ocean+%26+PACs+raise+stake+to+20.24%25+via+Rights+Issue&newsId=3299744d-2467-4fa1-9295-b818950abc03&token=MzI5OTc0NGQtMjQ2</link>
-      <guid isPermaLink="false">3299744d-2467-4fa1-9295-b818950abc03</guid>
-      <pubDate>Thu, 23 Apr 2026 10:19:08 +0000</pubDate>
-      <category>Shareholding</category>
-      <description><![CDATA[<p>Blue Ocean Strategic Advisors Private Limited, along with persons acting in concert (PACs) Northern Lights Ventures Private Limited and Nisha Gupta, acquired additional equity shares in Regal Entertainment &amp; Consultants Limited. This acquisition, executed through a Rights Issue, increased their combined shareholding from 1.50% to 20.24% of the company&apos;s total equity share capital. The disclosure was made pursuant to Regulation 29(1) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011. Post-Rights Issue, Regal Entertainment&apos;s equity share capital expanded from 30,72,100 shares to 89,09,090 shares.</p><ul><li>Blue Ocean Strategic Advisors and PACs increased stake in Regal Entertainment.</li><li>Their combined shareholding rose from 1.50% to 20.24% post-acquisition.</li><li>The acquisition was executed via a Rights Issue.</li><li>This disclosure is mandated by SEBI (SAST) Regulations, 2011.</li><li>Regal Entertainment&apos;s equity capital expanded significantly after the Rights Issue.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/fb9b0639-d8b5-4012-ae2a-e57e45833528.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Regal Entertainment & Consultants Ltd | Category: Shareholding</small>]]></description>
-    </item>
-    <item>
-      <title>[LT] L&amp;T Incorporates Wholly Owned Subsidiary Vyoma.AI</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=LARSEN+%26+TOUBRO+LTD.&title=L%26T+Incorporates+Wholly+Owned+Subsidiary+Vyoma.AI&newsId=03b6ba0d-fd08-4bba-91fa-bc2fa74d858a&token=MDNiNmJhMGQtZmQw</link>
-      <guid isPermaLink="false">03b6ba0d-fd08-4bba-91fa-bc2fa74d858a</guid>
-      <pubDate>Thu, 23 Apr 2026 10:17:43 +0000</pubDate>
-      <category>Subsidiary</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Larsen &amp; Toubro Limited (L&amp;T) has incorporated a wholly owned subsidiary, Vyoma.AI Limited (VAL), on April 22, 2026. VAL&apos;s authorized and subscribed capital is ₹5,00,000. VAL will focus on establishing data centers and AI infrastructure to provide technology-enabled services. L&amp;T has subscribed to 100% equity shares of VAL along with its nominee shareholders.</p><ul><li>L&amp;T incorporates Vyoma.AI Limited (VAL) as a wholly owned subsidiary on April 22, 2026.</li><li>VAL&apos;s authorized and subscribed capital is ₹5,00,000, fully subscribed by L&amp;T.</li><li>VAL will establish data centers and AI infrastructure.</li><li>L&amp;T holds 100% shareholding in VAL.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/302cbd45-0ec8-4677-a9cd-5c7ffb67cfb8.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: LARSEN & TOUBRO LTD. | Category: Subsidiary</small>]]></description>
-    </item>
-    <item>
-      <title>[KHAICHEM] Khaitan Chemicals: FY26 Audited Results Approved; Dividend Declared</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=KHAITAN+CHEMICALS+%26+FERTILIZERS+LTD.&title=Khaitan+Chemicals%3A+FY26+Audited+Results+Approved%3B+Dividend+Declared&newsId=5640129c-1034-4336-8a79-91e83b8f839a&token=NTY0MDEyOWMtMTAz</link>
-      <guid isPermaLink="false">5640129c-1034-4336-8a79-91e83b8f839a</guid>
-      <pubDate>Thu, 23 Apr 2026 10:16:44 +0000</pubDate>
+      <title>[IEX*] IEX FY26 Consolidated PAT up 15% to 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Indian+Energy+Exchange+Ltd&title=IEX+FY26+Consolidated+PAT+up+15%25+to+%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A&newsId=d7137685-362c-4c84-b792-cdf43e36991a&token=ZDcxMzc2ODUtMzYy</link>
+      <guid isPermaLink="false">d7137685-362c-4c84-b792-cdf43e36991a</guid>
+      <pubDate>Thu, 23 Apr 2026 13:04:19 +0000</pubDate>
       <category>Quarterly Result</category>
-      <description><![CDATA[<p>Khaitan Chemicals &amp; Fertilizers Ltd&apos;s board approved the audited financial results for the quarter and financial year ended March 31, 2026. They re-appointed Mr. Utsav Khaitan as Joint Managing Director and appointed M.P. Turakhia &amp; Associates as Cost Auditor for FY 2026-27. Additionally, M/s APAS &amp; Co. was appointed for internal audit for FY 2026-27. A final dividend of ₹0.05 per share (5% on face value of ₹1) for FY 2025-26 was recommended, subject to shareholder approval.</p><ul><li>Audited financial results for FY26 approved with an unmodified opinion from the independent auditors.</li><li>Utsav Khaitan re-appointed as Joint Managing Director effective May 1, 2026, until April 30, 2029.</li><li>M.P. Turakhia &amp; Associates appointed as Cost Auditor for FY 2026-27, subject to shareholder ratification.</li><li>APAS &amp; Co. appointed for internal audit for the financial year 2026-27.</li><li>Final dividend of ₹0.05 per share recommended for FY 2025-26, pending shareholder approval.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/edadcb66-dd5b-43d1-a579-371509e0b63c.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: KHAITAN CHEMICALS & FERTILIZERS LTD. | Category: Quarterly Result</small>]]></description>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Indian Energy Exchange (IEX) reported robust financial results for the fiscal year and fourth quarter ending March 31, 2026. For FY26, the company achieved its highest ever traded electricity volume of 141 BU, marking a 17% year-on-year increase. Consolidated Profit After Tax (PAT) for the year stood at ₹492.9 crore, up 15% from the previous year. Standalone revenue was ₹744.9 crore (up 13.9%) and standalone PAT was ₹473.7 crore (up 14.2%). The Board of Directors declared a final dividend of ₹2 per equity share. In Q4FY26, IEX recorded its highest ever quarterly traded electricity volume of 39.4 BU, a 24% increase YoY, with consolidated PAT at ₹129.8 crore, up 11% YoY. The gas exchange (IGX) also saw significant growth, trading 76.8 million MMBtu in FY26, up 28% YoY, and reporting a PAT of ₹41.9 crore, a 35% increase.</p><ul><li>FY26 consolidated PAT increased by 15% to ₹492.9 crore.</li><li>Achieved highest ever traded electricity volume of 141 BU in FY26, up 17% YoY.</li><li>Board recommended a final dividend of ₹2 per equity share (200%).</li><li>Q4FY26 saw highest ever quarterly electricity volume of 39.4 BU, up 24% YoY.</li><li>Q4FY26 consolidated PAT grew by 11% to ₹129.8 crore.</li><li>IGX gas volumes grew 28% YoY, with PAT up 35% to ₹41.9 crore.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f2314b3d-fad1-4c44-95fa-0b9856c0a449.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Indian Energy Exchange Ltd | Category: Quarterly Result</small>]]></description>
     </item>
     <item>
-      <title>[PANORAMA] Panorama Studios Inflight LLP Executes Agreement with ChalChitra Mandalee LLP</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Panorama+Studios+International+Ltd&title=Panorama+Studios+Inflight+LLP+Executes+Agreement+with+ChalChitra+Mandalee+LLP&newsId=741874a3-9b2b-4900-a2c9-9e2e34866fb7&token=NzQxODc0YTMtOWIy</link>
-      <guid isPermaLink="false">741874a3-9b2b-4900-a2c9-9e2e34866fb7</guid>
-      <pubDate>Thu, 23 Apr 2026 10:15:44 +0000</pubDate>
-      <category>Business Update</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Panorama Studios Inflight LLP has entered into an agreement with ChalChitra Mandalee LLP to exclusively exploit the Airborne Rights for the cinematographic film &quot;Krantijyoti Vidyalay Marathi Madhyam&quot; worldwide, including India. The film stars Prajakta Koli, Sachin Khedekar, and Kshitee Jog, and is directed by Mr. Hemant Dhome.</p><ul><li>Panorama Studios Inflight LLP secures exclusive Airborne Rights for a Marathi film.</li><li>The agreement covers worldwide exploitation, including India.</li><li>The film features notable actors Prajakta Koli and Sachin Khedekar.</li><li>ChalChitra Mandalee LLP is the counterparty in the agreement.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/7153884c-adf8-4d78-8012-df1036f94505.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Panorama Studios International Ltd | Category: Business Update</small>]]></description>
+      <title>[PAEL] PAE Ltd Board Approves FY26 Results, Recommends Dividend &amp; 6:1 Bonus</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=PAE+LTD.&title=PAE+Ltd+Board+Approves+FY26+Results%2C+Recommends+Dividend+%26+6%3A1+Bonus&newsId=b1dca57a-303e-4c49-b144-539faf473b0c&token=YjFkY2E1N2EtMzAz</link>
+      <guid isPermaLink="false">b1dca57a-303e-4c49-b144-539faf473b0c</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:45 +0000</pubDate>
+      <category>Corporate Action</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>PAE Ltd&apos;s Board of Directors, in a meeting held on April 23, 2026, approved the audited standalone financial results for the quarter and year ended March 31, 2026. The board recommended a final dividend of ₹0.20 per equity share (face value ₹10) for the financial year 2025-26. The 76th Annual General Meeting (AGM) is scheduled for May 18, 2026, with May 11, 2026, fixed as the record date for the dividend. Additionally, the board recommended a bonus issue of equity shares in the proportion of 6:1 (six bonus shares for every one existing share) to public shareholders (excluding Promoter and Promoter Group) to ensure compliance with minimum public shareholding requirements. May 25, 2026, has been set as the record date for the bonus issue. The board also approved an addition to the Objects of the Company and a subsequent alteration of the Memorandum of Association, subject to shareholder approval.</p><ul><li>Board approved audited standalone financial results for FY26.</li><li>Recommended final dividend of ₹0.20 per equity share for FY26.</li><li>Proposed 6:1 bonus issue for public shareholders to meet regulations.</li><li>76th AGM scheduled for May 18, 2026, with dividend record date May 11.</li><li>Approved alteration of Memorandum of Association, subject to shareholder nod.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd446fc0-ebcc-465f-82bc-6433954c536f.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: PAE LTD. | Category: Corporate Action</small>]]></description>
     </item>
     <item>
-      <title>[DABUR] Dabur India: Herjit S. Bhalla Joins as CEO - Indian Business</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=DABUR+INDIA+LTD.&title=Dabur+India%3A+Herjit+S.+Bhalla+Joins+as+CEO+-+Indian+Business&newsId=4cf084c1-d4d1-40ba-8400-03c354c98f9e&token=NGNmMDg0YzEtZDRk</link>
-      <guid isPermaLink="false">4cf084c1-d4d1-40ba-8400-03c354c98f9e</guid>
-      <pubDate>Thu, 23 Apr 2026 10:14:43 +0000</pubDate>
-      <category>Management Change</category>
-      <description><![CDATA[<p>Mr. Herjit S. Bhalla has joined Dabur India Ltd as Chief Executive Officer - Indian Business, effective April 23, 2026. He will report to Mr. Mohit Malhotra, Whole-time Director and Global Chief Executive Officer of the Company. This appointment is in the category of Senior Management Personnel.</p><ul><li>Herjit S. Bhalla appointed CEO - Indian Business at Dabur India.</li><li>Appointment effective from April 23, 2026.</li><li>Bhalla will report to Mohit Malhotra, Whole-time Director and Global CEO.</li><li>The appointment falls under Senior Management Personnel category.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/332efa68-768f-4f6a-a0b0-d807c2a70941.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: DABUR INDIA LTD. | Category: Management Change</small>]]></description>
+      <title>[INFY*] Infosys Recommends ₹25/Share Final Dividend; Record Date June 10, 2026</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=INFOSYS+LTD.&title=Infosys+Recommends+%E2%82%B925%2FShare+Final+Dividend%3B+Record+Date+June+10%2C+2026&newsId=6ffae922-15b5-4e0f-b037-c117b278dbe2&token=NmZmYWU5MjItMTVi</link>
+      <guid isPermaLink="false">6ffae922-15b5-4e0f-b037-c117b278dbe2</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:40 +0000</pubDate>
+      <category>Dividend</category>
+      <description><![CDATA[<p>Infosys Ltd&apos;s Board of Directors, at their meeting on April 22-23, 2026, approved the audited financial results for the quarter and year ended March 31, 2026. The Board recommended a final dividend of ₹25/- per equity share for the financial year ended March 31, 2026. The record date for this dividend payment is set for June 10, 2026, with the actual payment scheduled for June 25, 2026. Additionally, the company announced its 45th Annual General Meeting for June 23, 2026. The Board also approved annual performance-based stock incentives for CEO &amp; MD Salil Parekh totaling ₹51.75 crore, and other employee stock grants including 27,193 RSUs and PSUs worth ₹1.90 crore. Furthermore, BSR &amp; Co. LLP has been proposed as the new statutory auditors due to mandatory rotation requirements.</p><ul><li>Board recommended a final dividend of ₹25 per equity share for FY26.</li><li>Dividend record date is June 10, 2026, with payment on June 25, 2026.</li><li>Approved ₹51.75 crore in stock grants for CEO &amp; MD, and other employee grants.</li><li>Proposed BSR &amp; Co. LLP as new statutory auditors due to mandatory rotation.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/FDCA6635-44A9-4EFA-AB3A-4B4C62AD9642-182239.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: INFOSYS LTD. | Category: Dividend</small>]]></description>
     </item>
     <item>
-      <title>[KIMS] KIMS Enters MoU with Renova for Oncology Collaboration</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Krishna+Institute+of+Medical+Sciences+Ltd&title=KIMS+Enters+MoU+with+Renova+for+Oncology+Collaboration&newsId=49332359-915b-456b-8225-a814688165bf&token=NDkzMzIzNTktOTE1</link>
-      <guid isPermaLink="false">49332359-915b-456b-8225-a814688165bf</guid>
-      <pubDate>Thu, 23 Apr 2026 10:13:50 +0000</pubDate>
-      <category>MoU</category>
-      <description><![CDATA[<p>Krishna Institute of Medical Sciences Ltd (KIMS) has entered into a non-commercial Memorandum of Understanding (MoU) with Dakshayani Healthcare Services Private Limited (Renova) for strategic clinical collaboration in oncology. Renova, a specialized oncology organization, will share its clinical expertise, knowledge, and best practices in cancer care with KIMS. The collaboration aims to strengthen healthcare delivery standards and enhance patient care outcomes in oncology services. Renova will enhance its brand positioning through association with KIMS, while KIMS will benefit from the collaborative development of clinical protocols and treatment methodologies.</p><ul><li>KIMS partners with Renova for strategic clinical collaboration in oncology.</li><li>Renova will share its oncology expertise and best practices with KIMS.</li><li>The collaboration aims to improve healthcare delivery and patient care.</li><li>Renova seeks brand enhancement through association with KIMS.</li><li>KIMS will benefit from collaborative development of clinical protocols.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/195f2515-5dcd-42e5-97d7-243af84aa276.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Krishna Institute of Medical Sciences Ltd | Category: MoU</small>]]></description>
-    </item>
-    <item>
-      <title>[ANTARIKSH] Antariksh Industries Shifts Registered Office to Gujarat</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Antariksh+Industries+Ltd&title=Antariksh+Industries+Shifts+Registered+Office+to+Gujarat&newsId=606ab90d-a13e-4894-b247-0f0bd0434013&token=NjA2YWI5MGQtYTEz</link>
-      <guid isPermaLink="false">606ab90d-a13e-4894-b247-0f0bd0434013</guid>
-      <pubDate>Thu, 23 Apr 2026 10:12:50 +0000</pubDate>
-      <category>Business Update</category>
-      <description><![CDATA[<p>Antariksh Industries Ltd. has shifted its registered office from Maharashtra to Gujarat, effective April 23, 2026. The Regional Director (Western Region-II) approved the shift on March 27, 2026, and the Registrar of Companies, Gujarat, has taken it on record. The new registered office is located at 5th Floor, 505, 3rd Eye Vision, Opp. Shivalik Plaza, Panjarapole, IIM, Ahmadabad City, Ahmedabad- 380015, Gujarat, India. Consequently, the Corporate Identification Number (CIN) has been changed from L74110MH1974PLC017806 to L74110GJ1974PLC176953.</p><ul><li>Antariksh Industries&apos; registered office moves from Maharashtra to Gujarat.</li><li>Regional Director approved the shift on March 27, 2026.</li><li>New CIN is L74110GJ1974PLC176953 after the office relocation.</li><li>The Registrar of Companies, Gujarat, has recorded the change.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/c108d69e-35ff-497f-b128-2fc4cd0c1d2e.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Antariksh Industries Ltd | Category: Business Update</small>]]></description>
-    </item>
-    <item>
-      <title>[NATURO] Naturo Indiabull Appoints Mahendra Soni as Additional Director</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Naturo+Indiabull+Ltd&title=Naturo+Indiabull+Appoints+Mahendra+Soni+as+Additional+Director&newsId=3f33e6c8-d89f-4a39-85e8-95c32ce5c276&token=M2YzM2U2YzgtZDg5</link>
-      <guid isPermaLink="false">3f33e6c8-d89f-4a39-85e8-95c32ce5c276</guid>
-      <pubDate>Thu, 23 Apr 2026 10:12:43 +0000</pubDate>
-      <category>Management Change</category>
-      <description><![CDATA[<p>Naturo Indiabull Ltd has appointed Mr. Mahendra Soni (DIN: 11046273) as an additional non-executive &amp; independent director, effective April 22, 2026. The appointment follows the recommendation of the Nomination and Remuneration Committee. Mr. Soni holds a B.COM degree from Rajasthan University. As of the appointment date, Mr. Soni does not hold any shares in the company.</p><ul><li>Mahendra Soni appointed as an additional non-executive &amp; independent director.</li><li>Appointment effective from April 22, 2026.</li><li>Soni&apos;s appointment is based on the recommendation of the Nomination and Remuneration Committee.</li><li>Mahendra Soni holds a B.COM degree from Rajasthan University.</li><li>Soni has no shareholding in the company as of the appointment date.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f95303a7-7cce-4142-92b7-f3208a667638.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Naturo Indiabull Ltd | Category: Management Change</small>]]></description>
-    </item>
-    <item>
-      <title>[JAGANLAM] Jagan Lamps Buys Halogen Lamp Machinery from Tungsram, Hungary</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=JAGAN+LAMPS+LTD.&title=Jagan+Lamps+Buys+Halogen+Lamp+Machinery+from+Tungsram%2C+Hungary&newsId=fc99c114-c462-438c-b243-668fd18915ee&token=ZmM5OWMxMTQtYzQ2</link>
-      <guid isPermaLink="false">fc99c114-c462-438c-b243-668fd18915ee</guid>
-      <pubDate>Thu, 23 Apr 2026 10:11:07 +0000</pubDate>
-      <category>Business Update</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Jagan Lamps Ltd has entered into an arrangement to purchase machinery for manufacturing halogen lamps from Tungsram Operations Kft, Hungary. This acquisition aims to strengthen the company&apos;s manufacturing capabilities, improve operational efficiencies, and support growing market demand. The machinery will enable an annual production capacity of approximately 32.4 crore halogen bulbs. The acquisition is expected to be completed within 60 days and is not a related party transaction, nor does it require specific governmental or regulatory approvals.</p><ul><li>Jagan Lamps acquires machinery from Tungsram to boost halogen lamp production.</li><li>The acquisition will enable an annual production capacity of 32.4 crore halogen bulbs.</li><li>The deal is expected to be completed within 60 days.</li><li>The acquisition is aimed at capacity expansion and strengthening manufacturing capabilities.</li><li>No specific governmental or regulatory approvals are required for the acquisition.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f7373f1-1a00-4df6-bacd-7f61ac6f1f7c.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: JAGAN LAMPS LTD. | Category: Business Update</small>]]></description>
-    </item>
-    <item>
-      <title>[RAJESH] Rajesh Power FY26 Revenue Up 51.85% YoY to ₹1,627.94 Cr</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Rajesh+Power+Services+Ltd&title=Rajesh+Power+FY26+Revenue+Up+51.85%25+YoY+to+%E2%82%B91%2C627.94+Cr&newsId=e037fbd5-90e9-48a6-bec1-465b376a104e&token=ZTAzN2ZiZDUtOTBl</link>
-      <guid isPermaLink="false">e037fbd5-90e9-48a6-bec1-465b376a104e</guid>
-      <pubDate>Thu, 23 Apr 2026 10:11:03 +0000</pubDate>
+      <title>[GUJHOTE] Gujarat Hotels approves FY26 results; recommends ₹3.00 dividend</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=GUJARAT+HOTELS+LTD.&title=Gujarat+Hotels+approves+FY26+results%3B+recommends+%08%E2%82%B93.00+dividend&newsId=6d06cf8b-53bf-4fd3-81cb-9248ce49ff14&token=NmQwNmNmOGItNTNi</link>
+      <guid isPermaLink="false">6d06cf8b-53bf-4fd3-81cb-9248ce49ff14</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:34 +0000</pubDate>
       <category>Quarterly Result</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Rajesh Power Services Ltd announced its audited standalone and consolidated financial results for the year ended March 31, 2026. The company reported a 51.85% YoY increase in revenue from operations, reaching ₹1,627.94 Cr for FY26. EBITDA grew by 59.14% to ₹197.16 Cr, and profit after tax increased by 48.19% to ₹143.20 Cr. The company&apos;s strong performance was attributed to timely project execution, operational efficiencies, and a diversified order book.</p><ul><li>Rajesh Power&apos;s FY26 revenue from operations reached ₹1,627.94 Cr, a 51.85% YoY increase.</li><li>FY26 EBITDA grew by 59.14% YoY to ₹197.16 Cr.</li><li>Profit after tax for FY26 increased by 48.19% YoY to ₹143.20 Cr.</li><li>H2FY26 revenue from operations stood at ₹990.12 Cr, up 30.45% YoY.</li><li>The company holds a 25.48% stake in HKRP Innovations Ltd.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e8ff00c-a606-4994-a860-9c732decd129.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Rajesh Power Services Ltd | Category: Quarterly Result</small>]]></description>
+      <description><![CDATA[<p>Gujarat Hotels Ltd&apos;s Board of Directors, at a meeting on April 23, 2026, approved the audited financial results for the quarter and twelve months ended March 31, 2026. The company reported a Profit for the Period of ₹565.65 lakhs for FY26. The statutory auditors, K C Mehta &amp; Co. LLP, provided an unmodified opinion on these results. Additionally, the Board recommended a final dividend of ₹3.00 per equity share for the financial year ended March 31, 2026, subject to shareholder approval at the forthcoming Annual General Meeting.</p><ul><li>Board approved audited financial results for Q4 and FY26.</li><li>FY26 Profit for the Period stood at ₹565.65 lakhs.</li><li>Statutory Auditors issued an unmodified opinion on the results.</li><li>Recommended final dividend of ₹3.00 per equity share for FY26.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/e75fae50-79fc-4173-b6e7-42c332a681d7.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: GUJARAT HOTELS LTD. | Category: Quarterly Result</small>]]></description>
+    </item>
+    <item>
+      <title>[BJDUP] BJ Duplex Boards: EGM Corrigendum for Name Change Certificate</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=B.J.DUPLEX+BOARDS+LTD.&title=BJ+Duplex+Boards%3A+EGM+Corrigendum+for+Name+Change+Certificate&newsId=e59cb0de-05d5-4592-a7cb-74901b93f8bc&token=ZTU5Y2IwZGUtMDVk</link>
+      <guid isPermaLink="false">e59cb0de-05d5-4592-a7cb-74901b93f8bc</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:32 +0000</pubDate>
+      <category>Clarification</category>
+      <description><![CDATA[<p>BJ Duplex Boards Ltd has issued a corrigendum to its Extraordinary General Meeting (EGM) notice, addressing an inadvertent omission. The company has now annexed the required Practicing Chartered Accountant&apos;s certificate, as per Regulation 45 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015. This certificate, crucial for the proposed name change, confirms that the company has not changed its name in the last year and that 100% of its ₹8.50 Lakhs revenue in the preceding year is derived from the new activity. The certificate now forms an integral part of the EGM Notice.</p><ul><li>Corrigendum issued for EGM notice regarding a proposed name change.</li><li>Previously omitted CA certificate for name change compliance now included.</li><li>Certificate confirms 100% of ₹8.50 Lakhs revenue from new activity.</li><li>Ensures compliance with SEBI Regulation 45 for the name change process.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8a9f17f2-880e-4daf-b3cb-a57b64ff2be4.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: B.J.DUPLEX BOARDS LTD. | Category: Clarification</small>]]></description>
+    </item>
+    <item>
+      <title>[MAHLOG] MLL FY26 Revenue up 15% to ₹6,999 Cr; Returns to Profitability with PAT ₹2.3 Cr</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Mahindra+Logistics+Ltd&title=MLL+FY26+Revenue+up+15%25+to+%E2%82%B96%2C999+Cr%3B+Returns+to+Profitability+with+PAT+%E2%82%B92.3+Cr&newsId=fb074612-7fa3-4ae0-95e6-f2c3a0bd8377&token=ZmIwNzQ2MTItN2Zh</link>
+      <guid isPermaLink="false">fb074612-7fa3-4ae0-95e6-f2c3a0bd8377</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
+      <category>Quarterly Result</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Mahindra Logistics Ltd. (MLL) announced its audited consolidated financial results for FY26, reporting a 15% year-on-year revenue increase to ₹6,999 crores. The company returned to profitability with a reported PAT of ₹2.3 crores for FY26, compared to a loss in the previous year. For Q4 FY26, consolidated revenue grew to ₹1,791 crores from ₹1,570 crores in Q4 FY25, and reported PAT was ₹20.2 crores, a significant improvement from a loss of ₹6.7 crores in the prior year. Key business segments like Express, Freight Forwarding, and Mobility demonstrated strong growth and improved profitability, with Express Business achieving a positive gross margin for FY26.</p><ul><li>FY26 consolidated revenue grew 15% YoY to ₹6,999 crores.</li><li>Company returned to profitability in FY26 with reported PAT of ₹2.3 crores.</li><li>Q4 FY26 consolidated revenue increased to ₹1,791 crores, PAT at ₹20.2 crores.</li><li>Express Business revenue grew 25% YoY, achieving positive gross margin in FY26.</li><li>Freight Forwarding revenue rose 14% YoY, with EBITDA up 48%.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8e55873-71ca-4d85-b02a-965120c16d68.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Mahindra Logistics Ltd | Category: Quarterly Result</small>]]></description>
+    </item>
+    <item>
+      <title>[HINDCOMPOS] Hindustan Composites Board Recommends ₹2 Dividend for FY26</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=HINDUSTAN+COMPOSITES+LTD.&title=Hindustan+Composites+Board+Recommends+%E2%82%B92+Dividend+for+FY26&newsId=c8e62e0c-6a36-468f-810d-67cc7b7af2bc&token=YzhlNjJlMGMtNmEz</link>
+      <guid isPermaLink="false">c8e62e0c-6a36-468f-810d-67cc7b7af2bc</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
+      <category>Board Meeting</category>
+      <description><![CDATA[<p>The Board of Directors of Hindustan Composites Ltd, at its meeting on April 23, 2026, approved the audited standalone and consolidated financial results for the quarter and financial year ended March 31, 2026. The Board recommended a final dividend of ₹2 per equity share for FY 2025-26, subject to shareholder approval at the upcoming Annual General Meeting. Additionally, the Board re-appointed M/s. Suresh Pimple &amp; Associates as Cost Auditors for FY 2026-27 and approved a capacity expansion plan for the same financial year. The company also clarified its position on a past fine for delayed financial results submission, stating it was not in default and has applied for a waiver.</p><ul><li>Board approved audited Q4 and FY26 standalone and consolidated financial results.</li><li>Recommended a final dividend of ₹2 per equity share for FY 2025-26.</li><li>Re-appointed M/s. Suresh Pimple &amp; Associates as Cost Auditors for FY 2026-27.</li><li>Approved capacity expansion plan for the financial year 2026-27.</li><li>Clarified position on a past fine for delayed results, seeking waiver from BSE.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/61c0ab95-b63b-45cd-8de3-08d92cc60388.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: HINDUSTAN COMPOSITES LTD. | Category: Board Meeting</small>]]></description>
+    </item>
+    <item>
+      <title>[STARCEMENT] Star Cement subsidiary acquires 100% of Jaitaran Renewable Power</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Star+Cement+Ltd&title=Star+Cement+subsidiary+acquires+100%25+of+Jaitaran+Renewable+Power&newsId=c621f839-92ed-4b4f-b4f4-94defc4fef6a&token=YzYyMWY4MzktOTJl</link>
+      <guid isPermaLink="false">c621f839-92ed-4b4f-b4f4-94defc4fef6a</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
+      <category>Acquisitions</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Star Cement North East Limited (SCNEL), a subsidiary of Star Cement Ltd, has acquired 100% shareholding of Jaitaran Renewable Power Private Limited (JRPPL) for a cash consideration of ₹20,000. Consequently, JRPPL has become a wholly-owned subsidiary of SCNEL and a step-down subsidiary of Star Cement Limited. JRPPL, incorporated on March 11, 2026, operates in the Energy &amp; Power industry. The acquisition aims to diversify Star Cement&apos;s business into a new vertical and strengthen its initiatives towards renewable energy. The transaction is not a related party transaction. JRPPL has an authorized share capital of ₹10.00 Lakhs and a paid-up capital of ₹0.20 Lakhs, with nil turnover for 2025.</p><ul><li>Star Cement&apos;s subsidiary acquired 100% of Jaitaran Renewable Power.</li><li>The acquisition diversifies business into the renewable energy sector.</li><li>JRPPL becomes a wholly-owned step-down subsidiary.</li><li>Acquisition cost was ₹20,000 for 100% stake.</li><li>JRPPL is a newly incorporated entity in Energy &amp; Power.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/c65d7a22-2b5f-486c-a1b1-2c0d754e07ea.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Star Cement Ltd | Category: Acquisitions</small>]]></description>
+    </item>
+    <item>
+      <title>[NETLINK] Netlink Solutions Appoints 2, Sees 2 Independent Directors Resign</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=NETLINK+SOLUTIONS+%28INDIA%29+LTD.&title=Netlink+Solutions+Appoints+2%2C+Sees+2+Independent+Directors+Resign&newsId=07b3cd79-b87e-43cf-93fe-7c6143a3c8e3&token=MDdiM2NkNzktYjg3</link>
+      <guid isPermaLink="false">07b3cd79-b87e-43cf-93fe-7c6143a3c8e3</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:23 +0000</pubDate>
+      <category>Management Change</category>
+      <description><![CDATA[<p>Netlink Solutions India Ltd. announced significant changes to its Board of Directors. The company appointed Ms. Aanal Satyawadi and Ms. Yesha Shah as Additional Non-Executive Independent Directors, effective April 23, 2026. These appointments are subject to shareholder approval at the ensuing General Meeting. Concurrently, Mr. Manoj Ashok Pardhee and Mr. Pankaj Vrajlal Sodha resigned from their positions as Independent Directors, effective from the close of business hours on April 23, 2026. Their resignations were attributed to a change in management and control following the completion of an open offer under SEBI regulations. Consequently, the outgoing directors also ceased to be members and chairpersons of all Board Committees. Ms. Aanal Satyawadi is a qualified Company Secretary and legal professional with over 10 years of experience in corporate laws and regulatory advisory.</p><ul><li>Two new independent directors, Ms. Aanal Satyawadi and Ms. Yesha Shah, appointed.</li><li>Two independent directors, Mr. Manoj Pardhee and Mr. Pankaj Sodha, resigned.</li><li>Resignations are due to change in management and control post open offer.</li><li>New appointments are effective April 23, 2026, subject to shareholder approval.</li><li>Ms. Satyawadi brings over 10 years of legal and secretarial experience.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d07d0a6-fee9-47cc-98a9-5b14b0545a1a.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: NETLINK SOLUTIONS (INDIA) LTD. | Category: Management Change</small>]]></description>
+    </item>
+    <item>
+      <title>[NETLINK] Netlink Solutions Appoints 2, Sees 2 Independent Directors Resign</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=NETLINK+SOLUTIONS+%28INDIA%29+LTD.&title=Netlink+Solutions+Appoints+2%2C+Sees+2+Independent+Directors+Resign&newsId=ef674c7a-7c67-4066-bf7e-0f1e1a666bc9&token=ZWY2NzRjN2EtN2M2</link>
+      <guid isPermaLink="false">ef674c7a-7c67-4066-bf7e-0f1e1a666bc9</guid>
+      <pubDate>Thu, 23 Apr 2026 13:01:21 +0000</pubDate>
+      <category>Management Change</category>
+      <description><![CDATA[<p>Netlink Solutions India Ltd. announced significant changes to its Board of Directors. The Board approved the appointment of Ms. Aanal Satyawadi (DIN: 07381381) and Ms. Yesha Shah (DIN: 08802522) as Additional Non-Executive Independent Directors, effective April 23, 2026. These appointments are subject to shareholder approval at the ensuing General Meeting. Concurrently, Mr. Manoj Ashok Pardhee (DIN: 10744070) and Mr. Pankaj Vrajlal Sodha (DIN: 10744650) resigned from their positions as Independent Directors, effective from the close of business hours on April 23, 2026. Their resignations are attributed to the change in management and control following the completion of an open offer. Consequently, they also ceased to be members and chairpersons of all Board Committees. Ms. Satyawadi brings over 10 years of experience in SEBI compliances, FEMA, RBI matters, and corporate laws as a Practicing Company Secretary.</p><ul><li>Board approved appointment of two new Independent Directors.</li><li>Ms. Aanal Satyawadi and Ms. Yesha Shah join from April 23, 2026.</li><li>Two Independent Directors, Mr. Pardhee and Mr. Sodha, resigned.</li><li>Resignations linked to change in management post open offer.</li><li>New appointments are subject to shareholder approval.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/41f0dc9d-6be3-4d54-836e-18c1acd52803.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: NETLINK SOLUTIONS (INDIA) LTD. | Category: Management Change</small>]]></description>
     </item>
   </channel>
 </rss>
