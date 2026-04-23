@@ -4,565 +4,89 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Thu, 23 Apr 2026 13:16:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 16:27:19 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>[IEX*] IEX FY26 Consolidated PAT up 15% to 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Indian+Energy+Exchange+Ltd&title=IEX+FY26+Consolidated+PAT+up+15%25+to+%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A&newsId=d7137685-362c-4c84-b792-cdf43e36991a&token=ZDcxMzc2ODUtMzYy</link>
-      <guid isPermaLink="false">d7137685-362c-4c84-b792-cdf43e36991a</guid>
-      <pubDate>Thu, 23 Apr 2026 13:04:19 +0000</pubDate>
-      <category>Quarterly Result</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Indian Energy Exchange (IEX) reported robust financial results for the fiscal year and fourth quarter ending March 31, 2026. For FY26, the company achieved its highest ever traded electricity volume of 141 BU, marking a 17% year-on-year increase. Consolidated Profit After Tax (PAT) for the year stood at ₹492.9 crore, up 15% from the previous year. Standalone revenue was ₹744.9 crore (up 13.9%) and standalone PAT was ₹473.7 crore (up 14.2%). The Board of Directors declared a final dividend of ₹2 per equity share. In Q4FY26, IEX recorded its highest ever quarterly traded electricity volume of 39.4 BU, a 24% increase YoY, with consolidated PAT at ₹129.8 crore, up 11% YoY. The gas exchange (IGX) also saw significant growth, trading 76.8 million MMBtu in FY26, up 28% YoY, and reporting a PAT of ₹41.9 crore, a 35% increase.</p><ul><li>FY26 consolidated PAT increased by 15% to ₹492.9 crore.</li><li>Achieved highest ever traded electricity volume of 141 BU in FY26, up 17% YoY.</li><li>Board recommended a final dividend of ₹2 per equity share (200%).</li><li>Q4FY26 saw highest ever quarterly electricity volume of 39.4 BU, up 24% YoY.</li><li>Q4FY26 consolidated PAT grew by 11% to ₹129.8 crore.</li><li>IGX gas volumes grew 28% YoY, with PAT up 35% to ₹41.9 crore.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f2314b3d-fad1-4c44-95fa-0b9856c0a449.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Indian Energy Exchange Ltd | Category: Quarterly Result</small>]]></description>
+      <title>[BALRAMCHIN*] Balrampur Chini to raise ₹650 Cr via equity &amp; NCDs; PLA project CAPEX up by ₹230 Cr</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=BALRAMPUR+CHINI+MILLS+LTD.&title=Balrampur+Chini+to+raise+%E2%82%B9650+Cr+via+equity+%26+NCDs%3B+PLA+project+CAPEX+up+by+%E2%82%B9230+Cr&newsId=4770f2c2-2076-435e-8320-3bc13207d8ef&token=NDc3MGYyYzItMjA3</link>
+      <guid isPermaLink="false">4770f2c2-2076-435e-8320-3bc13207d8ef</guid>
+      <pubDate>Thu, 23 Apr 2026 16:21:25 +0000</pubDate>
+      <category>Investment</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Balrampur Chini Mills Ltd&apos;s Board approved raising funds totaling ₹650 crore. This includes a preferential issue of up to 93,16,771 equity shares at ₹483 each, aggregating to ₹450 crore, to promoters and non-promoter institutional investors. Additionally, the board approved issuing up to ₹200 crore in secured, non-convertible debentures via private placement. An Extra-Ordinary General Meeting is scheduled for May 20, 2026, to seek shareholder approval for the preferential issue. The board also revised the capital outlay for its 80,000 TPA Poly Lactic Acid (PLA) Project, increasing it from ₹2,850 crore to ₹3,080 crore, an escalation of ₹230 crore, primarily due to rising material costs and supply chain disruptions.</p><ul><li>Board approved raising ₹450 Cr via preferential issue of 93.16 lakh equity shares.</li><li>Promoters and institutional investors will subscribe to the preferential issue.</li><li>Company to raise an additional ₹200 Cr through private placement of NCDs.</li><li>EGM on May 20, 2026, for shareholder approval of preferential issue.</li><li>PLA Project CAPEX revised upwards by ₹230 Cr to ₹3,080 Cr.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4e3bd68-dfd4-4cc8-bacf-39bc89ae7c63.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BALRAMPUR CHINI MILLS LTD. | Category: Investment</small>]]></description>
     </item>
     <item>
-      <title>[PAEL] PAE Ltd Board Approves FY26 Results, Recommends Dividend &amp; 6:1 Bonus</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=PAE+LTD.&title=PAE+Ltd+Board+Approves+FY26+Results%2C+Recommends+Dividend+%26+6%3A1+Bonus&newsId=b1dca57a-303e-4c49-b144-539faf473b0c&token=YjFkY2E1N2EtMzAz</link>
-      <guid isPermaLink="false">b1dca57a-303e-4c49-b144-539faf473b0c</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:45 +0000</pubDate>
+      <title>[BALRAMCHIN*] Balrampur Chini to raise ₹450 Cr via preferential issue &amp; ₹200 Cr via NCDs</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=BALRAMPUR+CHINI+MILLS+LTD.&title=Balrampur+Chini+to+raise+%08%E2%82%B9450+Cr+via+preferential+issue+%26+%08%E2%82%B9200+Cr+via+NCDs&newsId=56d88b86-a48f-4b3e-aca5-7e75abe5ea99&token=NTZkODhiODYtYTQ4</link>
+      <guid isPermaLink="false">56d88b86-a48f-4b3e-aca5-7e75abe5ea99</guid>
+      <pubDate>Thu, 23 Apr 2026 16:02:51 +0000</pubDate>
       <category>Corporate Action</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>PAE Ltd&apos;s Board of Directors, in a meeting held on April 23, 2026, approved the audited standalone financial results for the quarter and year ended March 31, 2026. The board recommended a final dividend of ₹0.20 per equity share (face value ₹10) for the financial year 2025-26. The 76th Annual General Meeting (AGM) is scheduled for May 18, 2026, with May 11, 2026, fixed as the record date for the dividend. Additionally, the board recommended a bonus issue of equity shares in the proportion of 6:1 (six bonus shares for every one existing share) to public shareholders (excluding Promoter and Promoter Group) to ensure compliance with minimum public shareholding requirements. May 25, 2026, has been set as the record date for the bonus issue. The board also approved an addition to the Objects of the Company and a subsequent alteration of the Memorandum of Association, subject to shareholder approval.</p><ul><li>Board approved audited standalone financial results for FY26.</li><li>Recommended final dividend of ₹0.20 per equity share for FY26.</li><li>Proposed 6:1 bonus issue for public shareholders to meet regulations.</li><li>76th AGM scheduled for May 18, 2026, with dividend record date May 11.</li><li>Approved alteration of Memorandum of Association, subject to shareholder nod.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd446fc0-ebcc-465f-82bc-6433954c536f.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: PAE LTD. | Category: Corporate Action</small>]]></description>
+      <description><![CDATA[<p>Balrampur Chini Mills Ltd&apos;s Board approved a preferential issue of up to 93,16,771 equity shares at ₹483 each, raising approximately ₹450 crore. Allottees include promoters, promoter group entities, and non-promoter institutional investors like TATA Small Cap Fund and various AIFs. The company will also issue listed, secured, non-convertible debentures (NCDs) aggregating up to ₹200 crore on a private placement basis. An Extra-Ordinary General Meeting is scheduled for May 20, 2026, to seek shareholder approval for the preferential issue. Additionally, the estimated capital outlay for the 80,000 TPA Poly Lactic Acid (PLA) Project has been revised upwards from ₹2,850 crore to ₹3,080 crore, an increase of ₹230 crore, due to cost escalations and design changes.</p><ul><li>Board approved preferential issue of equity shares worth approximately ₹450 crore.</li><li>Company to issue listed, secured NCDs aggregating up to ₹200 crore via private placement.</li><li>EGM scheduled for May 20, 2026, to seek shareholder approval for the preferential issue.</li><li>PLA Project CAPEX revised from ₹2,850 crore to ₹3,080 crore due to cost escalations.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/e06d2aa7-f41f-4951-8dca-b7791f15ee60.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BALRAMPUR CHINI MILLS LTD. | Category: Corporate Action</small>]]></description>
     </item>
     <item>
-      <title>[INFY*] Infosys Recommends ₹25/Share Final Dividend; Record Date June 10, 2026</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=INFOSYS+LTD.&title=Infosys+Recommends+%E2%82%B925%2FShare+Final+Dividend%3B+Record+Date+June+10%2C+2026&newsId=6ffae922-15b5-4e0f-b037-c117b278dbe2&token=NmZmYWU5MjItMTVi</link>
-      <guid isPermaLink="false">6ffae922-15b5-4e0f-b037-c117b278dbe2</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:40 +0000</pubDate>
-      <category>Dividend</category>
-      <description><![CDATA[<p>Infosys Ltd&apos;s Board of Directors, at their meeting on April 22-23, 2026, approved the audited financial results for the quarter and year ended March 31, 2026. The Board recommended a final dividend of ₹25/- per equity share for the financial year ended March 31, 2026. The record date for this dividend payment is set for June 10, 2026, with the actual payment scheduled for June 25, 2026. Additionally, the company announced its 45th Annual General Meeting for June 23, 2026. The Board also approved annual performance-based stock incentives for CEO &amp; MD Salil Parekh totaling ₹51.75 crore, and other employee stock grants including 27,193 RSUs and PSUs worth ₹1.90 crore. Furthermore, BSR &amp; Co. LLP has been proposed as the new statutory auditors due to mandatory rotation requirements.</p><ul><li>Board recommended a final dividend of ₹25 per equity share for FY26.</li><li>Dividend record date is June 10, 2026, with payment on June 25, 2026.</li><li>Approved ₹51.75 crore in stock grants for CEO &amp; MD, and other employee grants.</li><li>Proposed BSR &amp; Co. LLP as new statutory auditors due to mandatory rotation.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/FDCA6635-44A9-4EFA-AB3A-4B4C62AD9642-182239.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: INFOSYS LTD. | Category: Dividend</small>]]></description>
+      <title>[SFL] Sheela Foam: Sells 575 fractional shares from KEL merger</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Sheela+Foam+Ltd&title=Sheela+Foam%3A+Sells+575+fractional+shares+from+KEL+merger&newsId=dad5a5ae-2c01-4fbf-b92f-dbc87e9b6032&token=ZGFkNWE1YWUtMmMw</link>
+      <guid isPermaLink="false">dad5a5ae-2c01-4fbf-b92f-dbc87e9b6032</guid>
+      <pubDate>Thu, 23 Apr 2026 16:02:41 +0000</pubDate>
+      <category>Merger</category>
+      <description><![CDATA[<p>Sheela Foam Ltd. (SFL) announced the sale of 575 fractional shares in the open market. These shares originated from fractional entitlements arising from the share exchange ratio during the amalgamation of Kurlon Enterprise Limited (KEL) with SFL, as approved by the Hon’ble National Company Law Tribunal, Mumbai Bench. A Trust, appointed by SFL&apos;s Board, consolidated these fractional entitlements and sold the resulting shares on April 22, 2026. The net proceeds from this sale, after deducting applicable charges and taxes, will be distributed proportionally to the eligible shareholders of Kurlon Enterprise Limited who held these fractional entitlements. This action completes a procedural step in the merger process, ensuring fair compensation for fractional shareholders.</p><ul><li>575 fractional shares from KEL merger sold in open market.</li><li>A Trust consolidated and sold shares on April 22, 2026.</li><li>Net proceeds will be distributed to eligible KEL shareholders.</li><li>This completes a procedural step in the KEL-SFL merger.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/0dc52583-7c10-486e-8fe5-0aef8a898201.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Sheela Foam Ltd | Category: Merger</small>]]></description>
     </item>
     <item>
-      <title>[GUJHOTE] Gujarat Hotels approves FY26 results; recommends ₹3.00 dividend</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=GUJARAT+HOTELS+LTD.&title=Gujarat+Hotels+approves+FY26+results%3B+recommends+%08%E2%82%B93.00+dividend&newsId=6d06cf8b-53bf-4fd3-81cb-9248ce49ff14&token=NmQwNmNmOGItNTNi</link>
-      <guid isPermaLink="false">6d06cf8b-53bf-4fd3-81cb-9248ce49ff14</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:34 +0000</pubDate>
-      <category>Quarterly Result</category>
-      <description><![CDATA[<p>Gujarat Hotels Ltd&apos;s Board of Directors, at a meeting on April 23, 2026, approved the audited financial results for the quarter and twelve months ended March 31, 2026. The company reported a Profit for the Period of ₹565.65 lakhs for FY26. The statutory auditors, K C Mehta &amp; Co. LLP, provided an unmodified opinion on these results. Additionally, the Board recommended a final dividend of ₹3.00 per equity share for the financial year ended March 31, 2026, subject to shareholder approval at the forthcoming Annual General Meeting.</p><ul><li>Board approved audited financial results for Q4 and FY26.</li><li>FY26 Profit for the Period stood at ₹565.65 lakhs.</li><li>Statutory Auditors issued an unmodified opinion on the results.</li><li>Recommended final dividend of ₹3.00 per equity share for FY26.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/e75fae50-79fc-4173-b6e7-42c332a681d7.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: GUJARAT HOTELS LTD. | Category: Quarterly Result</small>]]></description>
+      <title>[BALRAMCHIN*] Balrampur Chini Mills to raise ₹450 Cr via Preferential Issue; approves ₹200 Cr NCDs</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=BALRAMPUR+CHINI+MILLS+LTD.&title=Balrampur+Chini+Mills+to+raise+%E2%82%B9450+Cr+via+Preferential+Issue%3B+approves+%E2%82%B9200+Cr+NCDs&newsId=89d09672-8d49-4d68-911e-a726a5e16870&token=ODlkMDk2NzItOGQ0</link>
+      <guid isPermaLink="false">89d09672-8d49-4d68-911e-a726a5e16870</guid>
+      <pubDate>Thu, 23 Apr 2026 16:01:16 +0000</pubDate>
+      <category>Corporate Action</category>
+      <description><![CDATA[<p>Balrampur Chini Mills Ltd&apos;s Board has approved a preferential issue of up to 93,16,771 equity shares at ₹483 each, aggregating to ₹450 crore. The shares will be allotted to promoters, promoter group entities, and non-promoter institutional investors including TATA Small Cap Fund and various AIFs. An Extra-Ordinary General Meeting is scheduled for May 20, 2026, to seek shareholder approval for this issue. Additionally, the Board approved the issuance of Listed, Secured, Non-Convertible Debentures aggregating up to ₹200 crore on a private placement basis. The company also revised the estimated capital outlay for its 80,000 TPA Poly Lactic Acid (PLA) Project from ₹2,850 crore to ₹3,080 crore, an increase of ₹230 crore, primarily due to cost escalations and design changes.</p><ul><li>Company to raise ₹450 crore through preferential issue of 9.32 million equity shares.</li><li>Shares priced at ₹483 each, allotted to promoters and institutional investors.</li><li>Board also approved raising up to ₹200 crore via secured Non-Convertible Debentures.</li><li>CAPEX for the PLA Project revised upwards by ₹230 crore to ₹3,080 crore.</li><li>Shareholder approval for preferential issue to be sought at May 20, 2026 EGM.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/f3ce3969-3db8-47cd-b32a-5ac2340f8bcb.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: BALRAMPUR CHINI MILLS LTD. | Category: Corporate Action</small>]]></description>
     </item>
     <item>
-      <title>[BJDUP] BJ Duplex Boards: EGM Corrigendum for Name Change Certificate</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=B.J.DUPLEX+BOARDS+LTD.&title=BJ+Duplex+Boards%3A+EGM+Corrigendum+for+Name+Change+Certificate&newsId=e59cb0de-05d5-4592-a7cb-74901b93f8bc&token=ZTU5Y2IwZGUtMDVk</link>
-      <guid isPermaLink="false">e59cb0de-05d5-4592-a7cb-74901b93f8bc</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:32 +0000</pubDate>
-      <category>Clarification</category>
-      <description><![CDATA[<p>BJ Duplex Boards Ltd has issued a corrigendum to its Extraordinary General Meeting (EGM) notice, addressing an inadvertent omission. The company has now annexed the required Practicing Chartered Accountant&apos;s certificate, as per Regulation 45 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015. This certificate, crucial for the proposed name change, confirms that the company has not changed its name in the last year and that 100% of its ₹8.50 Lakhs revenue in the preceding year is derived from the new activity. The certificate now forms an integral part of the EGM Notice.</p><ul><li>Corrigendum issued for EGM notice regarding a proposed name change.</li><li>Previously omitted CA certificate for name change compliance now included.</li><li>Certificate confirms 100% of ₹8.50 Lakhs revenue from new activity.</li><li>Ensures compliance with SEBI Regulation 45 for the name change process.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/8a9f17f2-880e-4daf-b3cb-a57b64ff2be4.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: B.J.DUPLEX BOARDS LTD. | Category: Clarification</small>]]></description>
-    </item>
-    <item>
-      <title>[MAHLOG] MLL FY26 Revenue up 15% to ₹6,999 Cr; Returns to Profitability with PAT ₹2.3 Cr</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Mahindra+Logistics+Ltd&title=MLL+FY26+Revenue+up+15%25+to+%E2%82%B96%2C999+Cr%3B+Returns+to+Profitability+with+PAT+%E2%82%B92.3+Cr&newsId=fb074612-7fa3-4ae0-95e6-f2c3a0bd8377&token=ZmIwNzQ2MTItN2Zh</link>
-      <guid isPermaLink="false">fb074612-7fa3-4ae0-95e6-f2c3a0bd8377</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
-      <category>Quarterly Result</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Mahindra Logistics Ltd. (MLL) announced its audited consolidated financial results for FY26, reporting a 15% year-on-year revenue increase to ₹6,999 crores. The company returned to profitability with a reported PAT of ₹2.3 crores for FY26, compared to a loss in the previous year. For Q4 FY26, consolidated revenue grew to ₹1,791 crores from ₹1,570 crores in Q4 FY25, and reported PAT was ₹20.2 crores, a significant improvement from a loss of ₹6.7 crores in the prior year. Key business segments like Express, Freight Forwarding, and Mobility demonstrated strong growth and improved profitability, with Express Business achieving a positive gross margin for FY26.</p><ul><li>FY26 consolidated revenue grew 15% YoY to ₹6,999 crores.</li><li>Company returned to profitability in FY26 with reported PAT of ₹2.3 crores.</li><li>Q4 FY26 consolidated revenue increased to ₹1,791 crores, PAT at ₹20.2 crores.</li><li>Express Business revenue grew 25% YoY, achieving positive gross margin in FY26.</li><li>Freight Forwarding revenue rose 14% YoY, with EBITDA up 48%.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8e55873-71ca-4d85-b02a-965120c16d68.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Mahindra Logistics Ltd | Category: Quarterly Result</small>]]></description>
-    </item>
-    <item>
-      <title>[HINDCOMPOS] Hindustan Composites Board Recommends ₹2 Dividend for FY26</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=HINDUSTAN+COMPOSITES+LTD.&title=Hindustan+Composites+Board+Recommends+%E2%82%B92+Dividend+for+FY26&newsId=c8e62e0c-6a36-468f-810d-67cc7b7af2bc&token=YzhlNjJlMGMtNmEz</link>
-      <guid isPermaLink="false">c8e62e0c-6a36-468f-810d-67cc7b7af2bc</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
+      <title>[MITSU] Mitsu Chem Plast Board to meet May 2 for FY26 results &amp; dividend</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Mitsu+Chem+Plast+Ltd&title=Mitsu+Chem+Plast+Board+to+meet+May+2+for+FY26+results+%26+dividend&newsId=cda8ff33-69d8-45cf-8e5b-fc1e389ab442&token=Y2RhOGZmMzMtNjlk</link>
+      <guid isPermaLink="false">cda8ff33-69d8-45cf-8e5b-fc1e389ab442</guid>
+      <pubDate>Thu, 23 Apr 2026 16:00:34 +0000</pubDate>
       <category>Board Meeting</category>
-      <description><![CDATA[<p>The Board of Directors of Hindustan Composites Ltd, at its meeting on April 23, 2026, approved the audited standalone and consolidated financial results for the quarter and financial year ended March 31, 2026. The Board recommended a final dividend of ₹2 per equity share for FY 2025-26, subject to shareholder approval at the upcoming Annual General Meeting. Additionally, the Board re-appointed M/s. Suresh Pimple &amp; Associates as Cost Auditors for FY 2026-27 and approved a capacity expansion plan for the same financial year. The company also clarified its position on a past fine for delayed financial results submission, stating it was not in default and has applied for a waiver.</p><ul><li>Board approved audited Q4 and FY26 standalone and consolidated financial results.</li><li>Recommended a final dividend of ₹2 per equity share for FY 2025-26.</li><li>Re-appointed M/s. Suresh Pimple &amp; Associates as Cost Auditors for FY 2026-27.</li><li>Approved capacity expansion plan for the financial year 2026-27.</li><li>Clarified position on a past fine for delayed results, seeking waiver from BSE.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/61c0ab95-b63b-45cd-8de3-08d92cc60388.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: HINDUSTAN COMPOSITES LTD. | Category: Board Meeting</small>]]></description>
+      <description><![CDATA[<p>Mitsu Chem Plast Ltd has announced that its Board of Directors will convene on Saturday, May 02, 2026. The primary agenda includes considering and approving the Audited Financial Results for the quarter and financial year ended March 31, 2026. Additionally, the Board will consider and recommend a final dividend, if any, on equity shares for the financial year ended March 31, 2026, for approval at the ensuing 38th Annual General Meeting. In compliance with insider trading regulations, the trading window for designated persons has been closed from April 1, 2026, and will remain closed until 48 hours after the declaration of the financial results.</p><ul><li>Board meeting scheduled for May 2, 2026.</li><li>To consider Q4 and FY26 audited financial results.</li><li>Final dividend recommendation for FY26 to be discussed.</li><li>Trading window closed for designated persons until results declaration.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a9019c1-282e-4276-ab0d-66ade83d9f64.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Mitsu Chem Plast Ltd | Category: Board Meeting</small>]]></description>
     </item>
     <item>
-      <title>[STARCEMENT] Star Cement subsidiary acquires 100% of Jaitaran Renewable Power</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Star+Cement+Ltd&title=Star+Cement+subsidiary+acquires+100%25+of+Jaitaran+Renewable+Power&newsId=c621f839-92ed-4b4f-b4f4-94defc4fef6a&token=YzYyMWY4MzktOTJl</link>
-      <guid isPermaLink="false">c621f839-92ed-4b4f-b4f4-94defc4fef6a</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:30 +0000</pubDate>
-      <category>Acquisitions</category>
-      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Star Cement North East Limited (SCNEL), a subsidiary of Star Cement Ltd, has acquired 100% shareholding of Jaitaran Renewable Power Private Limited (JRPPL) for a cash consideration of ₹20,000. Consequently, JRPPL has become a wholly-owned subsidiary of SCNEL and a step-down subsidiary of Star Cement Limited. JRPPL, incorporated on March 11, 2026, operates in the Energy &amp; Power industry. The acquisition aims to diversify Star Cement&apos;s business into a new vertical and strengthen its initiatives towards renewable energy. The transaction is not a related party transaction. JRPPL has an authorized share capital of ₹10.00 Lakhs and a paid-up capital of ₹0.20 Lakhs, with nil turnover for 2025.</p><ul><li>Star Cement&apos;s subsidiary acquired 100% of Jaitaran Renewable Power.</li><li>The acquisition diversifies business into the renewable energy sector.</li><li>JRPPL becomes a wholly-owned step-down subsidiary.</li><li>Acquisition cost was ₹20,000 for 100% stake.</li><li>JRPPL is a newly incorporated entity in Energy &amp; Power.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/c65d7a22-2b5f-486c-a1b1-2c0d754e07ea.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Star Cement Ltd | Category: Acquisitions</small>]]></description>
+      <title>[MITSU] Mitsu Chem Plast Board to meet May 2 for FY26 results &amp; dividend</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Mitsu+Chem+Plast+Ltd&title=Mitsu+Chem+Plast+Board+to+meet+May+2+for+FY26+results+%26+dividend&newsId=25979c5d-b199-4435-85e6-6a92e890a21d&token=MjU5NzljNWQtYjE5</link>
+      <guid isPermaLink="false">25979c5d-b199-4435-85e6-6a92e890a21d</guid>
+      <pubDate>Thu, 23 Apr 2026 15:51:16 +0000</pubDate>
+      <category>Board Meeting</category>
+      <description><![CDATA[<p>Mitsu Chem Plast Ltd has scheduled a Board of Directors meeting on May 02, 2026. The primary agenda includes considering and approving the Audited Financial Results for the quarter and financial year ended March 31, 2026. Additionally, the board will consider and recommend a final dividend, if any, on equity shares for the financial year ended March 31, 2026, for shareholder approval at the 38th Annual General Meeting. In compliance with insider trading regulations, the trading window for designated persons has been closed from April 1, 2026, and will remain closed until 48 hours after the declaration of the financial results.</p><ul><li>Board meeting scheduled for May 02, 2026.</li><li>To consider and approve Audited Financial Results for Q4 and FY26.</li><li>To consider and recommend a final dividend for FY26.</li><li>Trading window closed from April 1, 2026, until results declaration.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9642349-7f16-46c1-88c1-27e035d516ef.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Mitsu Chem Plast Ltd | Category: Board Meeting</small>]]></description>
     </item>
     <item>
-      <title>[NETLINK] Netlink Solutions Appoints 2, Sees 2 Independent Directors Resign</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=NETLINK+SOLUTIONS+%28INDIA%29+LTD.&title=Netlink+Solutions+Appoints+2%2C+Sees+2+Independent+Directors+Resign&newsId=07b3cd79-b87e-43cf-93fe-7c6143a3c8e3&token=MDdiM2NkNzktYjg3</link>
-      <guid isPermaLink="false">07b3cd79-b87e-43cf-93fe-7c6143a3c8e3</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:23 +0000</pubDate>
-      <category>Management Change</category>
-      <description><![CDATA[<p>Netlink Solutions India Ltd. announced significant changes to its Board of Directors. The company appointed Ms. Aanal Satyawadi and Ms. Yesha Shah as Additional Non-Executive Independent Directors, effective April 23, 2026. These appointments are subject to shareholder approval at the ensuing General Meeting. Concurrently, Mr. Manoj Ashok Pardhee and Mr. Pankaj Vrajlal Sodha resigned from their positions as Independent Directors, effective from the close of business hours on April 23, 2026. Their resignations were attributed to a change in management and control following the completion of an open offer under SEBI regulations. Consequently, the outgoing directors also ceased to be members and chairpersons of all Board Committees. Ms. Aanal Satyawadi is a qualified Company Secretary and legal professional with over 10 years of experience in corporate laws and regulatory advisory.</p><ul><li>Two new independent directors, Ms. Aanal Satyawadi and Ms. Yesha Shah, appointed.</li><li>Two independent directors, Mr. Manoj Pardhee and Mr. Pankaj Sodha, resigned.</li><li>Resignations are due to change in management and control post open offer.</li><li>New appointments are effective April 23, 2026, subject to shareholder approval.</li><li>Ms. Satyawadi brings over 10 years of legal and secretarial experience.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d07d0a6-fee9-47cc-98a9-5b14b0545a1a.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: NETLINK SOLUTIONS (INDIA) LTD. | Category: Management Change</small>]]></description>
+      <title>[LUXIND] Lux Industries Board approves demerger plan following family settlement</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Lux+Industries+Ltd&title=Lux+Industries+Board+approves+demerger+plan+following+family+settlement&newsId=5f943f5f-264b-4118-be3e-d161bfb4b0ec&token=NWY5NDNmNWYtMjY0</link>
+      <guid isPermaLink="false">5f943f5f-264b-4118-be3e-d161bfb4b0ec</guid>
+      <pubDate>Thu, 23 Apr 2026 15:41:16 +0000</pubDate>
+      <category>Corporate Action</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Lux Industries Limited&apos;s Board of Directors was informed about a Family Settlement Agreement (FSA) among the Todi Family, who are the company&apos;s promoters. The company itself is not a party to this FSA. Following this, the Board granted in-principle approval for a scheme of demerger. This plan involves trifurcating the company&apos;s business into three verticals (A, B, and C). Verticals A and C are proposed to be demerged into two new, subsequently listed companies, while Vertical B will remain with Lux Industries. Leadership for each resulting entity will be assigned to different branches of the Todi family. The AKT Family and KKT Family will relinquish management and control rights in Lux Industries, with the PKT Family retaining control. To facilitate the demerger, the Board also approved the immediate incorporation of two new wholly-owned subsidiaries. Additionally, a revised brand licensing agreement with Biswanath Hosiery Mills Limited for &apos;Lux&apos; related brands was approved.</p><ul><li>Promoter Todi Family entered a Family Settlement Agreement (FSA).</li><li>Board approved in-principle demerger into three separate listed entities.</li><li>Verticals A and C to demerge; Vertical B remains with Lux Industries.</li><li>Leadership roles assigned to different Todi family branches.</li><li>Two new wholly-owned subsidiaries to be incorporated for demerger.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b838444-b048-4e5a-8b03-2f653eec2744.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Lux Industries Ltd | Category: Corporate Action</small>]]></description>
     </item>
     <item>
-      <title>[NETLINK] Netlink Solutions Appoints 2, Sees 2 Independent Directors Resign</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=NETLINK+SOLUTIONS+%28INDIA%29+LTD.&title=Netlink+Solutions+Appoints+2%2C+Sees+2+Independent+Directors+Resign&newsId=ef674c7a-7c67-4066-bf7e-0f1e1a666bc9&token=ZWY2NzRjN2EtN2M2</link>
-      <guid isPermaLink="false">ef674c7a-7c67-4066-bf7e-0f1e1a666bc9</guid>
-      <pubDate>Thu, 23 Apr 2026 13:01:21 +0000</pubDate>
-      <category>Management Change</category>
-      <description><![CDATA[<p>Netlink Solutions India Ltd. announced significant changes to its Board of Directors. The Board approved the appointment of Ms. Aanal Satyawadi (DIN: 07381381) and Ms. Yesha Shah (DIN: 08802522) as Additional Non-Executive Independent Directors, effective April 23, 2026. These appointments are subject to shareholder approval at the ensuing General Meeting. Concurrently, Mr. Manoj Ashok Pardhee (DIN: 10744070) and Mr. Pankaj Vrajlal Sodha (DIN: 10744650) resigned from their positions as Independent Directors, effective from the close of business hours on April 23, 2026. Their resignations are attributed to the change in management and control following the completion of an open offer. Consequently, they also ceased to be members and chairpersons of all Board Committees. Ms. Satyawadi brings over 10 years of experience in SEBI compliances, FEMA, RBI matters, and corporate laws as a Practicing Company Secretary.</p><ul><li>Board approved appointment of two new Independent Directors.</li><li>Ms. Aanal Satyawadi and Ms. Yesha Shah join from April 23, 2026.</li><li>Two Independent Directors, Mr. Pardhee and Mr. Sodha, resigned.</li><li>Resignations linked to change in management post open offer.</li><li>New appointments are subject to shareholder approval.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/41f0dc9d-6be3-4d54-836e-18c1acd52803.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: NETLINK SOLUTIONS (INDIA) LTD. | Category: Management Change</small>]]></description>
+      <title>[LUXIND] Lux Industries Board Approves In-Principle Demerger &amp; Family Settlement</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Lux+Industries+Ltd&title=Lux+Industries+Board+Approves+In-Principle+Demerger+%26+Family+Settlement&newsId=c45100b2-ffe5-44b8-894c-544094582b86&token=YzQ1MTAwYjItZmZl</link>
+      <guid isPermaLink="false">c45100b2-ffe5-44b8-894c-544094582b86</guid>
+      <pubDate>Thu, 23 Apr 2026 15:41:14 +0000</pubDate>
+      <category>Corporate Action</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Lux Industries Ltd&apos;s Board of Directors, in a meeting on April 23, 2026, informed about a Family Settlement Agreement (FSA) among the promoter Todi Family. Pursuant to the FSA, the Board granted in-principle approval for a scheme of demerger. This scheme will trifurcate the company&apos;s business into three verticals (A, B, C). Verticals A and C will be demerged into two new, subsequently listed companies, led by the AKT Family and KKT Family respectively. Vertical B will remain with Lux Industries, led by the PKT Family. The Board also approved the immediate incorporation of two new wholly-owned subsidiaries to facilitate the demerger and a revised brand licensing agreement with Biswanath Hosiery Mills Limited.</p><ul><li>Board gives in-principle approval for a scheme of demerger.</li><li>Demerger follows a Family Settlement Agreement among promoters.</li><li>Business to be trifurcated; two verticals to be demerged and listed.</li><li>Two new wholly-owned subsidiaries to be incorporated for demerger.</li><li>Revised brand licensing agreement approved to safeguard brand rights.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/893dc710-79c5-4c38-9c12-d6f6f990da6b.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Lux Industries Ltd | Category: Corporate Action</small>]]></description>
+    </item>
+    <item>
+      <title>[PACEDIGITK] Pace Digitek signs exclusive OEM deal with NEC XON for Africa</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Pace+Digitek+Ltd&title=Pace+Digitek+signs+exclusive+OEM+deal+with+NEC+XON+for+Africa&newsId=ae5de38a-47fd-4895-88e9-174e727496e7&token=YWU1ZGUzOGEtNDdm</link>
+      <guid isPermaLink="false">ae5de38a-47fd-4895-88e9-174e727496e7</guid>
+      <pubDate>Thu, 23 Apr 2026 15:21:15 +0000</pubDate>
+      <category>Partnership</category>
+      <description><![CDATA[<strong>🔥 Trending</strong><br/><p>Pace Digitek Ltd has executed an Original Equipment Manufacturer (OEM) Exclusivity Agreement with NEC XON Systems Proprietary Limited. This agreement, signed on April 22, 2026, grants NEC XON exclusive rights to market, distribute, and sell Pace Digitek&apos;s products, including Battery Energy Storage Systems (BESS) and other related energy solutions. The exclusive territories covered by this international partnership are South Africa, Botswana, Mozambique, Namibia, and Mauritius. The company clarified that NEC XON is an international entity, and the agreement does not involve any related party transactions or shareholding.</p><ul><li>Pace Digitek signed an exclusive OEM agreement with NEC XON Systems.</li><li>NEC XON gains exclusive rights to market BESS and energy solutions.</li><li>The partnership covers South Africa, Botswana, Mozambique, Namibia, and Mauritius.</li><li>This expands Pace Digitek&apos;s market reach into key African territories.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca74197d-c5c6-4559-8299-82b78a8b1146.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Pace Digitek Ltd | Category: Partnership</small>]]></description>
+    </item>
+    <item>
+      <title>[EMBASSY] Embassy Office Parks REIT&apos;s Crisil AAA/Stable Rating Reaffirmed</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Embassy+Office+Parks+REIT&title=Embassy+Office+Parks+REIT%27s+Crisil+AAA%2FStable+Rating+Reaffirmed&newsId=e43c3767-8f16-4e31-8d3b-a8315a56c4e6&token=ZTQzYzM3NjctOGYx</link>
+      <guid isPermaLink="false">e43c3767-8f16-4e31-8d3b-a8315a56c4e6</guid>
+      <pubDate>Thu, 23 Apr 2026 15:21:11 +0000</pubDate>
+      <category>Rating</category>
+      <description><![CDATA[<p>Embassy Office Parks REIT has announced the annual review of its credit ratings by Crisil Ratings Limited. Crisil has reaffirmed its &apos;Crisil AAA/Stable&apos; rating for various Non-Convertible Debentures (NCDs) and &apos;Crisil A1+&apos; for Commercial Papers (CPs) issued or to be issued by the REIT. The &apos;Crisil AAA/Stable&apos; rating indicates the highest degree of safety regarding timely servicing of debt obligations and the lowest credit risk. The &apos;Crisil A1+&apos; rating signifies very strong capacity for timely payment of financial obligations. All ratings were reaffirmed on April 22, 2026, and are subject to continuous surveillance by Crisil.</p><ul><li>Crisil reaffirmed &apos;Crisil AAA/Stable&apos; rating for Embassy REIT&apos;s NCDs.</li><li>Crisil reaffirmed &apos;Crisil A1+&apos; rating for Embassy REIT&apos;s Commercial Papers.</li><li>&apos;Crisil AAA/Stable&apos; indicates highest safety and lowest credit risk.</li><li>All credit ratings were reaffirmed on April 22, 2026.</li><li>Ratings are under continuous surveillance and review by Crisil.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/ae93cead-44fe-40d7-aeff-2f1d35153029.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Embassy Office Parks REIT | Category: Rating</small>]]></description>
     </item>
   </channel>
 </rss>
