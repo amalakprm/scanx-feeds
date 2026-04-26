@@ -4,10 +4,26 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 26 Apr 2026 05:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 07:22:29 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[ARMAN] Arman Holdings: Special Window for Physical Share Dematerialisation</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Arman+Holdings+Ltd&title=Arman+Holdings%3A+Special+Window+for+Physical+Share+Dematerialisation&newsId=ff7378e1-01b1-47e0-b9bd-72564e6e7634&token=ZmY3Mzc4ZTEtMDFi</link>
+      <guid isPermaLink="false">ff7378e1-01b1-47e0-b9bd-72564e6e7634</guid>
+      <pubDate>Sun, 26 Apr 2026 06:30:51 +0000</pubDate>
+      <category>Corporate Action</category>
+      <description><![CDATA[<p>Arman Holdings Ltd has announced a special window from February 5, 2026, to February 4, 2027, for physical shareholders to transfer and dematerialize their shares. This initiative, pursuant to SEBI Circular No. HO/38/13/11(2)2026-MIRSD-POD/ 1/3750/2026, is available to shareholders whose transfer requests lodged before April 1, 2019, were rejected due to deficiencies. Shareholders are encouraged to submit required documents to Adroit Corporate Services Private Limited. Shares re-lodged for transfer will be issued in demat form only. The circular is available on the company&apos;s website.</p><ul><li>Arman Holdings opens special window for physical share dematerialisation.</li><li>Window open from February 5, 2026, to February 4, 2027.</li><li>Applies to requests before April 1, 2019, rejected due to deficiencies.</li><li>Shares will be issued in demat form upon re-lodgement.</li><li>Adroit Corporate Services is the Registrar and Transfer Agent.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/661cc112-8482-4d19-ad07-e575ec443772.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Arman Holdings Ltd | Category: Corporate Action</small>]]></description>
+    </item>
+    <item>
+      <title>[JKCEMENT] JK Cement Declared Preferred Bidder for Limestone Block</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=J.K.CEMENT+LTD.&title=JK+Cement+Declared+Preferred+Bidder+for+Limestone+Block&newsId=74e65df9-132d-451d-a56e-bd7977434514&token=NzRlNjVkZjktMTMy</link>
+      <guid isPermaLink="false">74e65df9-132d-451d-a56e-bd7977434514</guid>
+      <pubDate>Sun, 26 Apr 2026 06:00:50 +0000</pubDate>
+      <category>Business Update</category>
+      <description><![CDATA[<p>JK Cement Ltd has been declared the &apos;Preferred Bidder&apos; for the Mining lease of Maliyakheri Limestone Block-I (spreads over an area of 6.90 hectares) in Chittorgarh, Rajasthan, following an e-auction conducted by the Government of Rajasthan. The company received the information on April 25, 2026, at around 3 PM (IST).</p><ul><li>JK Cement wins bid for Maliyakheri Limestone Block-I.</li><li>The block spans 6.90 hectares in Chittorgarh, Rajasthan.</li><li>The e-auction was conducted by the Government of Rajasthan.</li><li>Information received by the company on April 25, 2026.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc279aba-fcb9-4322-96ca-2b49357930f3.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: J.K.CEMENT LTD. | Category: Business Update</small>]]></description>
+    </item>
     <item>
       <title>[SEJAL] Sejal Glass: FY26 Audited Results Approved; Audit Committee Reconstituted</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=Sejal+Glass+Ltd&title=Sejal+Glass%3A+FY26+Audited+Results+Approved%3B+Audit+Committee+Reconstituted&newsId=5e263282-7faf-447c-a008-6bda8f05d31f&token=NWUyNjMyODItN2Zh</link>
@@ -71,22 +87,6 @@
       <pubDate>Sat, 25 Apr 2026 16:51:11 +0000</pubDate>
       <category>Board Meeting</category>
       <description><![CDATA[<p>Sirca Paints India Ltd has scheduled a Board of Directors meeting on May 7, 2026, to consider and approve the audited standalone and consolidated financial results for the quarter and financial year ended March 31, 2026. The board will also consider the recommendation of a final dividend, if any, for the financial year ended March 31, 2026. The trading window, which has been closed since April 1, 2026, will re-open 48 hours after the conclusion of the board meeting. The information will be available on the company website.</p><ul><li>Sirca Paints board to approve FY26 audited financial results.</li><li>Board to consider final dividend for FY26.</li><li>Trading window to re-open 48 hours post board meeting.</li><li>Meeting scheduled for May 7, 2026.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/47b154b1-cb50-4dc9-a641-e76116ea476d.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Sirca Paints India Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[ONGC] ONGC Appoints Yogish Nayak S. as CFO, Forms Petrochemicals JVC</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Oil+and+Natural+Gas+Corporation+Ltd&title=ONGC+Appoints+Yogish+Nayak+S.+as+CFO%2C+Forms+Petrochemicals+JVC&newsId=4d8d622b-9894-4aa0-81a3-c37a583aa5c5&token=NGQ4ZDYyMmItOTg5</link>
-      <guid isPermaLink="false">4d8d622b-9894-4aa0-81a3-c37a583aa5c5</guid>
-      <pubDate>Sat, 25 Apr 2026 16:30:57 +0000</pubDate>
-      <category>Board Meeting</category>
-      <description><![CDATA[<p>The Board of Directors of Oil and Natural Gas Corporation Ltd (ONGC) approved the appointment of Shri Yogish Nayak S. as Chief Financial Officer (CFO) effective May 1, 2026. Additionally, the board approved the formation of a Joint Venture Company (JVC) with OPaL and MRPL, with ONGC holding 50% share and contributing ₹25 crore towards equity. The JVC aims to integrate petrochemicals marketing and improve revenue. The board also approved an equity investment of up to ₹79.48 Crore and a corporate guarantee of up to ₹185.45 Crore to IGGL for the Duliajan Feeder Line Project.</p><ul><li>Yogish Nayak S. appointed as CFO of ONGC effective May 1, 2026.</li><li>ONGC to form Petrochemicals JVC with OPaL and MRPL, investing ₹25 crore.</li><li>₹79.48 Crore equity investment approved for IGGL&apos;s Duliajan Feeder Line Project.</li><li>Corporate Guarantee support of upto ₹185.45 Crore approved for IGGL.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/3aee3fc1-b778-4664-abc0-fe0db4ef6f1a.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Oil and Natural Gas Corporation Ltd | Category: Board Meeting</small>]]></description>
-    </item>
-    <item>
-      <title>[ONGC] ONGC Appoints Yogish Nayak S. as CFO, eff. May 1, 2026</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=Oil+and+Natural+Gas+Corporation+Ltd&title=ONGC+Appoints+Yogish+Nayak+S.+as+CFO%2C+eff.+May+1%2C+2026&newsId=937ce728-161b-4570-b6f1-5804c725337f&token=OTM3Y2U3MjgtMTYx</link>
-      <guid isPermaLink="false">937ce728-161b-4570-b6f1-5804c725337f</guid>
-      <pubDate>Sat, 25 Apr 2026 16:30:54 +0000</pubDate>
-      <category>Management Change</category>
-      <description><![CDATA[<p>Oil and Natural Gas Corporation Ltd (ONGC) announced the appointment of Shri Yogish Nayak S. as Chief Financial Officer (CFO) effective May 1, 2026. The decision was approved during a Board of Directors meeting held on April 25, 2026. Additionally, the board approved the formation of a Joint Venture Company (JVC) with OPaL and MRPL, with ONGC contributing ₹25 crore towards equity. They also approved an equity investment of up to ₹79.48 Crore and a corporate guarantee of up to ₹185.45 Crore to IGGL for the Duliajan Feeder Line Project.</p><ul><li>Shri Yogish Nayak S. appointed as CFO of ONGC effective May 1, 2026.</li><li>ONGC to form JVC with OPaL and MRPL, investing ₹25 crore.</li><li>Board approves ₹79.48 Crore equity investment in IGGL&apos;s Duliajan Feeder Line Project.</li><li>Corporate guarantee support of up to ₹185.45 Crore approved for IGGL project.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/a7761067-af32-4ec7-9b66-2a52659cedc3.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Oil and Natural Gas Corporation Ltd | Category: Management Change</small>]]></description>
     </item>
   </channel>
 </rss>
