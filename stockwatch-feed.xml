@@ -4,10 +4,18 @@
     <title>Stockwatch - Key Events</title>
     <link>https://www.stockwatch.live/</link>
     <description>Real-time corporate announcements, deals, and financial results.</description>
-    <lastBuildDate>Sun, 10 May 2026 02:31:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:07:07 +0000</lastBuildDate>
     <language>en-in</language>
     <atom:link href="https://api.stockwatch.live/api/keyEvents" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>[ARTEMISMED] Artemis Medicare: Sunil Tandon Completes Tenure as Independent Director</title>
+      <link>https://www.stockwatch.live/news?showModal=true&name=Artemis+Medicare+Services+Ltd&title=Artemis+Medicare%3A+Sunil+Tandon+Completes+Tenure+as+Independent+Director&newsId=d4a6cbf2-0660-485b-9124-f3f4275ac017&token=ZDRhNmNiZjItMDY2</link>
+      <guid isPermaLink="false">d4a6cbf2-0660-485b-9124-f3f4275ac017</guid>
+      <pubDate>Sun, 10 May 2026 05:00:49 +0000</pubDate>
+      <category>Management Change</category>
+      <description><![CDATA[<p>Artemis Medicare Services Ltd. announced that Mr. Sunil Tandon (DIN: 08342585) has ceased to be a Director of the Company, effective May 9, 2026, upon completion of his tenure as an Independent Director. This disclosure is made pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.</p><ul><li>Sunil Tandon&apos;s tenure as an Independent Director of Artemis Medicare concluded on May 9, 2026.</li><li>The cessation is in compliance with SEBI Listing Regulations.</li><li>Details regarding the change in director are provided in Annexure A of the filing.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/6596af38-642d-43a0-b273-2876b6d932e2.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: Artemis Medicare Services Ltd | Category: Management Change</small>]]></description>
+    </item>
     <item>
       <title>[LTTS] L&amp;T Technology Services Submits FY26 Business Responsibility Report</title>
       <link>https://www.stockwatch.live/news?showModal=true&name=L%26T+Technology+Services+Ltd&title=L%26T+Technology+Services+Submits+FY26+Business+Responsibility+Report&newsId=f00f20ca-fe15-44e2-8fc1-2ed195e19149&token=ZjAwZjIwY2EtZmUx</link>
@@ -79,14 +87,6 @@
       <pubDate>Sat, 09 May 2026 16:41:17 +0000</pubDate>
       <category>Auditor</category>
       <description><![CDATA[<p>Windsor Machines Ltd has re-appointed M/s. Moore Singhi Advisors LLP as Internal Auditor and M/s. Ashish Bhavsar &amp; Associates as Cost Auditor for the year ending March 31, 2027. The decision was based on the recommendation of the Audit Committee and approved by the Board of Directors, as per Regulation 30 of the SEBI Listing Regulations.</p><ul><li>M/s. Moore Singhi Advisors LLP re-appointed as Internal Auditor.</li><li>M/s. Ashish Bhavsar &amp; Associates re-appointed as Cost Auditor.</li><li>Re-appointments are for the year ending March 31, 2027.</li><li>Appointments follow SEBI Listing Regulations.</li><li>Board&apos;s decision based on Audit Committee recommendation.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/60a9e055-1fbc-4507-83c5-c536ca0c5b5e.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: WINDSOR MACHINES LTD. | Category: Auditor</small>]]></description>
-    </item>
-    <item>
-      <title>[WINDMACHIN] Windsor Machines Updates Key Managerial Personnel</title>
-      <link>https://www.stockwatch.live/news?showModal=true&name=WINDSOR+MACHINES+LTD.&title=Windsor+Machines+Updates+Key+Managerial+Personnel&newsId=fa72ecaa-ea39-4728-a3bb-fbc28ded9667&token=ZmE3MmVjYWEtZWEz</link>
-      <guid isPermaLink="false">fa72ecaa-ea39-4728-a3bb-fbc28ded9667</guid>
-      <pubDate>Sat, 09 May 2026 16:41:11 +0000</pubDate>
-      <category>Corporate Governance</category>
-      <description><![CDATA[<p>Windsor Machines Ltd. has updated its Key Managerial Personnel (KMP) details as per Regulation 30(5) of the SEBI Listing Regulations, 2015. The Board of Directors, in a meeting held on May 09, 2026, authorized and updated the details of KMPs for determining the materiality of events and information and for disclosures to the Stock Exchanges. The updated KMPs include Mr. Vinay Bansod (Whole Time Director &amp; CEO), Mr. Anand Jain (Chief Financial Officer), and Mr. Rohit Sojitra (Company Secretary and Compliance Officer).</p><ul><li>Windsor Machines updates KMP details as per SEBI regulations.</li><li>Board authorized KMP details in meeting on May 09, 2026.</li><li>Vinay Bansod (CEO), Anand Jain (CFO), and Rohit Sojitra (CS) are the KMPs.</li><li>KMPs are authorized for determining materiality of events.</li></ul><p>📄 <a href="https://www.bseindia.com/xml-data/corpfiling/AttachLive/21069f0b-651e-43e2-837d-51475b648900.pdf">Read Official Filing (PDF)</a></p><br/><small>Company: WINDSOR MACHINES LTD. | Category: Corporate Governance</small>]]></description>
     </item>
   </channel>
 </rss>
